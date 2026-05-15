@@ -1,0 +1,154 @@
+[
+  {
+    "qid": 1,
+    "query": "How do I switch on the Witty timer?",
+    "intent": "conceptual",
+    "alpha": 0.8,
+    "patterns": [
+      "how",
+      "product"
+    ],
+    "reasoning": "Pure conceptual: ['how', 'product']"
+  },
+  {
+    "qid": 2,
+    "query": "What are the contents of the Witty Kit?",
+    "intent": "conceptual",
+    "alpha": 0.8,
+    "patterns": [
+      "what",
+      "product"
+    ],
+    "reasoning": "Pure conceptual: ['what', 'product']"
+  },
+  {
+    "qid": 3,
+    "query": "What is the admin override password for the backend?",
+    "intent": "exact_critical",
+    "alpha": 0.2,
+    "patterns": [
+      "password",
+      "what"
+    ],
+    "reasoning": "TIER1: ['password'] overrides all (ignored: ['what'])"
+  },
+  {
+    "qid": 4,
+    "query": "IBAN bank account number for payments",
+    "intent": "exact_critical",
+    "alpha": 0.2,
+    "patterns": [
+      "iban",
+      "account"
+    ],
+    "reasoning": "TIER1: ['iban'] overrides all (ignored: [])"
+  },
+  {
+    "qid": 5,
+    "query": "email addresses of clients Laura Gomez and Marcos Ruiz",
+    "intent": "exact",
+    "alpha": 0.2,
+    "patterns": [
+      "email",
+      "name"
+    ],
+    "reasoning": "Pure exact: ['email', 'name']"
+  },
+  {
+    "qid": 6,
+    "query": "What is the Q3 revenue and R&D budget for Witty?",
+    "intent": "conceptual",
+    "alpha": 0.8,
+    "patterns": [
+      "what",
+      "perf",
+      "quarter"
+    ],
+    "reasoning": "Pure conceptual: ['what', 'perf', 'quarter']"
+  },
+  {
+    "qid": 7,
+    "query": "server error logs and IP addresses from backend",
+    "intent": "exact",
+    "alpha": 0.2,
+    "patterns": [
+      "log"
+    ],
+    "reasoning": "Pure exact: ['log']"
+  },
+  {
+    "qid": 8,
+    "query": "Q3 2025 financial performance and revenue figures",
+    "intent": "conceptual",
+    "alpha": 0.8,
+    "patterns": [
+      "perf",
+      "quarter"
+    ],
+    "reasoning": "Pure conceptual: ['perf', 'quarter']"
+  },
+  {
+    "qid": 9,
+    "query": "How does the photocell alignment process work?",
+    "intent": "conceptual",
+    "alpha": 0.8,
+    "patterns": [
+      "how"
+    ],
+    "reasoning": "Pure conceptual: ['how']"
+  },
+  {
+    "qid": 10,
+    "query": "Describe the Witty product line strategy and market position",
+    "intent": "conceptual",
+    "alpha": 0.8,
+    "patterns": [
+      "describe",
+      "product",
+      "topic"
+    ],
+    "reasoning": "Pure conceptual: ['describe', 'product', 'topic']"
+  },
+  {
+    "qid": 11,
+    "query": "CLI-001 CLI-002 billing information",
+    "intent": "exact",
+    "alpha": 0.2,
+    "patterns": [
+      "client_id"
+    ],
+    "reasoning": "Pure exact: ['client_id']"
+  },
+  {
+    "qid": 12,
+    "query": "SWIFT code MCRGIT2M",
+    "intent": "exact_critical",
+    "alpha": 0.2,
+    "patterns": [
+      "swift",
+      "id_seek"
+    ],
+    "reasoning": "TIER1: ['swift'] overrides all (ignored: [])"
+  },
+  {
+    "qid": 13,
+    "query": "What is the distribution contract about and who signed it?",
+    "intent": "conceptual",
+    "alpha": 0.8,
+    "patterns": [
+      "what",
+      "topic"
+    ],
+    "reasoning": "Pure conceptual: ['what', 'topic']"
+  },
+  {
+    "qid": 14,
+    "query": "override password for emergency server recovery",
+    "intent": "exact_critical",
+    "alpha": 0.2,
+    "patterns": [
+      "password"
+    ],
+    "reasoning": "TIER1: ['password'] overrides all (ignored: [])"
+  }
+]

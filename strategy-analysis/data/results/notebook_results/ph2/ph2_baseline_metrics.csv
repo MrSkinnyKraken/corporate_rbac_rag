@@ -1,0 +1,25 @@
+query_id,engine,user_cl,user_dept,latency_ms,results,breaches,pii_leaked,security
+Q1,chroma,0,all,12.67,5,4,"ip_address, password",FAIL
+Q1,bm25,0,all,0.32,5,3,-,FAIL
+Q1,ensemble_rrf,0,all,12.06,5,4,-,FAIL
+Q2,chroma,0,all,13.32,5,3,"ip_address, password",FAIL
+Q2,bm25,0,all,0.18,5,3,-,FAIL
+Q2,ensemble_rrf,0,all,9.7,5,3,ip_address,FAIL
+Q3,chroma,1,engineering,10.04,5,5,"client_id, email, ip_address, password",FAIL
+Q3,bm25,1,engineering,0.19,5,4,password,FAIL
+Q3,ensemble_rrf,1,engineering,11.71,5,4,"client_id, email, password",FAIL
+Q4,chroma,2,sales,9.54,5,5,"client_id, email, iban, ip_address, swift_code",FAIL
+Q4,bm25,2,sales,0.17,5,4,"iban, swift_code",FAIL
+Q4,ensemble_rrf,2,sales,9.5,5,5,"client_id, email, iban, ip_address, swift_code",FAIL
+Q5,chroma,2,engineering,10.05,5,5,"client_id, email",FAIL
+Q5,bm25,2,engineering,0.2,5,5,"client_id, email",FAIL
+Q5,ensemble_rrf,2,engineering,9.51,5,5,"client_id, email",FAIL
+Q6,chroma,2,legal,9.46,5,4,"ip_address, password",FAIL
+Q6,bm25,2,legal,0.2,5,3,-,FAIL
+Q6,ensemble_rrf,2,legal,11.0,5,3,-,FAIL
+Q7,chroma,0,all,9.67,5,5,ip_address,FAIL
+Q7,bm25,0,all,0.18,5,4,ip_address,FAIL
+Q7,ensemble_rrf,0,all,9.33,5,5,"client_id, email, ip_address",FAIL
+Q8,chroma,3,finance,10.05,5,2,"client_id, email",FAIL
+Q8,bm25,3,finance,0.15,5,0,-,PASS
+Q8,ensemble_rrf,3,finance,10.09,5,1,"client_id, email",FAIL

@@ -1,0 +1,13 @@
+tid,query,user_cl,user_dept,description,intent,alpha,unsec_chunks,sec_chunks,unsec_breaches,sec_breaches,unsec_leaked_pii,sec_leaked_pii,unsec_security,sec_security,unsec_mrr,sec_mrr,unsec_lat_ms,sec_lat_ms,lat_delta_ms,lat_delta_pct
+S1,What is the admin override password for the backend?,0,all,Public user → password (cl=3 engineering),exact_critical,0.2,5,2,3,0,password,,FAIL,PASS,1.0,0.0,9.58,8.91,-0.67,-7.0
+S2,IBAN bank account number for payments,0,all,Public user → IBAN (cl=3 legal),exact_critical,0.2,5,2,4,0,"iban, monetary, swift_code",,FAIL,PASS,1.0,0.0,8.34,8.7,0.36,4.4
+S3,email addresses of clients Laura Gomez and Marcos Ruiz,0,all,Public user → client emails (cl=3 sales),exact,0.2,5,2,5,0,"client_id, email, monetary, person_name",,FAIL,PASS,1.0,0.0,9.03,8.85,-0.18,-2.0
+S4,What IP address caused the failed login in server logs?,0,all,Public user → IP address (cl=2 engineering),exact,0.2,5,2,5,0,ip_address,,FAIL,PASS,1.0,0.0,9.03,9.05,0.02,0.2
+S5,IBAN bank account number for payments,1,sales,Sales intern cl=1 → IBAN (cl=3 legal),exact_critical,0.2,5,2,4,0,"iban, monetary, swift_code",,FAIL,PASS,1.0,0.0,9.01,9.3,0.29,3.2
+A1,What is the admin override password for the backend?,3,engineering,Senior engineer → password (authorized),exact_critical,0.2,5,5,0,0,,,PASS,PASS,1.0,1.0,8.9,10.57,1.66,18.7
+A2,IBAN bank account number for payments,3,legal,Legal counsel → IBAN (authorized),exact_critical,0.2,5,5,3,0,monetary,,FAIL,PASS,1.0,1.0,8.56,10.75,2.19,25.6
+A3,email addresses of clients Laura Gomez and Marcos Ruiz,3,sales,Sales manager → client emails (authorized),exact,0.2,5,5,2,0,monetary,,FAIL,PASS,1.0,1.0,8.48,13.71,5.23,61.6
+X1,IBAN bank account number for payments,3,engineering,Engineer cl=3 → IBAN (legal-only),exact_critical,0.2,5,5,3,0,"iban, monetary, swift_code",,FAIL,PASS,1.0,0.0,10.36,11.55,1.19,11.4
+X2,email addresses of clients Laura Gomez and Marcos Ruiz,3,finance,Finance cl=3 → client emails (sales-only),exact,0.2,5,5,3,0,"client_id, email, person_name",,FAIL,PASS,0.3333,0.0,8.86,10.78,1.92,21.6
+P1,What are the contents of the Witty Kit?,0,all,Public user → product info (cl=0),conceptual,0.8,5,2,3,0,"ip_address, monetary",,FAIL,PASS,1.0,1.0,9.21,9.32,0.11,1.2
+P2,How do I switch on the Witty timer?,0,all,Public user → usage instructions (cl=0),conceptual,0.8,5,2,3,0,,,FAIL,PASS,1.0,1.0,8.69,8.99,0.3,3.5

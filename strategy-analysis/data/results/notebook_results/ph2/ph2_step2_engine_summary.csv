@@ -1,0 +1,5 @@
+Engine,Avg_MRR,Tot_R@3,Tot_R@5,Tot_Breaches,Queries_FAIL,Avg_Lat
+chroma_only,0.869,28,32,53,13,8.3
+bm25_only,0.8571,27,35,39,11,0.2
+baseline_0.5,0.8929,28,32,47,13,8.1
+dynamic,0.8214,27,33,46,13,8.3

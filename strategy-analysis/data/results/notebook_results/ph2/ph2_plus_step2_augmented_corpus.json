@@ -1,0 +1,334 @@
+{
+  "step": "Phase 3 - Step 2: Corpus Augmentation",
+  "original_docs": 5,
+  "synthetic_docs": 18,
+  "total_docs": 23,
+  "original_chunks": 33,
+  "augmented_chunks": 195,
+  "total_chunks": 228,
+  "pii_chunks": 100,
+  "clearance_distribution": {
+    "0": 24,
+    "1": 25,
+    "2": 92,
+    "3": 87
+  },
+  "department_distribution": {
+    "all": 49,
+    "engineering": 40,
+    "finance": 36,
+    "hr": 35,
+    "legal": 32,
+    "sales": 36
+  },
+  "synthetic_doc_manifest": [
+    {
+      "filename": "fin_q1_2026_revenue.txt",
+      "path": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\fin_q1_2026_revenue.txt",
+      "chars": 1129,
+      "clearance_level": 3,
+      "allowed_departments": "finance",
+      "doc_type": "report",
+      "global_topic": "Q1 2026 revenue and financial performance"
+    },
+    {
+      "filename": "fin_budget_forecast_2027.txt",
+      "path": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\fin_budget_forecast_2027.txt",
+      "chars": 1077,
+      "clearance_level": 3,
+      "allowed_departments": "finance",
+      "doc_type": "report",
+      "global_topic": "2027 budget forecast and capital planning"
+    },
+    {
+      "filename": "fin_expense_policy.md",
+      "path": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\fin_expense_policy.md",
+      "chars": 1159,
+      "clearance_level": 1,
+      "allowed_departments": "all",
+      "doc_type": "policy",
+      "global_topic": "Corporate expense and reimbursement policy"
+    },
+    {
+      "filename": "hr_employee_directory.txt",
+      "path": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\hr_employee_directory.txt",
+      "chars": 999,
+      "clearance_level": 3,
+      "allowed_departments": "hr",
+      "doc_type": "directory",
+      "global_topic": "Employee directory with personal identification data"
+    },
+    {
+      "filename": "hr_onboarding_guide.md",
+      "path": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\hr_onboarding_guide.md",
+      "chars": 1297,
+      "clearance_level": 0,
+      "allowed_departments": "all",
+      "doc_type": "guide",
+      "global_topic": "New employee onboarding procedures and contacts"
+    },
+    {
+      "filename": "hr_salary_bands_2026.txt",
+      "path": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\hr_salary_bands_2026.txt",
+      "chars": 957,
+      "clearance_level": 3,
+      "allowed_departments": "hr",
+      "doc_type": "report",
+      "global_topic": "Salary bands and compensation structure for all departments"
+    },
+    {
+      "filename": "it_server_logs_march_2026.txt",
+      "path": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\it_server_logs_march_2026.txt",
+      "chars": 1164,
+      "clearance_level": 2,
+      "allowed_departments": "engineering",
+      "doc_type": "log",
+      "global_topic": "Server infrastructure logs for March 2026 maintenance window"
+    },
+    {
+      "filename": "it_incident_report_IR2026_003.txt",
+      "path": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\it_incident_report_IR2026_003.txt",
+      "chars": 1214,
+      "clearance_level": 2,
+      "allowed_departments": "engineering",
+      "doc_type": "report",
+      "global_topic": "Security incident report for brute-force attack on API endpoint"
+    },
+    {
+      "filename": "it_vpn_config_guide.md",
+      "path": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\it_vpn_config_guide.md",
+      "chars": 1043,
+      "clearance_level": 1,
+      "allowed_departments": "engineering",
+      "doc_type": "guide",
+      "global_topic": "VPN configuration and network topology documentation"
+    },
+    {
+      "filename": "contract_federacion_atletismo.txt",
+      "path": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\contract_federacion_atletismo.txt",
+      "chars": 1193,
+      "clearance_level": 2,
+      "allowed_departments": "legal",
+      "doc_type": "contract",
+      "global_topic": "Supply contract with Spanish Athletics Federation for Witty Timers"
+    },
+    {
+      "filename": "contract_universidad_deporte.txt",
+      "path": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\contract_universidad_deporte.txt",
+      "chars": 1147,
+      "clearance_level": 2,
+      "allowed_departments": "legal",
+      "doc_type": "contract",
+      "global_topic": "Academic collaboration agreement with Universidad del Deporte"
+    },
+    {
+      "filename": "contract_fitplus_maintenance.txt",
+      "path": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\contract_fitplus_maintenance.txt",
+      "chars": 980,
+      "clearance_level": 2,
+      "allowed_departments": "sales",
+      "doc_type": "contract",
+      "global_topic": "Service level agreement with FitPlus gyms for Witty Timer maintenance"
+    },
+    {
+      "filename": "product_witty_timer_specs.md",
+      "path": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\product_witty_timer_specs.md",
+      "chars": 876,
+      "clearance_level": 0,
+      "allowed_departments": "all",
+      "doc_type": "manual",
+      "global_topic": "Witty Timer technical specifications and hardware details"
+    },
+    {
+      "filename": "product_photocell_alignment.md",
+      "path": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\product_photocell_alignment.md",
+      "chars": 1548,
+      "clearance_level": 0,
+      "allowed_departments": "all",
+      "doc_type": "manual",
+      "global_topic": "Photocell alignment, calibration, and multi-gate configuration"
+    },
+    {
+      "filename": "product_release_notes_v4.txt",
+      "path": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\product_release_notes_v4.txt",
+      "chars": 964,
+      "clearance_level": 0,
+      "allowed_departments": "all",
+      "doc_type": "changelog",
+      "global_topic": "Witty Manager software v4.2.0 release notes and bug fixes"
+    },
+    {
+      "filename": "memo_q2_sales_targets.txt",
+      "path": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\memo_q2_sales_targets.txt",
+      "chars": 1059,
+      "clearance_level": 1,
+      "allowed_departments": "sales",
+      "doc_type": "memo",
+      "global_topic": "Internal sales targets and key account strategy for Q2 2026"
+    },
+    {
+      "filename": "memo_it_security_reminder.txt",
+      "path": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\memo_it_security_reminder.txt",
+      "chars": 1423,
+      "clearance_level": 1,
+      "allowed_departments": "all",
+      "doc_type": "memo",
+      "global_topic": "Company-wide security awareness reminder after incident"
+    },
+    {
+      "filename": "memo_board_meeting_minutes.txt",
+      "path": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\memo_board_meeting_minutes.txt",
+      "chars": 1285,
+      "clearance_level": 3,
+      "allowed_departments": "finance",
+      "doc_type": "minutes",
+      "global_topic": "Board meeting minutes with strategic decisions and financial data"
+    }
+  ],
+  "per_document_stats": [
+    {
+      "filename": "fin_q1_2026_revenue.txt",
+      "total_chunks": 8,
+      "pii_chunks": 3,
+      "pii_types": "client_id, iban, monetary_confidential",
+      "clearance": 3,
+      "dept": "finance"
+    },
+    {
+      "filename": "fin_budget_forecast_2027.txt",
+      "total_chunks": 9,
+      "pii_chunks": 4,
+      "pii_types": "iban, ip_address, monetary_confidential",
+      "clearance": 3,
+      "dept": "finance"
+    },
+    {
+      "filename": "fin_expense_policy.md",
+      "total_chunks": 8,
+      "pii_chunks": 2,
+      "pii_types": "email_personal, person_name",
+      "clearance": 1,
+      "dept": "all"
+    },
+    {
+      "filename": "hr_employee_directory.txt",
+      "total_chunks": 29,
+      "pii_chunks": 24,
+      "pii_types": "dni, email_personal, emp_id",
+      "clearance": 3,
+      "dept": "hr"
+    },
+    {
+      "filename": "hr_onboarding_guide.md",
+      "total_chunks": 13,
+      "pii_chunks": 6,
+      "pii_types": "email_personal, person_name",
+      "clearance": 0,
+      "dept": "all"
+    },
+    {
+      "filename": "hr_salary_bands_2026.txt",
+      "total_chunks": 6,
+      "pii_chunks": 1,
+      "pii_types": "iban",
+      "clearance": 3,
+      "dept": "hr"
+    },
+    {
+      "filename": "it_server_logs_march_2026.txt",
+      "total_chunks": 14,
+      "pii_chunks": 3,
+      "pii_types": "ip_address",
+      "clearance": 2,
+      "dept": "engineering"
+    },
+    {
+      "filename": "it_incident_report_IR2026_003.txt",
+      "total_chunks": 10,
+      "pii_chunks": 4,
+      "pii_types": "email_personal, ip_address, person_name",
+      "clearance": 2,
+      "dept": "engineering"
+    },
+    {
+      "filename": "it_vpn_config_guide.md",
+      "total_chunks": 8,
+      "pii_chunks": 2,
+      "pii_types": "email_personal, ip_address",
+      "clearance": 1,
+      "dept": "engineering"
+    },
+    {
+      "filename": "contract_federacion_atletismo.txt",
+      "total_chunks": 12,
+      "pii_chunks": 5,
+      "pii_types": "iban, monetary_confidential, person_name, swift",
+      "clearance": 2,
+      "dept": "legal"
+    },
+    {
+      "filename": "contract_universidad_deporte.txt",
+      "total_chunks": 13,
+      "pii_chunks": 7,
+      "pii_types": "email_personal, person_name",
+      "clearance": 2,
+      "dept": "legal"
+    },
+    {
+      "filename": "contract_fitplus_maintenance.txt",
+      "total_chunks": 11,
+      "pii_chunks": 4,
+      "pii_types": "client_id, email_personal, iban, person_name",
+      "clearance": 2,
+      "dept": "sales"
+    },
+    {
+      "filename": "product_witty_timer_specs.md",
+      "total_chunks": 5,
+      "pii_chunks": 0,
+      "pii_types": "-",
+      "clearance": 0,
+      "dept": "all"
+    },
+    {
+      "filename": "product_photocell_alignment.md",
+      "total_chunks": 6,
+      "pii_chunks": 0,
+      "pii_types": "-",
+      "clearance": 0,
+      "dept": "all"
+    },
+    {
+      "filename": "product_release_notes_v4.txt",
+      "total_chunks": 4,
+      "pii_chunks": 0,
+      "pii_types": "-",
+      "clearance": 0,
+      "dept": "all"
+    },
+    {
+      "filename": "memo_q2_sales_targets.txt",
+      "total_chunks": 15,
+      "pii_chunks": 9,
+      "pii_types": "client_id, email_personal, person_name",
+      "clearance": 1,
+      "dept": "sales"
+    },
+    {
+      "filename": "memo_it_security_reminder.txt",
+      "total_chunks": 10,
+      "pii_chunks": 3,
+      "pii_types": "email_personal, person_name",
+      "clearance": 1,
+      "dept": "all"
+    },
+    {
+      "filename": "memo_board_meeting_minutes.txt",
+      "total_chunks": 14,
+      "pii_chunks": 8,
+      "pii_types": "email_personal, person_name",
+      "clearance": 3,
+      "dept": "finance"
+    }
+  ]
+}

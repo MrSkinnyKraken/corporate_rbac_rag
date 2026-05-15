@@ -1,0 +1,80 @@
+# =============================================================================
+# Zero-Trust RAG — local infrastructure stack.
+#
+# Brings up the two on-premise services the application depends on:
+#
+#   * chromadb  — vector store, host port 8001 -> container 8000
+#   * ollama    — local LLM,    host port 11434 -> container 11434
+#
+# Both services persist their state under ./data/ so a `docker compose down`
+# does not destroy ingested documents or downloaded models.
+#
+# IMPORTANT: if you have a host-side `ollama serve` running, stop it first
+# (port 11434 conflict). On Windows that is the Ollama tray app or:
+#   taskkill /IM ollama.exe /F
+# =============================================================================
+
+services:
+
+  # ───────────────────────────── ChromaDB ──────────────────────────────────
+  chromadb:
+    # Pinned to match the Python client (chromadb==0.4.24 in requirements.txt).
+    # `:latest` serves the v2 API, which the 0.4.x client cannot consume.
+    image: chromadb/chroma:0.4.24
+    container_name: zero_trust_chromadb
+    ports:
+      - "8001:8000"               # host:container
+    volumes:
+      - ./data/chroma_db:/chroma/chroma
+    environment:
+      - IS_PERSISTENT=TRUE
+      - ALLOW_RESET=TRUE          # development convenience — drop in production
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request as u; u.urlopen('http://localhost:8000/api/v1/heartbeat', timeout=2)"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 10s
+
+  # ─────────────────────────────── Ollama ──────────────────────────────────
+  ollama:
+    # Pinned for reproducibility. Bump together with any client-library upgrade.
+    image: ollama/ollama:0.4.2
+    container_name: zero_trust_ollama
+    ports:
+      - "11434:11434"
+    volumes:
+      - ./data/ollama:/root/.ollama       # persisted models (~2 GB each)
+    environment:
+      - OLLAMA_HOST=0.0.0.0:11434         # listen on every interface in container
+      - OLLAMA_KEEP_ALIVE=24h             # keep models hot in RAM between requests
+      - OLLAMA_MODEL=${OLLAMA_MODEL:-llama3.2}  # taken from project's .env
+    # Override the default entrypoint to start the server AND auto-pull the
+    # configured model on first run. The pull is idempotent: subsequent
+    # restarts skip the download because the model is cached in the volume.
+    entrypoint: ["/bin/sh", "-c"]
+    command:
+      - |
+        ollama serve &
+        SERVE_PID=$$!
+        echo "[ollama-init] waiting for the API to come up ..."
+        for i in $$(seq 1 30); do
+          if ollama list >/dev/null 2>&1; then
+            echo "[ollama-init] API ready after $${i}s."
+            break
+          fi
+          sleep 1
+        done
+        echo "[ollama-init] ensuring model '$$OLLAMA_MODEL' is present ..."
+        ollama pull "$$OLLAMA_MODEL" \
+          || echo "[ollama-init] WARNING: pull failed; the server keeps running. Re-run 'docker exec zero_trust_ollama ollama pull $$OLLAMA_MODEL' once connectivity is restored."
+        echo "[ollama-init] handing off to ollama serve (pid $$SERVE_PID)"
+        wait $$SERVE_PID
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD-SHELL", "ollama list >/dev/null 2>&1 || exit 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 60s          # longer: first run downloads ~2 GB

@@ -1,0 +1,332 @@
+{
+  "step": "Phase 3 - Step 3: Standard Router Baseline",
+  "model": "llama3.2",
+  "n_collections": 5,
+  "n_queries": 999,
+  "collection_descriptions": {
+    "HR": "Human Resources collection. Contains the authoritative employee directory with personal identification numbers, emails, and roles; the new-hire onboarding guide with first-day procedures and building contacts; and the internal salary bands and compensation structure for every department. Use this collection for questions about personnel records, pay ranges, onboarding steps, and who-is-who inside the company.",
+    "IT": "IT and Engineering collection. Contains the corporate VPN configuration guide with gateway hostnames and network topology; incident reports for security events like brute-force attacks or API outages; the daily server infrastructure logs with system health, backups, and failed logins; and internal security memos and awareness reminders. Use this collection for questions about remote access, servers, network configuration, and security incidents.",
+    "FINANCE": "Finance collection. Contains quarterly and annual financial reports with revenue, margins, and regional breakdowns; the multi-year budget forecast including R&D and CapEx allocation; the corporate expense-reimbursement policy with per-diem limits and credit-card rules; and confidential board meeting minutes recording strategic decisions. Use this collection for questions about revenue, budgets, expenses, reimbursements, and board-level approvals.",
+    "LEGAL": "Legal collection. Contains signed commercial contracts: the exclusive distribution agreement for the Spanish market, the supply contract with the national athletics federation, the academic collaboration agreement with the sports university, and the service-level maintenance agreement with the gym chain. Use this collection for questions about contractual terms, parties, pricing clauses, SLAs, warranties, and penalty provisions.",
+    "OPERATIONS": "Operations collection. Contains the product technical specifications for the wireless training timer and photocell hardware; the photocell alignment and calibration procedures for the field technician; the release notes for the Witty Manager desktop software; the product quick-start guide shipped inside the customer kit; the client billing spreadsheet with account IDs and support tiers; and the Q2 sales-targets memo. Use this collection for questions about product hardware, software, client accounts, and commercial operations."
+  },
+  "accuracy": {
+    "std_llm_primary": 0.7,
+    "std_llm_loose": 0.9,
+    "embedding_primary": 1.0,
+    "embedding_loose": 1.0,
+    "std_llm_hallucinations": 0
+  },
+  "latency_s": {
+    "std_llm": {
+      "mean": 4.197,
+      "median": 4.146,
+      "max": 4.775
+    },
+    "embedding": {
+      "mean": 0.01358,
+      "median": 0.012,
+      "max": 0.0269
+    },
+    "slowdown_mean": 309.0
+  },
+  "context_bloat": {
+    "prompt_tokens_at_5_collections": 789,
+    "description_tokens": 568,
+    "description_share_pct": 72.0
+  },
+  "scaling_projection": [
+    {
+      "N": 5,
+      "tokens": 770,
+      "latency_s": 4.2,
+      "fits_2k": true,
+      "fits_8k": true
+    },
+    {
+      "N": 10,
+      "tokens": 1335,
+      "latency_s": 7.28,
+      "fits_2k": true,
+      "fits_8k": true
+    },
+    {
+      "N": 15,
+      "tokens": 1900,
+      "latency_s": 10.36,
+      "fits_2k": true,
+      "fits_8k": true
+    },
+    {
+      "N": 25,
+      "tokens": 3030,
+      "latency_s": 16.51,
+      "fits_2k": false,
+      "fits_8k": true
+    },
+    {
+      "N": 50,
+      "tokens": 5855,
+      "latency_s": 31.91,
+      "fits_2k": false,
+      "fits_8k": true
+    },
+    {
+      "N": 75,
+      "tokens": 8680,
+      "latency_s": 47.31,
+      "fits_2k": false,
+      "fits_8k": false
+    },
+    {
+      "N": 100,
+      "tokens": 11505,
+      "latency_s": 62.71,
+      "fits_2k": false,
+      "fits_8k": false
+    },
+    {
+      "N": 200,
+      "tokens": 22805,
+      "latency_s": 124.3,
+      "fits_2k": false,
+      "fits_8k": false
+    }
+  ],
+  "per_query": [
+    {
+      "qid": "Q01",
+      "question": "What UDP port must the firewall allow for the corporate VPN client to connect?",
+      "kind": "direct",
+      "primary": "IT",
+      "acceptable": [
+        "IT"
+      ],
+      "a_pick": "IT",
+      "a_confidence": 1.0,
+      "a_latency_s": 4.093,
+      "a_ctx_tokens": 789,
+      "a_hallucinated": false,
+      "a_reasoning": "Primary IT collection contains VPN configuration guide with gateway hostnames and network topology.",
+      "a_primary_ok": true,
+      "a_accept_ok": true,
+      "b_pick": "IT",
+      "b_top_doc": "it_vpn_config_guide.md",
+      "b_distance": 0.4512,
+      "b_latency_s": 0.0117,
+      "b_primary_ok": true,
+      "b_accept_ok": true
+    },
+    {
+      "qid": "Q02",
+      "question": "How do I align the photocells on the training timer and verify the beam?",
+      "kind": "direct",
+      "primary": "OPERATIONS",
+      "acceptable": [
+        "OPERATIONS"
+      ],
+      "a_pick": "OPERATIONS",
+      "a_confidence": 0.9,
+      "a_latency_s": 3.966,
+      "a_ctx_tokens": 788,
+      "a_hallucinated": false,
+      "a_reasoning": "Primary collection for product hardware and technical procedures.",
+      "a_primary_ok": true,
+      "a_accept_ok": true,
+      "b_pick": "OPERATIONS",
+      "b_top_doc": "product_photocell_alignment.md",
+      "b_distance": 0.4018,
+      "b_latency_s": 0.0125,
+      "b_primary_ok": true,
+      "b_accept_ok": true
+    },
+    {
+      "qid": "Q03",
+      "question": "Where can I find the onboarding checklist for my first day at the office?",
+      "kind": "direct",
+      "primary": "HR",
+      "acceptable": [
+        "HR"
+      ],
+      "a_pick": "HR",
+      "a_confidence": 1.0,
+      "a_latency_s": 4.231,
+      "a_ctx_tokens": 788,
+      "a_hallucinated": false,
+      "a_reasoning": "Primary HR collection contains authoritative employee directory and new-hire onboarding guide.",
+      "a_primary_ok": true,
+      "a_accept_ok": true,
+      "b_pick": "HR",
+      "b_top_doc": "hr_onboarding_guide.md",
+      "b_distance": 0.4662,
+      "b_latency_s": 0.0178,
+      "b_primary_ok": true,
+      "b_accept_ok": true
+    },
+    {
+      "qid": "Q04",
+      "question": "Which board members authorised the 2027 R&D budget?",
+      "kind": "direct",
+      "primary": "FINANCE",
+      "acceptable": [
+        "FINANCE"
+      ],
+      "a_pick": "LEGAL",
+      "a_confidence": 0.9,
+      "a_latency_s": 4.775,
+      "a_ctx_tokens": 783,
+      "a_hallucinated": false,
+      "a_reasoning": "Query spans legal and finance departments, but authoritative answer resides in Legal collection.",
+      "a_primary_ok": false,
+      "a_accept_ok": false,
+      "b_pick": "FINANCE",
+      "b_top_doc": "fin_budget_forecast_2027.txt",
+      "b_distance": 0.5425,
+      "b_latency_s": 0.0123,
+      "b_primary_ok": true,
+      "b_accept_ok": true
+    },
+    {
+      "qid": "Q05",
+      "question": "What root cause was identified for the brute-force attack on the API login endpoint?",
+      "kind": "direct",
+      "primary": "IT",
+      "acceptable": [
+        "IT"
+      ],
+      "a_pick": "IT",
+      "a_confidence": 1.0,
+      "a_latency_s": 4.139,
+      "a_ctx_tokens": 791,
+      "a_hallucinated": false,
+      "a_reasoning": "Primary collection for security incidents and incident reports.",
+      "a_primary_ok": true,
+      "a_accept_ok": true,
+      "b_pick": "IT",
+      "b_top_doc": "it_incident_report_IR2026_003.txt",
+      "b_distance": 0.4998,
+      "b_latency_s": 0.0128,
+      "b_primary_ok": true,
+      "b_accept_ok": true
+    },
+    {
+      "qid": "Q06",
+      "question": "What is the warranty clause in the Spanish-Federation supply contract?",
+      "kind": "direct",
+      "primary": "LEGAL",
+      "acceptable": [
+        "LEGAL"
+      ],
+      "a_pick": "LEGAL",
+      "a_confidence": 1.0,
+      "a_latency_s": 4.046,
+      "a_ctx_tokens": 787,
+      "a_hallucinated": false,
+      "a_reasoning": "Query spans Legal department, where authoritative answers reside.",
+      "a_primary_ok": true,
+      "a_accept_ok": true,
+      "b_pick": "LEGAL",
+      "b_top_doc": "distribution-contract-2026.docx",
+      "b_distance": 0.5077,
+      "b_latency_s": 0.0099,
+      "b_primary_ok": true,
+      "b_accept_ok": true
+    },
+    {
+      "qid": "Q07",
+      "question": "What is the process for reimbursing business travel expenses for a new hire?",
+      "kind": "ambiguous",
+      "primary": "FINANCE",
+      "acceptable": [
+        "FINANCE",
+        "HR"
+      ],
+      "a_pick": "HR",
+      "a_confidence": 0.9,
+      "a_latency_s": 4.152,
+      "a_ctx_tokens": 789,
+      "a_hallucinated": false,
+      "a_reasoning": "Reimbursement policy and onboarding guide are primary HR resources.",
+      "a_primary_ok": false,
+      "a_accept_ok": true,
+      "b_pick": "FINANCE",
+      "b_top_doc": "fin_expense_policy.md",
+      "b_distance": 0.6282,
+      "b_latency_s": 0.0269,
+      "b_primary_ok": true,
+      "b_accept_ok": true
+    },
+    {
+      "qid": "Q08",
+      "question": "What salary band applies to a Senior Developer in the engineering team?",
+      "kind": "ambiguous",
+      "primary": "HR",
+      "acceptable": [
+        "HR",
+        "FINANCE"
+      ],
+      "a_pick": "HR",
+      "a_confidence": 0.9,
+      "a_latency_s": 3.985,
+      "a_ctx_tokens": 788,
+      "a_hallucinated": false,
+      "a_reasoning": "Primary HR collection for personnel records and pay ranges.",
+      "a_primary_ok": true,
+      "a_accept_ok": true,
+      "b_pick": "HR",
+      "b_top_doc": "hr_salary_bands_2026.txt",
+      "b_distance": 0.7164,
+      "b_latency_s": 0.0111,
+      "b_primary_ok": true,
+      "b_accept_ok": true
+    },
+    {
+      "qid": "Q09",
+      "question": "What financial penalty applies if we miss the FitPlus gym maintenance SLA?",
+      "kind": "ambiguous",
+      "primary": "LEGAL",
+      "acceptable": [
+        "LEGAL",
+        "FINANCE"
+      ],
+      "a_pick": "LEGAL",
+      "a_confidence": 0.9,
+      "a_latency_s": 4.397,
+      "a_ctx_tokens": 788,
+      "a_hallucinated": false,
+      "a_reasoning": "SLA is a contractual term, and penalties are specified in the service-level maintenance agreement.",
+      "a_primary_ok": true,
+      "a_accept_ok": true,
+      "b_pick": "LEGAL",
+      "b_top_doc": "contract_fitplus_maintenance.txt",
+      "b_distance": 0.5764,
+      "b_latency_s": 0.011,
+      "b_primary_ok": true,
+      "b_accept_ok": true
+    },
+    {
+      "qid": "Q10",
+      "question": "Which IBAN do we use to collect the quarterly payments from the Spanish distributor?",
+      "kind": "ambiguous",
+      "primary": "LEGAL",
+      "acceptable": [
+        "LEGAL",
+        "FINANCE"
+      ],
+      "a_pick": "FINANCE",
+      "a_confidence": 1.0,
+      "a_latency_s": 4.184,
+      "a_ctx_tokens": 791,
+      "a_hallucinated": false,
+      "a_reasoning": "Financial reports contain payment details, including IBAN for quarterly payments.",
+      "a_primary_ok": false,
+      "a_accept_ok": true,
+      "b_pick": "LEGAL",
+      "b_top_doc": "distribution-contract-2026.docx",
+      "b_distance": 0.6483,
+      "b_latency_s": 0.0098,
+      "b_primary_ok": true,
+      "b_accept_ok": true
+    }
+  ]
+}

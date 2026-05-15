@@ -1,0 +1,3678 @@
+{
+  "Witty-QuickGuide-EN.pdf": [
+    {
+      "page_content": "info@microgate.it",
+      "metadata": {
+        "source": "../data/raw_docs/Witty-QuickGuide-EN.pdf",
+        "page_number": 1,
+        "source_file": "Witty-QuickGuide-EN.pdf",
+        "doc_type": "manual",
+        "global_topic": "Witty Timer hardware quick start guide",
+        "clearance_level": 2,
+        "allowed_departments": "all",
+        "contains_PII": true,
+        "sensitivity_types": [
+          "email_personal"
+        ],
+        "chunk_id": "custom_000"
+      }
+    },
+    {
+      "page_content": "ENG\nQUICK GUIDE\nWitty Manager Software\nThe USB stick contains the Witty Manager software, as well as the relevant user manual, which you should open or print.\nTo execute the program, the PC must run Windows OS (XP/Vista/7/8). The steps for installing (chapter 2) and \nusing the software (chapter 3) are explained in detail in the software user manual..\nwww.microgate.it/witty\nVia Waltraud Gebert Deeg, 3e • Bolzano • Italy  Tel. +39 0471 501532\n•  www.microgate.it  Fax +39 0471 501524",
+      "metadata": {
+        "source": "../data/raw_docs/Witty-QuickGuide-EN.pdf",
+        "page_number": 1,
+        "source_file": "Witty-QuickGuide-EN.pdf",
+        "doc_type": "manual",
+        "global_topic": "Witty Timer hardware quick start guide",
+        "clearance_level": 0,
+        "allowed_departments": "all",
+        "contains_PII": false,
+        "sensitivity_types": [],
+        "chunk_id": "custom_001"
+      }
+    },
+    {
+      "page_content": "Documentation\nThe Witty Kit user manual is stored on the USB stick \ninside the backpack pocket. Please open or print the \nPDF file referred to in this Quick Guide.\nPhotocells\nTo switch on the photocell press the ON button for one second; the status LED blinks with a green light (if the batte-\nry status is sufficient) or with an orange light (if the battery status is low). A continuous beeping sound is produced \nuntil the correct alignment with the reflector (or a similar reflecting surface) is found.\nMount the photocells and the reflectors on the tripods supplied with the kit as explained in chapter 2.2.1\nCharging\nTo recharge the timer and the photocells connect the \nplug that is compatible with your national mains type \n(Europe, UK, USA, Australia). Connect the USB cables \nto the power supply and the devices to charge.\nHow to Quickly Carry out your \nFirst Test\nPlease refer to chapter 3 of the user manual for  \na detailed description of the steps to follow to carry  \nout a simple timing test.\nContents of the Kit\n• 1 Witty timer\n• 2 wireless photocells\n• 2 reflectors\n• 4 telescopic tripods\n• 1 battery charger (for charging both photocells  \nand the timer simultaneously)\n• 4 USB cables\n• 1 padded backpack for transport\n• 1 USB memory stick containing Witty manuals and software\n• 1 Quick Guide (hard copy)\nWitty Timer\nTo switch on the Witty timer, press <Microgate> and hold it for one second; to switch it off, press the same button \nand hold it for 5 seconds, then confirm pressing F1. (chap. 2.1)\nBrowse the graphic user interface using the 4 arrow keys of the keypad, use the <Ok> button in the center to \nconfirm, and the <Microgate> button to go back (Back/Esc) (chap. 2.4)\n<Microgate> Button\nKeypad\n<OK> Button\nBEEEEP…",
+      "metadata": {
+        "source": "../data/raw_docs/Witty-QuickGuide-EN.pdf",
+        "page_number": 1,
+        "source_file": "Witty-QuickGuide-EN.pdf",
+        "doc_type": "manual",
+        "global_topic": "Witty Timer hardware quick start guide",
+        "clearance_level": 0,
+        "allowed_departments": "all",
+        "contains_PII": false,
+        "sensitivity_types": [],
+        "chunk_id": "custom_002"
+      }
+    }
+  ],
+  "Witty-Financial-Report-2025.pdf": [
+    {
+      "page_content": "MICROGATE S.R.L. - QUARTERLY FINANCIAL REPORT (Q3 2025) \nDepartment: Finance Department \nConfidentiality Level: STRICTLY CONFIDENTIAL (Management Only) \nSubject: Witty Product Line Performance and Year-End Forecasts",
+      "metadata": {
+        "source": "../data/raw_docs/Witty-Financial-Report-2025.pdf",
+        "page_number": 1,
+        "source_file": "Witty-Financial-Report-2025.pdf",
+        "doc_type": "report",
+        "global_topic": "Witty product line Q3 2025 financial performance",
+        "clearance_level": 3,
+        "allowed_departments": "finance",
+        "contains_PII": false,
+        "sensitivity_types": [],
+        "chunk_id": "custom_000"
+      }
+    },
+    {
+      "page_content": "1. Executive Summary \nThe third quarter of 2025 solidified Microgate's position as a leader in sports \ntiming, based in Bolzano, Italy. Our flagship product, the Witty Wireless Training \nTimer, was once again the primary revenue driver. Adoption of our wireless \ntechnology by high-performance centers exceeded sales expectations by 18% \nyear-over-year.",
+      "metadata": {
+        "source": "../data/raw_docs/Witty-Financial-Report-2025.pdf",
+        "page_number": 1,
+        "source_file": "Witty-Financial-Report-2025.pdf",
+        "doc_type": "report",
+        "global_topic": "Witty product line Q3 2025 financial performance",
+        "clearance_level": 3,
+        "allowed_departments": "finance",
+        "contains_PII": false,
+        "sensitivity_types": [],
+        "chunk_id": "custom_001"
+      }
+    },
+    {
+      "page_content": "2. Revenue Breakdown by Product \nGross revenue for the sports division reached €4.2 million this quarter. Sales are \ndistributed across the following categories: \n• Hardware Sales (Complete Kits): This represents 65% of revenue. The standard \npackage has been very well received commercially because it includes everything \nthe end customer needs: 1 Witty timer, 2 wireless photocells, 2 reflectors, and 4 \ntelescopic tripods. \n \n• Accessories and Spare Parts: This represents 15% of revenue. Individual sales of \npadded carrying backpacks and simultaneous battery chargers are particularly \nnoteworthy. \n \n• Corporate Software Licenses: This represents 20% of revenue. Although the \nbasic Witty Manager software is included on a USB drive with the kit, enterprise \nlicenses for Windows OS (XP/Vista/7/8) have generated significant recurring \nrevenue.",
+      "metadata": {
+        "source": "../data/raw_docs/Witty-Financial-Report-2025.pdf",
+        "page_number": 1,
+        "source_file": "Witty-Financial-Report-2025.pdf",
+        "doc_type": "report",
+        "global_topic": "Witty product line Q3 2025 financial performance",
+        "clearance_level": 3,
+        "allowed_departments": "finance",
+        "contains_PII": false,
+        "sensitivity_types": [],
+        "chunk_id": "custom_002"
+      }
+    },
+    {
+      "page_content": "3. Operating Costs and Logistics \nThe cost of goods sold (COGS) has remained stable. However, we have observed a \nslight increase of 4% in packaging costs due to the inclusion of printed manuals \n(Quick Start Guide) in each box. \n\n \nOn the other hand, technical support costs have decreased thanks to \nimprovements in the stopwatch's user interface, specifically in navigation using \nthe four arrow keys on the keypad and the central <OK> button for confirming \nactions. Issues related to photocell alignment have also been drastically reduced, \nas the system emits a continuous beep until correct alignment with the reflector is \nachieved.",
+      "metadata": {
+        "source": "../data/raw_docs/Witty-Financial-Report-2025.pdf",
+        "page_number": 1,
+        "source_file": "Witty-Financial-Report-2025.pdf",
+        "doc_type": "report",
+        "global_topic": "Witty product line Q3 2025 financial performance",
+        "clearance_level": 3,
+        "allowed_departments": "finance",
+        "contains_PII": false,
+        "sensitivity_types": [],
+        "chunk_id": "custom_003"
+      }
+    },
+    {
+      "page_content": "4. R&D Forecast and Strategy \nFor next year, the R&D budget will allocate €1.5 million to improving device \nautonomy. Currently, the photocell status LED flashes orange when the battery \nlevel is low. The technical objective is to implement next-generation lithium \nbatteries that will increase autonomy by 40%, thus reducing the frequency of \nrecharging via the supplied USB cables.",
+      "metadata": {
+        "source": "../data/raw_docs/Witty-Financial-Report-2025.pdf",
+        "page_number": 1,
+        "source_file": "Witty-Financial-Report-2025.pdf",
+        "doc_type": "report",
+        "global_topic": "Witty product line Q3 2025 financial performance",
+        "clearance_level": 3,
+        "allowed_departments": "finance",
+        "contains_PII": false,
+        "sensitivity_types": [],
+        "chunk_id": "custom_004"
+      }
+    }
+  ],
+  "distribution-contract-2026.docx": [
+    {
+      "page_content": "REUNIDOS De una parte, Microgate S.R.L., con domicilio en Via Waltraud Gebert Deeg, 3e Bolzano, Italia, en adelante \"EL FABRICANTE\". De otra parte, Deportes de Alto Rendimiento S.A., con domicilio en Madrid, España, representada por D. Carlos Mendoza",
+      "metadata": {
+        "source": "../data/raw_docs/distribution-contract-2026.docx",
+        "page_number": 1,
+        "source_file": "distribution-contract-2026.docx",
+        "doc_type": "contract",
+        "global_topic": "Exclusive distribution contract for Witty Timer in Spain",
+        "clearance_level": 2,
+        "allowed_departments": "legal",
+        "contains_PII": true,
+        "sensitivity_types": [
+          "person_name"
+        ],
+        "chunk_id": "custom_000"
+      }
+    },
+    {
+      "page_content": "CONTRATO DE DISTRIBUCIÓN EXCLUSIVA - MICROGATE S.R.L.\n, en adelante \"EL DISTRIBUIDOR\".",
+      "metadata": {
+        "source": "../data/raw_docs/distribution-contract-2026.docx",
+        "page_number": 1,
+        "source_file": "distribution-contract-2026.docx",
+        "doc_type": "contract",
+        "global_topic": "Exclusive distribution contract for Witty Timer in Spain",
+        "clearance_level": 2,
+        "allowed_departments": "legal",
+        "contains_PII": false,
+        "sensitivity_types": [],
+        "chunk_id": "custom_001"
+      }
+    },
+    {
+      "page_content": "CLÁUSULAS\nPRIMERA: Objeto del Contrato EL FABRICANTE otorga a EL DISTRIBUIDOR los derechos exclusivos para la comercialización del producto \"Witty Wireless Training Timer\" y sus fotocélulas asociadas en el territorio español.",
+      "metadata": {
+        "source": "../data/raw_docs/distribution-contract-2026.docx",
+        "page_number": 1,
+        "source_file": "distribution-contract-2026.docx",
+        "doc_type": "contract",
+        "global_topic": "Exclusive distribution contract for Witty Timer in Spain",
+        "clearance_level": 2,
+        "allowed_departments": "legal",
+        "contains_PII": false,
+        "sensitivity_types": [],
+        "chunk_id": "custom_002"
+      }
+    },
+    {
+      "page_content": "SEGUNDA: Confidencialidad y Precios EL DISTRIBUIDOR se compromete a no revelar los márgenes de beneficio. El coste unitario acordado por el kit completo de Witty Timer es de 850€ netos.",
+      "metadata": {
+        "source": "../data/raw_docs/distribution-contract-2026.docx",
+        "page_number": 1,
+        "source_file": "distribution-contract-2026.docx",
+        "doc_type": "contract",
+        "global_topic": "Exclusive distribution contract for Witty Timer in Spain",
+        "clearance_level": 2,
+        "allowed_departments": "legal",
+        "contains_PII": false,
+        "sensitivity_types": [],
+        "chunk_id": "custom_003"
+      }
+    },
+    {
+      "page_content": "IBAN: IT89 A012 3456 7890 1234 5678 901 SWIFT: MCRGIT2M",
+      "metadata": {
+        "source": "../data/raw_docs/distribution-contract-2026.docx",
+        "page_number": 1,
+        "source_file": "distribution-contract-2026.docx",
+        "doc_type": "contract",
+        "global_topic": "Exclusive distribution contract for Witty Timer in Spain",
+        "clearance_level": 3,
+        "allowed_departments": "legal",
+        "contains_PII": true,
+        "sensitivity_types": [
+          "iban"
+        ],
+        "chunk_id": "custom_004"
+      }
+    },
+    {
+      "page_content": "SWIFT: MCRGIT2M",
+      "metadata": {
+        "source": "../data/raw_docs/distribution-contract-2026.docx",
+        "page_number": 1,
+        "source_file": "distribution-contract-2026.docx",
+        "doc_type": "contract",
+        "global_topic": "Exclusive distribution contract for Witty Timer in Spain",
+        "clearance_level": 3,
+        "allowed_departments": "legal",
+        "contains_PII": true,
+        "sensitivity_types": [
+          "swift"
+        ],
+        "chunk_id": "custom_005"
+      }
+    },
+    {
+      "page_content": "TERCERA: Condiciones de Pago Los pagos se realizarán con carácter trimestral mediante transferencia bancaria a la cuenta de EL FABRICANTE. Titular: Microgate S.R.L.\nEn prueba de conformidad, ambas partes firman el presente documento a 6 de marzo de 2026.",
+      "metadata": {
+        "source": "../data/raw_docs/distribution-contract-2026.docx",
+        "page_number": 1,
+        "source_file": "distribution-contract-2026.docx",
+        "doc_type": "contract",
+        "global_topic": "Exclusive distribution contract for Witty Timer in Spain",
+        "clearance_level": 2,
+        "allowed_departments": "legal",
+        "contains_PII": false,
+        "sensitivity_types": [],
+        "chunk_id": "custom_006"
+      }
+    }
+  ],
+  "server_logs_witty_backend.txt": [
+    {
+      "page_content": "[2026-03-05 10:15:22] INFO: Booting Witty Manager API service v2.4.\n[2026-03-05 10:15:25] INFO: Connecting to primary database at 192.168.1.105...",
+      "metadata": {
+        "source": "../data/raw_docs/server_logs_witty_backend.txt",
+        "page_number": 1,
+        "source_file": "server_logs_witty_backend.txt",
+        "doc_type": "log",
+        "global_topic": "Witty Manager API backend server logs",
+        "clearance_level": 2,
+        "allowed_departments": "engineering",
+        "contains_PII": false,
+        "sensitivity_types": [],
+        "chunk_id": "custom_000"
+      }
+    },
+    {
+      "page_content": "[2026-03-05 10:15:26] SUCCESS: Database connection established.\n[2026-03-05 10:42:10] WARNING: High CPU usage detected on node 3.",
+      "metadata": {
+        "source": "../data/raw_docs/server_logs_witty_backend.txt",
+        "page_number": 1,
+        "source_file": "server_logs_witty_backend.txt",
+        "doc_type": "log",
+        "global_topic": "Witty Manager API backend server logs",
+        "clearance_level": 2,
+        "allowed_departments": "engineering",
+        "contains_PII": false,
+        "sensitivity_types": [],
+        "chunk_id": "custom_001"
+      }
+    },
+    {
+      "page_content": "from IP 85.214.132.11",
+      "metadata": {
+        "source": "../data/raw_docs/server_logs_witty_backend.txt",
+        "page_number": 1,
+        "source_file": "server_logs_witty_backend.txt",
+        "doc_type": "log",
+        "global_topic": "Witty Manager API backend server logs",
+        "clearance_level": 2,
+        "allowed_departments": "engineering",
+        "contains_PII": true,
+        "sensitivity_types": [
+          "ip_address"
+        ],
+        "chunk_id": "custom_002"
+      }
+    },
+    {
+      "page_content": "[2026-03-05 11:05:00] ERROR: Failed login attempt\nfor user 'admin'.",
+      "metadata": {
+        "source": "../data/raw_docs/server_logs_witty_backend.txt",
+        "page_number": 1,
+        "source_file": "server_logs_witty_backend.txt",
+        "doc_type": "log",
+        "global_topic": "Witty Manager API backend server logs",
+        "clearance_level": 2,
+        "allowed_departments": "engineering",
+        "contains_PII": false,
+        "sensitivity_types": [],
+        "chunk_id": "custom_003"
+      }
+    },
+    {
+      "page_content": "[2026-03-05 11:12:33] CRITICAL: System alert. The backup server requires manual authentication.",
+      "metadata": {
+        "source": "../data/raw_docs/server_logs_witty_backend.txt",
+        "page_number": 1,
+        "source_file": "server_logs_witty_backend.txt",
+        "doc_type": "log",
+        "global_topic": "Witty Manager API backend server logs",
+        "clearance_level": 2,
+        "allowed_departments": "engineering",
+        "contains_PII": false,
+        "sensitivity_types": [],
+        "chunk_id": "custom_004"
+      }
+    },
+    {
+      "page_content": "override password: 'witty_admin_override_2026!$'",
+      "metadata": {
+        "source": "../data/raw_docs/server_logs_witty_backend.txt",
+        "page_number": 1,
+        "source_file": "server_logs_witty_backend.txt",
+        "doc_type": "log",
+        "global_topic": "Witty Manager API backend server logs",
+        "clearance_level": 3,
+        "allowed_departments": "engineering",
+        "contains_PII": true,
+        "sensitivity_types": [
+          "password"
+        ],
+        "chunk_id": "custom_005"
+      }
+    },
+    {
+      "page_content": "[2026-03-05 11:12:35] DEBUG: Auto-recovery initiated. Using",
+      "metadata": {
+        "source": "../data/raw_docs/server_logs_witty_backend.txt",
+        "page_number": 1,
+        "source_file": "server_logs_witty_backend.txt",
+        "doc_type": "log",
+        "global_topic": "Witty Manager API backend server logs",
+        "clearance_level": 2,
+        "allowed_departments": "engineering",
+        "contains_PII": false,
+        "sensitivity_types": [],
+        "chunk_id": "custom_006"
+      }
+    },
+    {
+      "page_content": "[2026-03-05 11:15:00] INFO: Auto-recovery successful. Resuming normal operations.",
+      "metadata": {
+        "source": "../data/raw_docs/server_logs_witty_backend.txt",
+        "page_number": 1,
+        "source_file": "server_logs_witty_backend.txt",
+        "doc_type": "log",
+        "global_topic": "Witty Manager API backend server logs",
+        "clearance_level": 2,
+        "allowed_departments": "engineering",
+        "contains_PII": false,
+        "sensitivity_types": [],
+        "chunk_id": "custom_007"
+      }
+    }
+  ],
+  "clients-and-billings.xlsx": [
+    {
+      "page_content": "ID_Cliente                    Empresa     Contacto                  Email  Facturación_YTD Nivel_Soporte",
+      "metadata": {
+        "source": "../data/raw_docs/clients-and-billings.xlsx",
+        "page_number": 1,
+        "sheet_name": "Sheet1",
+        "source_file": "clients-and-billings.xlsx",
+        "doc_type": "spreadsheet",
+        "global_topic": "Client database with billing and support tier info",
+        "clearance_level": 3,
+        "allowed_departments": "sales",
+        "contains_PII": true,
+        "sensitivity_types": [
+          "person_name"
+        ],
+        "chunk_id": "custom_000"
+      }
+    },
+    {
+      "page_content": "   CLI-001 Centro de Alto Rendimiento  Laura Gómez          lgomez@car.es            12500       Premium",
+      "metadata": {
+        "source": "../data/raw_docs/clients-and-billings.xlsx",
+        "page_number": 1,
+        "sheet_name": "Sheet1",
+        "source_file": "clients-and-billings.xlsx",
+        "doc_type": "spreadsheet",
+        "global_topic": "Client database with billing and support tier info",
+        "clearance_level": 3,
+        "allowed_departments": "sales",
+        "contains_PII": true,
+        "sensitivity_types": [
+          "email_personal"
+        ],
+        "chunk_id": "custom_001"
+      }
+    },
+    {
+      "page_content": "   CLI-001 Centro de Alto Rendimiento  Laura Gómez          lgomez@car.es            12500       Premium",
+      "metadata": {
+        "source": "../data/raw_docs/clients-and-billings.xlsx",
+        "page_number": 1,
+        "sheet_name": "Sheet1",
+        "source_file": "clients-and-billings.xlsx",
+        "doc_type": "spreadsheet",
+        "global_topic": "Client database with billing and support tier info",
+        "clearance_level": 3,
+        "allowed_departments": "sales",
+        "contains_PII": true,
+        "sensitivity_types": [
+          "client_id"
+        ],
+        "chunk_id": "custom_002"
+      }
+    },
+    {
+      "page_content": "   CLI-002    Federación de Atletismo  Marcos Ruiz mruiz@fedatletismo.org             4200      Standard",
+      "metadata": {
+        "source": "../data/raw_docs/clients-and-billings.xlsx",
+        "page_number": 1,
+        "sheet_name": "Sheet1",
+        "source_file": "clients-and-billings.xlsx",
+        "doc_type": "spreadsheet",
+        "global_topic": "Client database with billing and support tier info",
+        "clearance_level": 3,
+        "allowed_departments": "sales",
+        "contains_PII": true,
+        "sensitivity_types": [
+          "email_personal"
+        ],
+        "chunk_id": "custom_003"
+      }
+    },
+    {
+      "page_content": "   CLI-002    Federación de Atletismo  Marcos Ruiz mruiz@fedatletismo.org             4200      Standard",
+      "metadata": {
+        "source": "../data/raw_docs/clients-and-billings.xlsx",
+        "page_number": 1,
+        "sheet_name": "Sheet1",
+        "source_file": "clients-and-billings.xlsx",
+        "doc_type": "spreadsheet",
+        "global_topic": "Client database with billing and support tier info",
+        "clearance_level": 3,
+        "allowed_departments": "sales",
+        "contains_PII": true,
+        "sensitivity_types": [
+          "client_id"
+        ],
+        "chunk_id": "custom_004"
+      }
+    },
+    {
+      "page_content": "   CLI-003    Universidad del Deporte Elena Torres etorres@unideporte.edu             8900       Premium",
+      "metadata": {
+        "source": "../data/raw_docs/clients-and-billings.xlsx",
+        "page_number": 1,
+        "sheet_name": "Sheet1",
+        "source_file": "clients-and-billings.xlsx",
+        "doc_type": "spreadsheet",
+        "global_topic": "Client database with billing and support tier info",
+        "clearance_level": 3,
+        "allowed_departments": "sales",
+        "contains_PII": true,
+        "sensitivity_types": [
+          "email_personal"
+        ],
+        "chunk_id": "custom_005"
+      }
+    },
+    {
+      "page_content": "   CLI-003    Universidad del Deporte Elena Torres etorres@unideporte.edu             8900       Premium",
+      "metadata": {
+        "source": "../data/raw_docs/clients-and-billings.xlsx",
+        "page_number": 1,
+        "sheet_name": "Sheet1",
+        "source_file": "clients-and-billings.xlsx",
+        "doc_type": "spreadsheet",
+        "global_topic": "Client database with billing and support tier info",
+        "clearance_level": 3,
+        "allowed_departments": "sales",
+        "contains_PII": true,
+        "sensitivity_types": [
+          "client_id"
+        ],
+        "chunk_id": "custom_006"
+      }
+    },
+    {
+      "page_content": "   CLI-004          Gimnasios FitPlus  David Silva     dsilva@fitplus.com",
+      "metadata": {
+        "source": "../data/raw_docs/clients-and-billings.xlsx",
+        "page_number": 1,
+        "sheet_name": "Sheet1",
+        "source_file": "clients-and-billings.xlsx",
+        "doc_type": "spreadsheet",
+        "global_topic": "Client database with billing and support tier info",
+        "clearance_level": 3,
+        "allowed_departments": "sales",
+        "contains_PII": true,
+        "sensitivity_types": [
+          "email_personal"
+        ],
+        "chunk_id": "custom_007"
+      }
+    },
+    {
+      "page_content": "   CLI-004",
+      "metadata": {
+        "source": "../data/raw_docs/clients-and-billings.xlsx",
+        "page_number": 1,
+        "sheet_name": "Sheet1",
+        "source_file": "clients-and-billings.xlsx",
+        "doc_type": "spreadsheet",
+        "global_topic": "Client database with billing and support tier info",
+        "clearance_level": 3,
+        "allowed_departments": "sales",
+        "contains_PII": true,
+        "sensitivity_types": [
+          "client_id"
+        ],
+        "chunk_id": "custom_008"
+      }
+    },
+    {
+      "page_content": "Sheet: Sheet1\n1150        Básico",
+      "metadata": {
+        "source": "../data/raw_docs/clients-and-billings.xlsx",
+        "page_number": 1,
+        "sheet_name": "Sheet1",
+        "source_file": "clients-and-billings.xlsx",
+        "doc_type": "spreadsheet",
+        "global_topic": "Client database with billing and support tier info",
+        "clearance_level": 3,
+        "allowed_departments": "sales",
+        "contains_PII": false,
+        "sensitivity_types": [],
+        "chunk_id": "custom_009"
+      }
+    }
+  ],
+  "fin_q1_2026_revenue.txt": [
+    {
+      "page_content": "MICROGATE S.R.L. — REVENUE REPORT Q1 2026\nDepartment: Finance\nClassification: CONFIDENTIAL",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\fin_q1_2026_revenue.txt",
+        "source_file": "fin_q1_2026_revenue.txt",
+        "doc_type": "report",
+        "global_topic": "Q1 2026 revenue and financial performance",
+        "clearance_level": 3,
+        "allowed_departments": "finance",
+        "page_number": 1,
+        "contains_PII": false,
+        "sensitivity_types": [],
+        "chunk_id": "aug_000"
+      }
+    },
+    {
+      "page_content": "1. Quarterly Summary\nTotal gross revenue for Q1 2026 reached €5.1 million, a 21% increase year-over-year. The Witty Timer product line contributed 72% of total revenue, with hardware kit sales remaining the primary driver at €3.3 million.",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\fin_q1_2026_revenue.txt",
+        "source_file": "fin_q1_2026_revenue.txt",
+        "doc_type": "report",
+        "global_topic": "Q1 2026 revenue and financial performance",
+        "clearance_level": 3,
+        "allowed_departments": "finance",
+        "page_number": 1,
+        "contains_PII": false,
+        "sensitivity_types": [],
+        "chunk_id": "aug_001"
+      }
+    },
+    {
+      "page_content": "2. Revenue by Region\nEuropean markets generated €3.8 million (75%), with Spain leading at €1.2 million thanks to the exclusive distribution agreement with Deportes de Alto Rendimiento S.A. North American markets contributed €0.9 million, and Asia-Pacific accounted for €0.4 million.",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\fin_q1_2026_revenue.txt",
+        "source_file": "fin_q1_2026_revenue.txt",
+        "doc_type": "report",
+        "global_topic": "Q1 2026 revenue and financial performance",
+        "clearance_level": 3,
+        "allowed_departments": "finance",
+        "page_number": 1,
+        "contains_PII": false,
+        "sensitivity_types": [],
+        "chunk_id": "aug_002"
+      }
+    },
+    {
+      "page_content": "Gross margin improved to 62% from 58% in Q4 2025, driven by reduced component costs for photocell manufacturing. The cost per unit for complete Witty Kits decreased from €340 to €315.",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\fin_q1_2026_revenue.txt",
+        "source_file": "fin_q1_2026_revenue.txt",
+        "doc_type": "report",
+        "global_topic": "Q1 2026 revenue and financial performance",
+        "clearance_level": 3,
+        "allowed_departments": "finance",
+        "page_number": 1,
+        "contains_PII": true,
+        "sensitivity_types": [
+          "monetary_confidential"
+        ],
+        "chunk_id": "aug_003"
+      }
+    },
+    {
+      "page_content": "3. Operating Margins",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\fin_q1_2026_revenue.txt",
+        "source_file": "fin_q1_2026_revenue.txt",
+        "doc_type": "report",
+        "global_topic": "Q1 2026 revenue and financial performance",
+        "clearance_level": 3,
+        "allowed_departments": "finance",
+        "page_number": 1,
+        "contains_PII": false,
+        "sensitivity_types": [],
+        "chunk_id": "aug_004"
+      }
+    },
+    {
+      "page_content": "Outstanding invoices total €420,000. The largest debtor is Centro de Alto Rendimiento (CLI-001) with €12,500 pending from the Premium tier service agreement. All payments are channeled through our primary account: IBAN: ES79 2100 0813 6101 2345 6789 ",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\fin_q1_2026_revenue.txt",
+        "source_file": "fin_q1_2026_revenue.txt",
+        "doc_type": "report",
+        "global_topic": "Q1 2026 revenue and financial performance",
+        "clearance_level": 3,
+        "allowed_departments": "finance",
+        "page_number": 1,
+        "contains_PII": true,
+        "sensitivity_types": [
+          "iban"
+        ],
+        "chunk_id": "aug_005"
+      }
+    },
+    {
+      "page_content": "Outstanding invoices total €420,000. The largest debtor is Centro de Alto Rendimiento (CLI-001",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\fin_q1_2026_revenue.txt",
+        "source_file": "fin_q1_2026_revenue.txt",
+        "doc_type": "report",
+        "global_topic": "Q1 2026 revenue and financial performance",
+        "clearance_level": 3,
+        "allowed_departments": "finance",
+        "page_number": 1,
+        "contains_PII": true,
+        "sensitivity_types": [
+          "client_id"
+        ],
+        "chunk_id": "aug_006"
+      }
+    },
+    {
+      "page_content": "4. Accounts Receivable\n(Banco Santander, Madrid branch).",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\fin_q1_2026_revenue.txt",
+        "source_file": "fin_q1_2026_revenue.txt",
+        "doc_type": "report",
+        "global_topic": "Q1 2026 revenue and financial performance",
+        "clearance_level": 3,
+        "allowed_departments": "finance",
+        "page_number": 1,
+        "contains_PII": false,
+        "sensitivity_types": [],
+        "chunk_id": "aug_007"
+      }
+    }
+  ],
+  "fin_budget_forecast_2027.txt": [
+    {
+      "page_content": "MICROGATE S.R.L. — BUDGET FORECAST 2027\nDepartment: Finance — For Executive Review Only\nClassification: STRICTLY CONFIDENTIAL",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\fin_budget_forecast_2027.txt",
+        "source_file": "fin_budget_forecast_2027.txt",
+        "doc_type": "report",
+        "global_topic": "2027 budget forecast and capital planning",
+        "clearance_level": 3,
+        "allowed_departments": "finance",
+        "page_number": 1,
+        "contains_PII": false,
+        "sensitivity_types": [],
+        "chunk_id": "aug_008"
+      }
+    },
+    {
+      "page_content": "1. R&D Investment Plan\nTotal R&D allocation: €2.8 million (up from €1.5M in 2026). Primary focus areas include next-generation lithium batteries for photocells (€1.2M), Witty Manager software cloud migration (€0.9M), and IoT sensor integration (€0.7M).",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\fin_budget_forecast_2027.txt",
+        "source_file": "fin_budget_forecast_2027.txt",
+        "doc_type": "report",
+        "global_topic": "2027 budget forecast and capital planning",
+        "clearance_level": 3,
+        "allowed_departments": "finance",
+        "page_number": 1,
+        "contains_PII": false,
+        "sensitivity_types": [],
+        "chunk_id": "aug_009"
+      }
+    },
+    {
+      "page_content": "Projected headcount increase from 45 to 58 employees. New hires concentrated in Engineering (8 positions) and Sales (5 positions). Average salary budget per employee: €52,000",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\fin_budget_forecast_2027.txt",
+        "source_file": "fin_budget_forecast_2027.txt",
+        "doc_type": "report",
+        "global_topic": "2027 budget forecast and capital planning",
+        "clearance_level": 3,
+        "allowed_departments": "finance",
+        "page_number": 1,
+        "contains_PII": true,
+        "sensitivity_types": [
+          "monetary_confidential"
+        ],
+        "chunk_id": "aug_010"
+      }
+    },
+    {
+      "page_content": "2. Personnel Costs\nannually.",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\fin_budget_forecast_2027.txt",
+        "source_file": "fin_budget_forecast_2027.txt",
+        "doc_type": "report",
+        "global_topic": "2027 budget forecast and capital planning",
+        "clearance_level": 3,
+        "allowed_departments": "finance",
+        "page_number": 1,
+        "contains_PII": false,
+        "sensitivity_types": [],
+        "chunk_id": "aug_011"
+      }
+    },
+    {
+      "page_content": "Server infrastructure upgrade: €180,000 for on-premise GPU cluster to support internal AI/ML workloads. This replaces the aging Dell PowerEdge R740 servers currently running production workloads at IP 10.0.1.50",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\fin_budget_forecast_2027.txt",
+        "source_file": "fin_budget_forecast_2027.txt",
+        "doc_type": "report",
+        "global_topic": "2027 budget forecast and capital planning",
+        "clearance_level": 3,
+        "allowed_departments": "finance",
+        "page_number": 1,
+        "contains_PII": true,
+        "sensitivity_types": [
+          "ip_address"
+        ],
+        "chunk_id": "aug_012"
+      }
+    },
+    {
+      "page_content": "3. Capital Expenditure\n.",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\fin_budget_forecast_2027.txt",
+        "source_file": "fin_budget_forecast_2027.txt",
+        "doc_type": "report",
+        "global_topic": "2027 budget forecast and capital planning",
+        "clearance_level": 3,
+        "allowed_departments": "finance",
+        "page_number": 1,
+        "contains_PII": false,
+        "sensitivity_types": [],
+        "chunk_id": "aug_013"
+      }
+    },
+    {
+      "page_content": "Primary operating account remains IBAN: IT60 X054 2811 1010 0000 0123 456 ",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\fin_budget_forecast_2027.txt",
+        "source_file": "fin_budget_forecast_2027.txt",
+        "doc_type": "report",
+        "global_topic": "2027 budget forecast and capital planning",
+        "clearance_level": 3,
+        "allowed_departments": "finance",
+        "page_number": 1,
+        "contains_PII": true,
+        "sensitivity_types": [
+          "iban"
+        ],
+        "chunk_id": "aug_014"
+      }
+    },
+    {
+      "page_content": "Primary operating account remains IBAN: IT60 X054 2811 1010 0000 0123 456 (Banca Intesa, Bolzano). Secondary EUR account for Spanish operations: IBAN: ES79 2100 0813 6101 2345 6789",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\fin_budget_forecast_2027.txt",
+        "source_file": "fin_budget_forecast_2027.txt",
+        "doc_type": "report",
+        "global_topic": "2027 budget forecast and capital planning",
+        "clearance_level": 3,
+        "allowed_departments": "finance",
+        "page_number": 1,
+        "contains_PII": true,
+        "sensitivity_types": [
+          "iban"
+        ],
+        "chunk_id": "aug_015"
+      }
+    },
+    {
+      "page_content": "4. Treasury Management\n. SWIFT code for international transfers: BCITITMM.",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\fin_budget_forecast_2027.txt",
+        "source_file": "fin_budget_forecast_2027.txt",
+        "doc_type": "report",
+        "global_topic": "2027 budget forecast and capital planning",
+        "clearance_level": 3,
+        "allowed_departments": "finance",
+        "page_number": 1,
+        "contains_PII": false,
+        "sensitivity_types": [],
+        "chunk_id": "aug_016"
+      }
+    }
+  ],
+  "fin_expense_policy.md": [
+    {
+      "page_content": "# Microgate S.R.L. — Corporate Expense Policy\n**Version:** 2.1 | **Effective:** January 2026 | **Department:** Finance",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\fin_expense_policy.md",
+        "source_file": "fin_expense_policy.md",
+        "doc_type": "policy",
+        "global_topic": "Corporate expense and reimbursement policy",
+        "clearance_level": 1,
+        "allowed_departments": "all",
+        "page_number": 1,
+        "contains_PII": false,
+        "sensitivity_types": [],
+        "chunk_id": "aug_017"
+      }
+    },
+    {
+      "page_content": "## 1. Travel Expenses\nAll business travel must be pre-approved by the department head. Maximum daily allowances: €150 (EU), €200 (non-EU). Receipts required for all expenses above €25.",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\fin_expense_policy.md",
+        "source_file": "fin_expense_policy.md",
+        "doc_type": "policy",
+        "global_topic": "Corporate expense and reimbursement policy",
+        "clearance_level": 1,
+        "allowed_departments": "all",
+        "page_number": 1,
+        "contains_PII": false,
+        "sensitivity_types": [],
+        "chunk_id": "aug_018"
+      }
+    },
+    {
+      "page_content": "## 2. Equipment Purchases\nIT equipment purchases above €500 require Finance department approval. Purchases above €5,000 require CFO signature. All hardware must be registered in the IT asset management system.",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\fin_expense_policy.md",
+        "source_file": "fin_expense_policy.md",
+        "doc_type": "policy",
+        "global_topic": "Corporate expense and reimbursement policy",
+        "clearance_level": 1,
+        "allowed_departments": "all",
+        "page_number": 1,
+        "contains_PII": false,
+        "sensitivity_types": [],
+        "chunk_id": "aug_019"
+      }
+    },
+    {
+      "page_content": "## 3. Reimbursement Process\nSubmit expense reports within 30 days of incurrence. Reimbursements are processed on the 15th of each month. Bank transfers are made to the employee's registered account.",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\fin_expense_policy.md",
+        "source_file": "fin_expense_policy.md",
+        "doc_type": "policy",
+        "global_topic": "Corporate expense and reimbursement policy",
+        "clearance_level": 1,
+        "allowed_departments": "all",
+        "page_number": 1,
+        "contains_PII": false,
+        "sensitivity_types": [],
+        "chunk_id": "aug_020"
+      }
+    },
+    {
+      "page_content": "## 4. Corporate Credit Cards\nCorporate cards are issued to department heads and senior managers only. Monthly spending limit: €3,000 per card. Unauthorized personal use will result in immediate card cancellation and disciplinary action.",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\fin_expense_policy.md",
+        "source_file": "fin_expense_policy.md",
+        "doc_type": "policy",
+        "global_topic": "Corporate expense and reimbursement policy",
+        "clearance_level": 1,
+        "allowed_departments": "all",
+        "page_number": 1,
+        "contains_PII": false,
+        "sensitivity_types": [],
+        "chunk_id": "aug_021"
+      }
+    },
+    {
+      "page_content": "All financial transactions are logged and subject to quarterly internal audit. External audit conducted annually by Deloitte Italia S.p.A. Contact: Mr. Andrea Rossi, arossi@deloitte.it",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\fin_expense_policy.md",
+        "source_file": "fin_expense_policy.md",
+        "doc_type": "policy",
+        "global_topic": "Corporate expense and reimbursement policy",
+        "clearance_level": 2,
+        "allowed_departments": "all",
+        "page_number": 1,
+        "contains_PII": true,
+        "sensitivity_types": [
+          "email_personal"
+        ],
+        "chunk_id": "aug_022"
+      }
+    },
+    {
+      "page_content": "All financial transactions are logged and subject to quarterly internal audit. External audit conducted annually by Deloitte Italia S.p.A. Contact: Mr. Andrea Rossi",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\fin_expense_policy.md",
+        "source_file": "fin_expense_policy.md",
+        "doc_type": "policy",
+        "global_topic": "Corporate expense and reimbursement policy",
+        "clearance_level": 2,
+        "allowed_departments": "all",
+        "page_number": 1,
+        "contains_PII": true,
+        "sensitivity_types": [
+          "person_name"
+        ],
+        "chunk_id": "aug_023"
+      }
+    },
+    {
+      "page_content": "## 5. Audit Trail\n.",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\fin_expense_policy.md",
+        "source_file": "fin_expense_policy.md",
+        "doc_type": "policy",
+        "global_topic": "Corporate expense and reimbursement policy",
+        "clearance_level": 1,
+        "allowed_departments": "all",
+        "page_number": 1,
+        "contains_PII": false,
+        "sensitivity_types": [],
+        "chunk_id": "aug_024"
+      }
+    }
+  ],
+  "hr_employee_directory.txt": [
+    {
+      "page_content": "MICROGATE S.R.L. — EMPLOYEE DIRECTORY (Partial Extract)\nDepartment: Human Resources\nClassification: CONFIDENTIAL — HR ONLY",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\hr_employee_directory.txt",
+        "source_file": "hr_employee_directory.txt",
+        "doc_type": "directory",
+        "global_topic": "Employee directory with personal identification data",
+        "clearance_level": 3,
+        "allowed_departments": "hr",
+        "page_number": 1,
+        "contains_PII": false,
+        "sensitivity_types": [],
+        "chunk_id": "aug_025"
+      }
+    },
+    {
+      "page_content": "  EMP-001  Marco Bianchi      Lead Developer       marco.bianchi@microgate.it       DNI: 12345678X",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\hr_employee_directory.txt",
+        "source_file": "hr_employee_directory.txt",
+        "doc_type": "directory",
+        "global_topic": "Employee directory with personal identification data",
+        "clearance_level": 3,
+        "allowed_departments": "hr",
+        "page_number": 1,
+        "contains_PII": true,
+        "sensitivity_types": [
+          "email_personal"
+        ],
+        "chunk_id": "aug_026"
+      }
+    },
+    {
+      "page_content": "  EMP-001  Marco Bianchi      Lead Developer       marco.bianchi@microgate.it       DNI: 12345678X",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\hr_employee_directory.txt",
+        "source_file": "hr_employee_directory.txt",
+        "doc_type": "directory",
+        "global_topic": "Employee directory with personal identification data",
+        "clearance_level": 3,
+        "allowed_departments": "hr",
+        "page_number": 1,
+        "contains_PII": true,
+        "sensitivity_types": [
+          "dni"
+        ],
+        "chunk_id": "aug_027"
+      }
+    },
+    {
+      "page_content": "  EMP-001  Marco Bianchi      Lead Developer       marco.bianchi@microgate.it       DNI: 12345678X",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\hr_employee_directory.txt",
+        "source_file": "hr_employee_directory.txt",
+        "doc_type": "directory",
+        "global_topic": "Employee directory with personal identification data",
+        "clearance_level": 3,
+        "allowed_departments": "hr",
+        "page_number": 1,
+        "contains_PII": true,
+        "sensitivity_types": [
+          "emp_id"
+        ],
+        "chunk_id": "aug_028"
+      }
+    },
+    {
+      "page_content": "  EMP-002  Sofia Fernandez    Backend Engineer     sofia.fernandez@microgate.it     DNI: 87654321Y",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\hr_employee_directory.txt",
+        "source_file": "hr_employee_directory.txt",
+        "doc_type": "directory",
+        "global_topic": "Employee directory with personal identification data",
+        "clearance_level": 3,
+        "allowed_departments": "hr",
+        "page_number": 1,
+        "contains_PII": true,
+        "sensitivity_types": [
+          "email_personal"
+        ],
+        "chunk_id": "aug_029"
+      }
+    },
+    {
+      "page_content": "  EMP-002  Sofia Fernandez    Backend Engineer     sofia.fernandez@microgate.it     DNI: 87654321Y",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\hr_employee_directory.txt",
+        "source_file": "hr_employee_directory.txt",
+        "doc_type": "directory",
+        "global_topic": "Employee directory with personal identification data",
+        "clearance_level": 3,
+        "allowed_departments": "hr",
+        "page_number": 1,
+        "contains_PII": true,
+        "sensitivity_types": [
+          "dni"
+        ],
+        "chunk_id": "aug_030"
+      }
+    },
+    {
+      "page_content": "  EMP-002  Sofia Fernandez    Backend Engineer     sofia.fernandez@microgate.it     DNI: 87654321Y",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\hr_employee_directory.txt",
+        "source_file": "hr_employee_directory.txt",
+        "doc_type": "directory",
+        "global_topic": "Employee directory with personal identification data",
+        "clearance_level": 3,
+        "allowed_departments": "hr",
+        "page_number": 1,
+        "contains_PII": true,
+        "sensitivity_types": [
+          "emp_id"
+        ],
+        "chunk_id": "aug_031"
+      }
+    },
+    {
+      "page_content": "  EMP-003  Luca Moretti       DevOps Engineer      luca.moretti@microgate.it",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\hr_employee_directory.txt",
+        "source_file": "hr_employee_directory.txt",
+        "doc_type": "directory",
+        "global_topic": "Employee directory with personal identification data",
+        "clearance_level": 3,
+        "allowed_departments": "hr",
+        "page_number": 1,
+        "contains_PII": true,
+        "sensitivity_types": [
+          "email_personal"
+        ],
+        "chunk_id": "aug_032"
+      }
+    },
+    {
+      "page_content": "  EMP-003  Luca Moretti       DevOps Engineer      luca.moretti@microgate.it        DNI: 11223344Z",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\hr_employee_directory.txt",
+        "source_file": "hr_employee_directory.txt",
+        "doc_type": "directory",
+        "global_topic": "Employee directory with personal identification data",
+        "clearance_level": 3,
+        "allowed_departments": "hr",
+        "page_number": 1,
+        "contains_PII": true,
+        "sensitivity_types": [
+          "dni"
+        ],
+        "chunk_id": "aug_033"
+      }
+    },
+    {
+      "page_content": "  EMP-003",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\hr_employee_directory.txt",
+        "source_file": "hr_employee_directory.txt",
+        "doc_type": "directory",
+        "global_topic": "Employee directory with personal identification data",
+        "clearance_level": 3,
+        "allowed_departments": "hr",
+        "page_number": 1,
+        "contains_PII": true,
+        "sensitivity_types": [
+          "emp_id"
+        ],
+        "chunk_id": "aug_034"
+      }
+    },
+    {
+      "page_content": "Engineering Department:",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\hr_employee_directory.txt",
+        "source_file": "hr_employee_directory.txt",
+        "doc_type": "directory",
+        "global_topic": "Employee directory with personal identification data",
+        "clearance_level": 3,
+        "allowed_departments": "hr",
+        "page_number": 1,
+        "contains_PII": false,
+        "sensitivity_types": [],
+        "chunk_id": "aug_035"
+      }
+    },
+    {
+      "page_content": "  EMP-004  Isabella Romano    Sales Director       isabella.romano@microgate.it     DNI: 55667788W",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\hr_employee_directory.txt",
+        "source_file": "hr_employee_directory.txt",
+        "doc_type": "directory",
+        "global_topic": "Employee directory with personal identification data",
+        "clearance_level": 3,
+        "allowed_departments": "hr",
+        "page_number": 1,
+        "contains_PII": true,
+        "sensitivity_types": [
+          "email_personal"
+        ],
+        "chunk_id": "aug_036"
+      }
+    },
+    {
+      "page_content": "  EMP-004  Isabella Romano    Sales Director       isabella.romano@microgate.it     DNI: 55667788W",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\hr_employee_directory.txt",
+        "source_file": "hr_employee_directory.txt",
+        "doc_type": "directory",
+        "global_topic": "Employee directory with personal identification data",
+        "clearance_level": 3,
+        "allowed_departments": "hr",
+        "page_number": 1,
+        "contains_PII": true,
+        "sensitivity_types": [
+          "dni"
+        ],
+        "chunk_id": "aug_037"
+      }
+    },
+    {
+      "page_content": "  EMP-004  Isabella Romano    Sales Director       isabella.romano@microgate.it     DNI: 55667788W",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\hr_employee_directory.txt",
+        "source_file": "hr_employee_directory.txt",
+        "doc_type": "directory",
+        "global_topic": "Employee directory with personal identification data",
+        "clearance_level": 3,
+        "allowed_departments": "hr",
+        "page_number": 1,
+        "contains_PII": true,
+        "sensitivity_types": [
+          "emp_id"
+        ],
+        "chunk_id": "aug_038"
+      }
+    },
+    {
+      "page_content": "  EMP-005  Diego Martinez     Account Manager      diego.martinez@microgate.it",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\hr_employee_directory.txt",
+        "source_file": "hr_employee_directory.txt",
+        "doc_type": "directory",
+        "global_topic": "Employee directory with personal identification data",
+        "clearance_level": 3,
+        "allowed_departments": "hr",
+        "page_number": 1,
+        "contains_PII": true,
+        "sensitivity_types": [
+          "email_personal"
+        ],
+        "chunk_id": "aug_039"
+      }
+    },
+    {
+      "page_content": "  EMP-005  Diego Martinez     Account Manager      diego.martinez@microgate.it      DNI: 99887766V",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\hr_employee_directory.txt",
+        "source_file": "hr_employee_directory.txt",
+        "doc_type": "directory",
+        "global_topic": "Employee directory with personal identification data",
+        "clearance_level": 3,
+        "allowed_departments": "hr",
+        "page_number": 1,
+        "contains_PII": true,
+        "sensitivity_types": [
+          "dni"
+        ],
+        "chunk_id": "aug_040"
+      }
+    },
+    {
+      "page_content": "  EMP-005",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\hr_employee_directory.txt",
+        "source_file": "hr_employee_directory.txt",
+        "doc_type": "directory",
+        "global_topic": "Employee directory with personal identification data",
+        "clearance_level": 3,
+        "allowed_departments": "hr",
+        "page_number": 1,
+        "contains_PII": true,
+        "sensitivity_types": [
+          "emp_id"
+        ],
+        "chunk_id": "aug_041"
+      }
+    },
+    {
+      "page_content": "Sales Department:",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\hr_employee_directory.txt",
+        "source_file": "hr_employee_directory.txt",
+        "doc_type": "directory",
+        "global_topic": "Employee directory with personal identification data",
+        "clearance_level": 3,
+        "allowed_departments": "hr",
+        "page_number": 1,
+        "contains_PII": false,
+        "sensitivity_types": [],
+        "chunk_id": "aug_042"
+      }
+    },
+    {
+      "page_content": "  EMP-006  Chiara Colombo     CFO                  chiara.colombo@microgate.it      DNI: 44556677T",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\hr_employee_directory.txt",
+        "source_file": "hr_employee_directory.txt",
+        "doc_type": "directory",
+        "global_topic": "Employee directory with personal identification data",
+        "clearance_level": 3,
+        "allowed_departments": "hr",
+        "page_number": 1,
+        "contains_PII": true,
+        "sensitivity_types": [
+          "email_personal"
+        ],
+        "chunk_id": "aug_043"
+      }
+    },
+    {
+      "page_content": "  EMP-006  Chiara Colombo     CFO                  chiara.colombo@microgate.it      DNI: 44556677T",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\hr_employee_directory.txt",
+        "source_file": "hr_employee_directory.txt",
+        "doc_type": "directory",
+        "global_topic": "Employee directory with personal identification data",
+        "clearance_level": 3,
+        "allowed_departments": "hr",
+        "page_number": 1,
+        "contains_PII": true,
+        "sensitivity_types": [
+          "dni"
+        ],
+        "chunk_id": "aug_044"
+      }
+    },
+    {
+      "page_content": "  EMP-006  Chiara Colombo     CFO                  chiara.colombo@microgate.it      DNI: 44556677T",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\hr_employee_directory.txt",
+        "source_file": "hr_employee_directory.txt",
+        "doc_type": "directory",
+        "global_topic": "Employee directory with personal identification data",
+        "clearance_level": 3,
+        "allowed_departments": "hr",
+        "page_number": 1,
+        "contains_PII": true,
+        "sensitivity_types": [
+          "emp_id"
+        ],
+        "chunk_id": "aug_045"
+      }
+    },
+    {
+      "page_content": "  EMP-007  Roberto Esposito   Financial Analyst    roberto.esposito@microgate.it",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\hr_employee_directory.txt",
+        "source_file": "hr_employee_directory.txt",
+        "doc_type": "directory",
+        "global_topic": "Employee directory with personal identification data",
+        "clearance_level": 3,
+        "allowed_departments": "hr",
+        "page_number": 1,
+        "contains_PII": true,
+        "sensitivity_types": [
+          "email_personal"
+        ],
+        "chunk_id": "aug_046"
+      }
+    },
+    {
+      "page_content": "  EMP-007  Roberto Esposito   Financial Analyst    roberto.esposito@microgate.it    DNI: 33445566R",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\hr_employee_directory.txt",
+        "source_file": "hr_employee_directory.txt",
+        "doc_type": "directory",
+        "global_topic": "Employee directory with personal identification data",
+        "clearance_level": 3,
+        "allowed_departments": "hr",
+        "page_number": 1,
+        "contains_PII": true,
+        "sensitivity_types": [
+          "dni"
+        ],
+        "chunk_id": "aug_047"
+      }
+    },
+    {
+      "page_content": "  EMP-007",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\hr_employee_directory.txt",
+        "source_file": "hr_employee_directory.txt",
+        "doc_type": "directory",
+        "global_topic": "Employee directory with personal identification data",
+        "clearance_level": 3,
+        "allowed_departments": "hr",
+        "page_number": 1,
+        "contains_PII": true,
+        "sensitivity_types": [
+          "emp_id"
+        ],
+        "chunk_id": "aug_048"
+      }
+    },
+    {
+      "page_content": "Finance Department:",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\hr_employee_directory.txt",
+        "source_file": "hr_employee_directory.txt",
+        "doc_type": "directory",
+        "global_topic": "Employee directory with personal identification data",
+        "clearance_level": 3,
+        "allowed_departments": "hr",
+        "page_number": 1,
+        "contains_PII": false,
+        "sensitivity_types": [],
+        "chunk_id": "aug_049"
+      }
+    },
+    {
+      "page_content": "  EMP-008  Valentina Ricci    Legal Counsel        valentina.ricci@microgate.it",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\hr_employee_directory.txt",
+        "source_file": "hr_employee_directory.txt",
+        "doc_type": "directory",
+        "global_topic": "Employee directory with personal identification data",
+        "clearance_level": 3,
+        "allowed_departments": "hr",
+        "page_number": 1,
+        "contains_PII": true,
+        "sensitivity_types": [
+          "email_personal"
+        ],
+        "chunk_id": "aug_050"
+      }
+    },
+    {
+      "page_content": "  EMP-008  Valentina Ricci    Legal Counsel        valentina.ricci@microgate.it     DNI: 22334455S",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\hr_employee_directory.txt",
+        "source_file": "hr_employee_directory.txt",
+        "doc_type": "directory",
+        "global_topic": "Employee directory with personal identification data",
+        "clearance_level": 3,
+        "allowed_departments": "hr",
+        "page_number": 1,
+        "contains_PII": true,
+        "sensitivity_types": [
+          "dni"
+        ],
+        "chunk_id": "aug_051"
+      }
+    },
+    {
+      "page_content": "  EMP-008",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\hr_employee_directory.txt",
+        "source_file": "hr_employee_directory.txt",
+        "doc_type": "directory",
+        "global_topic": "Employee directory with personal identification data",
+        "clearance_level": 3,
+        "allowed_departments": "hr",
+        "page_number": 1,
+        "contains_PII": true,
+        "sensitivity_types": [
+          "emp_id"
+        ],
+        "chunk_id": "aug_052"
+      }
+    },
+    {
+      "page_content": "Legal Department:",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\hr_employee_directory.txt",
+        "source_file": "hr_employee_directory.txt",
+        "doc_type": "directory",
+        "global_topic": "Employee directory with personal identification data",
+        "clearance_level": 3,
+        "allowed_departments": "hr",
+        "page_number": 1,
+        "contains_PII": false,
+        "sensitivity_types": [],
+        "chunk_id": "aug_053"
+      }
+    }
+  ],
+  "hr_onboarding_guide.md": [
+    {
+      "page_content": "# Microgate S.R.L. — New Employee Onboarding Guide\n**Version:** 3.0 | **Last Updated:** March 2026",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\hr_onboarding_guide.md",
+        "source_file": "hr_onboarding_guide.md",
+        "doc_type": "guide",
+        "global_topic": "New employee onboarding procedures and contacts",
+        "clearance_level": 0,
+        "allowed_departments": "all",
+        "page_number": 1,
+        "contains_PII": false,
+        "sensitivity_types": [],
+        "chunk_id": "aug_054"
+      }
+    },
+    {
+      "page_content": "## Welcome to Microgate!\nThis guide will help you get started during your first week at the company.",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\hr_onboarding_guide.md",
+        "source_file": "hr_onboarding_guide.md",
+        "doc_type": "guide",
+        "global_topic": "New employee onboarding procedures and contacts",
+        "clearance_level": 0,
+        "allowed_departments": "all",
+        "page_number": 1,
+        "contains_PII": false,
+        "sensitivity_types": [],
+        "chunk_id": "aug_055"
+      }
+    },
+    {
+      "page_content": "## 1. First Day Checklist\n- Report to reception at Via Waltraud Gebert Deeg, 3e, Bolzano at 9:00 AM\n- Collect your employee badge and laptop from IT\n- Complete tax forms (Modello 770) with HR\n- Set up your corporate email (@microgate.it) and Slack workspace",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\hr_onboarding_guide.md",
+        "source_file": "hr_onboarding_guide.md",
+        "doc_type": "guide",
+        "global_topic": "New employee onboarding procedures and contacts",
+        "clearance_level": 0,
+        "allowed_departments": "all",
+        "page_number": 1,
+        "contains_PII": false,
+        "sensitivity_types": [],
+        "chunk_id": "aug_056"
+      }
+    },
+    {
+      "page_content": "## 2. IT Setup\nYour workstation will be pre-configured with the following tools:\n- Witty Manager Software (development build)\n- Git, Docker, and VS Code (Engineering)\n- SAP Business One (Finance)\n- Salesforce CRM (Sales)",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\hr_onboarding_guide.md",
+        "source_file": "hr_onboarding_guide.md",
+        "doc_type": "guide",
+        "global_topic": "New employee onboarding procedures and contacts",
+        "clearance_level": 0,
+        "allowed_departments": "all",
+        "page_number": 1,
+        "contains_PII": false,
+        "sensitivity_types": [],
+        "chunk_id": "aug_057"
+      }
+    },
+    {
+      "page_content": "helpdesk@microgate.it",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\hr_onboarding_guide.md",
+        "source_file": "hr_onboarding_guide.md",
+        "doc_type": "guide",
+        "global_topic": "New employee onboarding procedures and contacts",
+        "clearance_level": 2,
+        "allowed_departments": "all",
+        "page_number": 1,
+        "contains_PII": true,
+        "sensitivity_types": [
+          "email_personal"
+        ],
+        "chunk_id": "aug_058"
+      }
+    },
+    {
+      "page_content": "For VPN access, contact the IT helpdesk at\nor extension 4500. Default VPN credentials will be provided separately via encrypted email.",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\hr_onboarding_guide.md",
+        "source_file": "hr_onboarding_guide.md",
+        "doc_type": "guide",
+        "global_topic": "New employee onboarding procedures and contacts",
+        "clearance_level": 0,
+        "allowed_departments": "all",
+        "page_number": 1,
+        "contains_PII": false,
+        "sensitivity_types": [],
+        "chunk_id": "aug_059"
+      }
+    },
+    {
+      "page_content": "- Report suspicious emails to security@microgate.it",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\hr_onboarding_guide.md",
+        "source_file": "hr_onboarding_guide.md",
+        "doc_type": "guide",
+        "global_topic": "New employee onboarding procedures and contacts",
+        "clearance_level": 2,
+        "allowed_departments": "all",
+        "page_number": 1,
+        "contains_PII": true,
+        "sensitivity_types": [
+          "email_personal"
+        ],
+        "chunk_id": "aug_060"
+      }
+    },
+    {
+      "page_content": "## 3. Security Awareness\n- Never share your credentials or access badges\n- Lock your workstation when leaving your desk (Win+L)\n- All company data is classified: Public (0), Internal (1), Confidential (2), or Strict (3)",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\hr_onboarding_guide.md",
+        "source_file": "hr_onboarding_guide.md",
+        "doc_type": "guide",
+        "global_topic": "New employee onboarding procedures and contacts",
+        "clearance_level": 0,
+        "allowed_departments": "all",
+        "page_number": 1,
+        "contains_PII": false,
+        "sensitivity_types": [],
+        "chunk_id": "aug_061"
+      }
+    },
+    {
+      "page_content": "- HR Manager: D. Alessandra Fontana — afontana@microgate.it",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\hr_onboarding_guide.md",
+        "source_file": "hr_onboarding_guide.md",
+        "doc_type": "guide",
+        "global_topic": "New employee onboarding procedures and contacts",
+        "clearance_level": 2,
+        "allowed_departments": "all",
+        "page_number": 1,
+        "contains_PII": true,
+        "sensitivity_types": [
+          "email_personal"
+        ],
+        "chunk_id": "aug_062"
+      }
+    },
+    {
+      "page_content": "- HR Manager: D. Alessandra Fontana — afontana@microgate.it",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\hr_onboarding_guide.md",
+        "source_file": "hr_onboarding_guide.md",
+        "doc_type": "guide",
+        "global_topic": "New employee onboarding procedures and contacts",
+        "clearance_level": 2,
+        "allowed_departments": "all",
+        "page_number": 1,
+        "contains_PII": true,
+        "sensitivity_types": [
+          "person_name"
+        ],
+        "chunk_id": "aug_063"
+      }
+    },
+    {
+      "page_content": "- IT Helpdesk: helpdesk@microgate.it — Ext. 4500",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\hr_onboarding_guide.md",
+        "source_file": "hr_onboarding_guide.md",
+        "doc_type": "guide",
+        "global_topic": "New employee onboarding procedures and contacts",
+        "clearance_level": 2,
+        "allowed_departments": "all",
+        "page_number": 1,
+        "contains_PII": true,
+        "sensitivity_types": [
+          "email_personal"
+        ],
+        "chunk_id": "aug_064"
+      }
+    },
+    {
+      "page_content": "- Building Security: security@microgate.it",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\hr_onboarding_guide.md",
+        "source_file": "hr_onboarding_guide.md",
+        "doc_type": "guide",
+        "global_topic": "New employee onboarding procedures and contacts",
+        "clearance_level": 2,
+        "allowed_departments": "all",
+        "page_number": 1,
+        "contains_PII": true,
+        "sensitivity_types": [
+          "email_personal"
+        ],
+        "chunk_id": "aug_065"
+      }
+    },
+    {
+      "page_content": "## 4. Key Contacts\n— Ext. 4100",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\hr_onboarding_guide.md",
+        "source_file": "hr_onboarding_guide.md",
+        "doc_type": "guide",
+        "global_topic": "New employee onboarding procedures and contacts",
+        "clearance_level": 0,
+        "allowed_departments": "all",
+        "page_number": 1,
+        "contains_PII": false,
+        "sensitivity_types": [],
+        "chunk_id": "aug_066"
+      }
+    }
+  ],
+  "hr_salary_bands_2026.txt": [
+    {
+      "page_content": "MICROGATE S.R.L. — SALARY BANDS & COMPENSATION STRUCTURE\nDepartment: Human Resources\nClassification: STRICTLY CONFIDENTIAL — HR MANAGEMENT ONLY",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\hr_salary_bands_2026.txt",
+        "source_file": "hr_salary_bands_2026.txt",
+        "doc_type": "report",
+        "global_topic": "Salary bands and compensation structure for all departments",
+        "clearance_level": 3,
+        "allowed_departments": "hr",
+        "page_number": 1,
+        "contains_PII": false,
+        "sensitivity_types": [],
+        "chunk_id": "aug_067"
+      }
+    },
+    {
+      "page_content": "1. Engineering Department\n   Junior Developer (0-2 yrs): €35,000 - €42,000\n   Mid-Level Developer (2-5 yrs): €42,000 - €55,000\n   Senior Developer (5+ yrs): €55,000 - €72,000\n   Lead/Architect: €72,000 - €90,000",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\hr_salary_bands_2026.txt",
+        "source_file": "hr_salary_bands_2026.txt",
+        "doc_type": "report",
+        "global_topic": "Salary bands and compensation structure for all departments",
+        "clearance_level": 3,
+        "allowed_departments": "hr",
+        "page_number": 1,
+        "contains_PII": false,
+        "sensitivity_types": [],
+        "chunk_id": "aug_068"
+      }
+    },
+    {
+      "page_content": "2. Sales Department\n   Account Executive: €30,000 base + 15% commission\n   Account Manager: €38,000 base + 12% commission\n   Sales Director: €55,000 base + 10% commission + €5,000 annual bonus",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\hr_salary_bands_2026.txt",
+        "source_file": "hr_salary_bands_2026.txt",
+        "doc_type": "report",
+        "global_topic": "Salary bands and compensation structure for all departments",
+        "clearance_level": 3,
+        "allowed_departments": "hr",
+        "page_number": 1,
+        "contains_PII": false,
+        "sensitivity_types": [],
+        "chunk_id": "aug_069"
+      }
+    },
+    {
+      "page_content": "3. Finance Department\n   Financial Analyst: €36,000 - €48,000\n   Senior Accountant: €48,000 - €60,000\n   CFO: €95,000 + performance bonus up to 20%",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\hr_salary_bands_2026.txt",
+        "source_file": "hr_salary_bands_2026.txt",
+        "doc_type": "report",
+        "global_topic": "Salary bands and compensation structure for all departments",
+        "clearance_level": 3,
+        "allowed_departments": "hr",
+        "page_number": 1,
+        "contains_PII": false,
+        "sensitivity_types": [],
+        "chunk_id": "aug_070"
+      }
+    },
+    {
+      "page_content": "   Employer social security contributions: processed via IBAN: IT60 X054 2811 1010 0000 0123 456",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\hr_salary_bands_2026.txt",
+        "source_file": "hr_salary_bands_2026.txt",
+        "doc_type": "report",
+        "global_topic": "Salary bands and compensation structure for all departments",
+        "clearance_level": 3,
+        "allowed_departments": "hr",
+        "page_number": 1,
+        "contains_PII": true,
+        "sensitivity_types": [
+          "iban"
+        ],
+        "chunk_id": "aug_071"
+      }
+    },
+    {
+      "page_content": "4. Current Payroll Summary\n   Total monthly payroll: €187,500 (45 employees)\n   Annual payroll projection: €2,250,000\n   Benefits overhead: 32% of base salary",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\hr_salary_bands_2026.txt",
+        "source_file": "hr_salary_bands_2026.txt",
+        "doc_type": "report",
+        "global_topic": "Salary bands and compensation structure for all departments",
+        "clearance_level": 3,
+        "allowed_departments": "hr",
+        "page_number": 1,
+        "contains_PII": false,
+        "sensitivity_types": [],
+        "chunk_id": "aug_072"
+      }
+    }
+  ],
+  "it_server_logs_march_2026.txt": [
+    {
+      "page_content": "[2026-03-10 08:00:01] INFO: Daily system health check initiated on cluster node-01.",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\it_server_logs_march_2026.txt",
+        "source_file": "it_server_logs_march_2026.txt",
+        "doc_type": "log",
+        "global_topic": "Server infrastructure logs for March 2026 maintenance window",
+        "clearance_level": 2,
+        "allowed_departments": "engineering",
+        "page_number": 1,
+        "contains_PII": false,
+        "sensitivity_types": [],
+        "chunk_id": "aug_073"
+      }
+    },
+    {
+      "page_content": "[2026-03-10 08:00:05] INFO: Database backup completed successfully. Size: 2.4 GB.",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\it_server_logs_march_2026.txt",
+        "source_file": "it_server_logs_march_2026.txt",
+        "doc_type": "log",
+        "global_topic": "Server infrastructure logs for March 2026 maintenance window",
+        "clearance_level": 2,
+        "allowed_departments": "engineering",
+        "page_number": 1,
+        "contains_PII": false,
+        "sensitivity_types": [],
+        "chunk_id": "aug_074"
+      }
+    },
+    {
+      "page_content": "IP 10.0.1.52",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\it_server_logs_march_2026.txt",
+        "source_file": "it_server_logs_march_2026.txt",
+        "doc_type": "log",
+        "global_topic": "Server infrastructure logs for March 2026 maintenance window",
+        "clearance_level": 2,
+        "allowed_departments": "engineering",
+        "page_number": 1,
+        "contains_PII": true,
+        "sensitivity_types": [
+          "ip_address"
+        ],
+        "chunk_id": "aug_075"
+      }
+    },
+    {
+      "page_content": "[2026-03-10 08:15:22] WARNING: Disk usage on /data partition reached 82% on node-02 (\n).",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\it_server_logs_march_2026.txt",
+        "source_file": "it_server_logs_march_2026.txt",
+        "doc_type": "log",
+        "global_topic": "Server infrastructure logs for March 2026 maintenance window",
+        "clearance_level": 2,
+        "allowed_departments": "engineering",
+        "page_number": 1,
+        "contains_PII": false,
+        "sensitivity_types": [],
+        "chunk_id": "aug_076"
+      }
+    },
+    {
+      "page_content": "[2026-03-10 09:30:00] INFO: Scheduled maintenance window opened. Services entering graceful degradation.",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\it_server_logs_march_2026.txt",
+        "source_file": "it_server_logs_march_2026.txt",
+        "doc_type": "log",
+        "global_topic": "Server infrastructure logs for March 2026 maintenance window",
+        "clearance_level": 2,
+        "allowed_departments": "engineering",
+        "page_number": 1,
+        "contains_PII": false,
+        "sensitivity_types": [],
+        "chunk_id": "aug_077"
+      }
+    },
+    {
+      "page_content": "[2026-03-10 09:31:15] INFO: ChromaDB vector store reindexing started. Collection: prod_documents (15,234 vectors).",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\it_server_logs_march_2026.txt",
+        "source_file": "it_server_logs_march_2026.txt",
+        "doc_type": "log",
+        "global_topic": "Server infrastructure logs for March 2026 maintenance window",
+        "clearance_level": 2,
+        "allowed_departments": "engineering",
+        "page_number": 1,
+        "contains_PII": false,
+        "sensitivity_types": [],
+        "chunk_id": "aug_078"
+      }
+    },
+    {
+      "page_content": "[2026-03-10 09:45:00] SUCCESS: Reindexing completed in 13m 45s. No data loss detected.",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\it_server_logs_march_2026.txt",
+        "source_file": "it_server_logs_march_2026.txt",
+        "doc_type": "log",
+        "global_topic": "Server infrastructure logs for March 2026 maintenance window",
+        "clearance_level": 2,
+        "allowed_departments": "engineering",
+        "page_number": 1,
+        "contains_PII": false,
+        "sensitivity_types": [],
+        "chunk_id": "aug_079"
+      }
+    },
+    {
+      "page_content": "[2026-03-10 10:12:33] ERROR: SSL certificate expiry warning for api.microgate.it. Expires: 2026-04-10.",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\it_server_logs_march_2026.txt",
+        "source_file": "it_server_logs_march_2026.txt",
+        "doc_type": "log",
+        "global_topic": "Server infrastructure logs for March 2026 maintenance window",
+        "clearance_level": 2,
+        "allowed_departments": "engineering",
+        "page_number": 1,
+        "contains_PII": false,
+        "sensitivity_types": [],
+        "chunk_id": "aug_080"
+      }
+    },
+    {
+      "page_content": "[2026-03-10 11:00:00] INFO: Automated penetration test initiated from security scanner at 10.0.5.100.",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\it_server_logs_march_2026.txt",
+        "source_file": "it_server_logs_march_2026.txt",
+        "doc_type": "log",
+        "global_topic": "Server infrastructure logs for March 2026 maintenance window",
+        "clearance_level": 2,
+        "allowed_departments": "engineering",
+        "page_number": 1,
+        "contains_PII": false,
+        "sensitivity_types": [],
+        "chunk_id": "aug_081"
+      }
+    },
+    {
+      "page_content": "from IP 203.0.113.42",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\it_server_logs_march_2026.txt",
+        "source_file": "it_server_logs_march_2026.txt",
+        "doc_type": "log",
+        "global_topic": "Server infrastructure logs for March 2026 maintenance window",
+        "clearance_level": 2,
+        "allowed_departments": "engineering",
+        "page_number": 1,
+        "contains_PII": true,
+        "sensitivity_types": [
+          "ip_address"
+        ],
+        "chunk_id": "aug_082"
+      }
+    },
+    {
+      "page_content": "[2026-03-10 11:05:44] WARNING: 3 failed SSH login attempts detected\ntargeting admin@node-01.",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\it_server_logs_march_2026.txt",
+        "source_file": "it_server_logs_march_2026.txt",
+        "doc_type": "log",
+        "global_topic": "Server infrastructure logs for March 2026 maintenance window",
+        "clearance_level": 2,
+        "allowed_departments": "engineering",
+        "page_number": 1,
+        "contains_PII": false,
+        "sensitivity_types": [],
+        "chunk_id": "aug_083"
+      }
+    },
+    {
+      "page_content": "IP 203.0.113.42 added to temporary blocklist (24h).",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\it_server_logs_march_2026.txt",
+        "source_file": "it_server_logs_march_2026.txt",
+        "doc_type": "log",
+        "global_topic": "Server infrastructure logs for March 2026 maintenance window",
+        "clearance_level": 2,
+        "allowed_departments": "engineering",
+        "page_number": 1,
+        "contains_PII": true,
+        "sensitivity_types": [
+          "ip_address"
+        ],
+        "chunk_id": "aug_084"
+      }
+    },
+    {
+      "page_content": "[2026-03-10 11:06:00] INFO:\n[2026-03-10 14:00:00] INFO: Maintenance window closed. All services restored to full capacity.",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\it_server_logs_march_2026.txt",
+        "source_file": "it_server_logs_march_2026.txt",
+        "doc_type": "log",
+        "global_topic": "Server infrastructure logs for March 2026 maintenance window",
+        "clearance_level": 2,
+        "allowed_departments": "engineering",
+        "page_number": 1,
+        "contains_PII": false,
+        "sensitivity_types": [],
+        "chunk_id": "aug_085"
+      }
+    },
+    {
+      "page_content": "[2026-03-10 14:05:12] INFO: Post-maintenance health check: all 12 endpoints responding normally.",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\it_server_logs_march_2026.txt",
+        "source_file": "it_server_logs_march_2026.txt",
+        "doc_type": "log",
+        "global_topic": "Server infrastructure logs for March 2026 maintenance window",
+        "clearance_level": 2,
+        "allowed_departments": "engineering",
+        "page_number": 1,
+        "contains_PII": false,
+        "sensitivity_types": [],
+        "chunk_id": "aug_086"
+      }
+    }
+  ],
+  "it_incident_report_IR2026_003.txt": [
+    {
+      "page_content": "MICROGATE S.R.L. — INCIDENT REPORT IR-2026-003\nDepartment: Engineering / IT Security\nClassification: CONFIDENTIAL\nDate: 2026-03-15",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\it_incident_report_IR2026_003.txt",
+        "source_file": "it_incident_report_IR2026_003.txt",
+        "doc_type": "report",
+        "global_topic": "Security incident report for brute-force attack on API endpoint",
+        "clearance_level": 2,
+        "allowed_departments": "engineering",
+        "page_number": 1,
+        "contains_PII": false,
+        "sensitivity_types": [],
+        "chunk_id": "aug_087"
+      }
+    },
+    {
+      "page_content": "A brute-force attack was detected against the Witty Manager API authentication endpoint. The attacker used a botnet originating from multiple IPs, primarily from IP 185.220.101.34",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\it_incident_report_IR2026_003.txt",
+        "source_file": "it_incident_report_IR2026_003.txt",
+        "doc_type": "report",
+        "global_topic": "Security incident report for brute-force attack on API endpoint",
+        "clearance_level": 2,
+        "allowed_departments": "engineering",
+        "page_number": 1,
+        "contains_PII": true,
+        "sensitivity_types": [
+          "ip_address"
+        ],
+        "chunk_id": "aug_088"
+      }
+    },
+    {
+      "page_content": "A brute-force attack was detected against the Witty Manager API authentication endpoint. The attacker used a botnet originating from multiple IPs, primarily from IP 185.220.101.34 and IP 45.134.26.90",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\it_incident_report_IR2026_003.txt",
+        "source_file": "it_incident_report_IR2026_003.txt",
+        "doc_type": "report",
+        "global_topic": "Security incident report for brute-force attack on API endpoint",
+        "clearance_level": 2,
+        "allowed_departments": "engineering",
+        "page_number": 1,
+        "contains_PII": true,
+        "sensitivity_types": [
+          "ip_address"
+        ],
+        "chunk_id": "aug_089"
+      }
+    },
+    {
+      "page_content": "1. Incident Summary\n.",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\it_incident_report_IR2026_003.txt",
+        "source_file": "it_incident_report_IR2026_003.txt",
+        "doc_type": "report",
+        "global_topic": "Security incident report for brute-force attack on API endpoint",
+        "clearance_level": 2,
+        "allowed_departments": "engineering",
+        "page_number": 1,
+        "contains_PII": false,
+        "sensitivity_types": [],
+        "chunk_id": "aug_090"
+      }
+    },
+    {
+      "page_content": "2. Timeline\n- 14:22 UTC: Anomalous login rate detected (>200 attempts/minute)\n- 14:25 UTC: WAF rate limiting activated, blocking source IPs\n- 14:30 UTC: Security team notified via PagerDuty\n- 14:45 UTC: Manual review confirmed no successful breaches\n- 15:00 UTC: Emergency password rotation initiated for all service accounts\n- 15:10 UTC: New API master password set: 'mg_api_s3cur3_2026!@#'",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\it_incident_report_IR2026_003.txt",
+        "source_file": "it_incident_report_IR2026_003.txt",
+        "doc_type": "report",
+        "global_topic": "Security incident report for brute-force attack on API endpoint",
+        "clearance_level": 2,
+        "allowed_departments": "engineering",
+        "page_number": 1,
+        "contains_PII": false,
+        "sensitivity_types": [],
+        "chunk_id": "aug_091"
+      }
+    },
+    {
+      "page_content": "3. Root Cause\nThe API endpoint /v2/auth/login lacked progressive rate limiting. The WAF caught it but only after 12,000 attempts. No credentials were compromised.",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\it_incident_report_IR2026_003.txt",
+        "source_file": "it_incident_report_IR2026_003.txt",
+        "doc_type": "report",
+        "global_topic": "Security incident report for brute-force attack on API endpoint",
+        "clearance_level": 2,
+        "allowed_departments": "engineering",
+        "page_number": 1,
+        "contains_PII": false,
+        "sensitivity_types": [],
+        "chunk_id": "aug_092"
+      }
+    },
+    {
+      "page_content": "4. Remediation\n- Implemented progressive rate limiting (5/10/30 second delays)\n- Added CAPTCHA challenge after 3 failed attempts\n- Rotated all service account passwords\n- Filed report with Italian CERT (reference: CERT-IT-2026-0342)",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\it_incident_report_IR2026_003.txt",
+        "source_file": "it_incident_report_IR2026_003.txt",
+        "doc_type": "report",
+        "global_topic": "Security incident report for brute-force attack on API endpoint",
+        "clearance_level": 2,
+        "allowed_departments": "engineering",
+        "page_number": 1,
+        "contains_PII": false,
+        "sensitivity_types": [],
+        "chunk_id": "aug_093"
+      }
+    },
+    {
+      "page_content": "D. Luca Moretti",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\it_incident_report_IR2026_003.txt",
+        "source_file": "it_incident_report_IR2026_003.txt",
+        "doc_type": "report",
+        "global_topic": "Security incident report for brute-force attack on API endpoint",
+        "clearance_level": 2,
+        "allowed_departments": "engineering",
+        "page_number": 1,
+        "contains_PII": true,
+        "sensitivity_types": [
+          "person_name"
+        ],
+        "chunk_id": "aug_094"
+      }
+    },
+    {
+      "page_content": "luca.moretti@microgate.it",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\it_incident_report_IR2026_003.txt",
+        "source_file": "it_incident_report_IR2026_003.txt",
+        "doc_type": "report",
+        "global_topic": "Security incident report for brute-force attack on API endpoint",
+        "clearance_level": 2,
+        "allowed_departments": "engineering",
+        "page_number": 1,
+        "contains_PII": true,
+        "sensitivity_types": [
+          "email_personal"
+        ],
+        "chunk_id": "aug_095"
+      }
+    },
+    {
+      "page_content": "5. Responsible Engineer:\n(\n)",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\it_incident_report_IR2026_003.txt",
+        "source_file": "it_incident_report_IR2026_003.txt",
+        "doc_type": "report",
+        "global_topic": "Security incident report for brute-force attack on API endpoint",
+        "clearance_level": 2,
+        "allowed_departments": "engineering",
+        "page_number": 1,
+        "contains_PII": false,
+        "sensitivity_types": [],
+        "chunk_id": "aug_096"
+      }
+    }
+  ],
+  "it_vpn_config_guide.md": [
+    {
+      "page_content": "# Microgate VPN Configuration Guide\n**Version:** 1.2 | **Classification:** Internal | **Department:** Engineering",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\it_vpn_config_guide.md",
+        "source_file": "it_vpn_config_guide.md",
+        "doc_type": "guide",
+        "global_topic": "VPN configuration and network topology documentation",
+        "clearance_level": 1,
+        "allowed_departments": "engineering",
+        "page_number": 1,
+        "contains_PII": false,
+        "sensitivity_types": [],
+        "chunk_id": "aug_097"
+      }
+    },
+    {
+      "page_content": "All remote employees must connect via the corporate WireGuard VPN before accessing internal resources. The VPN gateway is hosted at vpn.microgate.it (IP: 93.184.216.34",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\it_vpn_config_guide.md",
+        "source_file": "it_vpn_config_guide.md",
+        "doc_type": "guide",
+        "global_topic": "VPN configuration and network topology documentation",
+        "clearance_level": 2,
+        "allowed_departments": "engineering",
+        "page_number": 1,
+        "contains_PII": true,
+        "sensitivity_types": [
+          "ip_address"
+        ],
+        "chunk_id": "aug_098"
+      }
+    },
+    {
+      "page_content": "## 1. Overview\n).",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\it_vpn_config_guide.md",
+        "source_file": "it_vpn_config_guide.md",
+        "doc_type": "guide",
+        "global_topic": "VPN configuration and network topology documentation",
+        "clearance_level": 1,
+        "allowed_departments": "engineering",
+        "page_number": 1,
+        "contains_PII": false,
+        "sensitivity_types": [],
+        "chunk_id": "aug_099"
+      }
+    },
+    {
+      "page_content": "## 2. Client Setup\nDownload WireGuard from https://www.wireguard.com/install/. Import the configuration file provided by IT via encrypted email.",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\it_vpn_config_guide.md",
+        "source_file": "it_vpn_config_guide.md",
+        "doc_type": "guide",
+        "global_topic": "VPN configuration and network topology documentation",
+        "clearance_level": 1,
+        "allowed_departments": "engineering",
+        "page_number": 1,
+        "contains_PII": false,
+        "sensitivity_types": [],
+        "chunk_id": "aug_100"
+      }
+    },
+    {
+      "page_content": "## 3. Network Topology\n- Production subnet: 10.0.1.0/24\n- Development subnet: 10.0.2.0/24\n- Database cluster: 10.0.1.50 - 10.0.1.55\n- ChromaDB instance: 10.0.1.60",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\it_vpn_config_guide.md",
+        "source_file": "it_vpn_config_guide.md",
+        "doc_type": "guide",
+        "global_topic": "VPN configuration and network topology documentation",
+        "clearance_level": 1,
+        "allowed_departments": "engineering",
+        "page_number": 1,
+        "contains_PII": false,
+        "sensitivity_types": [],
+        "chunk_id": "aug_101"
+      }
+    },
+    {
+      "page_content": "3. Contact helpdesk@microgate.it",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\it_vpn_config_guide.md",
+        "source_file": "it_vpn_config_guide.md",
+        "doc_type": "guide",
+        "global_topic": "VPN configuration and network topology documentation",
+        "clearance_level": 2,
+        "allowed_departments": "engineering",
+        "page_number": 1,
+        "contains_PII": true,
+        "sensitivity_types": [
+          "email_personal"
+        ],
+        "chunk_id": "aug_102"
+      }
+    },
+    {
+      "page_content": "## 4. Troubleshooting\nIf connection fails:\n1. Verify your public key is registered with the VPN gateway\n2. Check that UDP port 51820 is not blocked by your firewall\nwith your WireGuard client logs",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\it_vpn_config_guide.md",
+        "source_file": "it_vpn_config_guide.md",
+        "doc_type": "guide",
+        "global_topic": "VPN configuration and network topology documentation",
+        "clearance_level": 1,
+        "allowed_departments": "engineering",
+        "page_number": 1,
+        "contains_PII": false,
+        "sensitivity_types": [],
+        "chunk_id": "aug_103"
+      }
+    },
+    {
+      "page_content": "## 5. Security Notes\n- VPN sessions auto-expire after 12 hours of inactivity\n- Split tunneling is disabled; all traffic routes through the VPN\n- Access logs are retained for 90 days for audit purposes",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\it_vpn_config_guide.md",
+        "source_file": "it_vpn_config_guide.md",
+        "doc_type": "guide",
+        "global_topic": "VPN configuration and network topology documentation",
+        "clearance_level": 1,
+        "allowed_departments": "engineering",
+        "page_number": 1,
+        "contains_PII": false,
+        "sensitivity_types": [],
+        "chunk_id": "aug_104"
+      }
+    }
+  ],
+  "contract_federacion_atletismo.txt": [
+    {
+      "page_content": "CONTRATO DE SUMINISTRO — MICROGATE S.R.L.\nReferencia: CTR-2026-FED-002\nFecha: 15 de febrero de 2026",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\contract_federacion_atletismo.txt",
+        "source_file": "contract_federacion_atletismo.txt",
+        "doc_type": "contract",
+        "global_topic": "Supply contract with Spanish Athletics Federation for Witty Timers",
+        "clearance_level": 2,
+        "allowed_departments": "legal",
+        "page_number": 1,
+        "contains_PII": false,
+        "sensitivity_types": [],
+        "chunk_id": "aug_105"
+      }
+    },
+    {
+      "page_content": "De una parte, Microgate S.R.L., con domicilio en Via Waltraud Gebert Deeg, 3e, Bolzano, Italia, representada por D. Giovanni Alberti (CEO), en adelante \"EL PROVEEDOR\".",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\contract_federacion_atletismo.txt",
+        "source_file": "contract_federacion_atletismo.txt",
+        "doc_type": "contract",
+        "global_topic": "Supply contract with Spanish Athletics Federation for Witty Timers",
+        "clearance_level": 2,
+        "allowed_departments": "legal",
+        "page_number": 1,
+        "contains_PII": true,
+        "sensitivity_types": [
+          "person_name"
+        ],
+        "chunk_id": "aug_106"
+      }
+    },
+    {
+      "page_content": "De otra parte, Federación de Atletismo de España, con domicilio en Madrid, representada por D. Marcos Ruiz",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\contract_federacion_atletismo.txt",
+        "source_file": "contract_federacion_atletismo.txt",
+        "doc_type": "contract",
+        "global_topic": "Supply contract with Spanish Athletics Federation for Witty Timers",
+        "clearance_level": 2,
+        "allowed_departments": "legal",
+        "page_number": 1,
+        "contains_PII": true,
+        "sensitivity_types": [
+          "person_name"
+        ],
+        "chunk_id": "aug_107"
+      }
+    },
+    {
+      "page_content": "REUNIDOS\n, en adelante \"EL CLIENTE\".",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\contract_federacion_atletismo.txt",
+        "source_file": "contract_federacion_atletismo.txt",
+        "doc_type": "contract",
+        "global_topic": "Supply contract with Spanish Athletics Federation for Witty Timers",
+        "clearance_level": 2,
+        "allowed_departments": "legal",
+        "page_number": 1,
+        "contains_PII": false,
+        "sensitivity_types": [],
+        "chunk_id": "aug_108"
+      }
+    },
+    {
+      "page_content": "CLÁUSULAS\nPRIMERA: Objeto del Contrato\nEL PROVEEDOR suministrará 50 unidades del producto Witty Wireless Training Timer (kit completo) para equipar los centros de entrenamiento de la federación a nivel nacional.",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\contract_federacion_atletismo.txt",
+        "source_file": "contract_federacion_atletismo.txt",
+        "doc_type": "contract",
+        "global_topic": "Supply contract with Spanish Athletics Federation for Witty Timers",
+        "clearance_level": 2,
+        "allowed_departments": "legal",
+        "page_number": 1,
+        "contains_PII": false,
+        "sensitivity_types": [],
+        "chunk_id": "aug_109"
+      }
+    },
+    {
+      "page_content": "El precio unitario acordado es de €780",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\contract_federacion_atletismo.txt",
+        "source_file": "contract_federacion_atletismo.txt",
+        "doc_type": "contract",
+        "global_topic": "Supply contract with Spanish Athletics Federation for Witty Timers",
+        "clearance_level": 2,
+        "allowed_departments": "legal",
+        "page_number": 1,
+        "contains_PII": true,
+        "sensitivity_types": [
+          "monetary_confidential"
+        ],
+        "chunk_id": "aug_110"
+      }
+    },
+    {
+      "page_content": "SEGUNDA: Precio y Condiciones\nnetos por kit completo (descuento del 8.2% sobre tarifa estándar). Importe total del contrato: €39,000.",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\contract_federacion_atletismo.txt",
+        "source_file": "contract_federacion_atletismo.txt",
+        "doc_type": "contract",
+        "global_topic": "Supply contract with Spanish Athletics Federation for Witty Timers",
+        "clearance_level": 2,
+        "allowed_departments": "legal",
+        "page_number": 1,
+        "contains_PII": false,
+        "sensitivity_types": [],
+        "chunk_id": "aug_111"
+      }
+    },
+    {
+      "page_content": "El pago se realizará en dos plazos: 50% a la firma del contrato y 50% a la entrega. Transferencia bancaria al IBAN: IT60 X054 2811 1010 0000 0123 456 S",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\contract_federacion_atletismo.txt",
+        "source_file": "contract_federacion_atletismo.txt",
+        "doc_type": "contract",
+        "global_topic": "Supply contract with Spanish Athletics Federation for Witty Timers",
+        "clearance_level": 3,
+        "allowed_departments": "legal",
+        "page_number": 1,
+        "contains_PII": true,
+        "sensitivity_types": [
+          "iban"
+        ],
+        "chunk_id": "aug_112"
+      }
+    },
+    {
+      "page_content": "El pago se realizará en dos plazos: 50% a la firma del contrato y 50% a la entrega. Transferencia bancaria al IBAN: IT60 X054 2811 1010 0000 0123 456 SWIFT: BCITITMM",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\contract_federacion_atletismo.txt",
+        "source_file": "contract_federacion_atletismo.txt",
+        "doc_type": "contract",
+        "global_topic": "Supply contract with Spanish Athletics Federation for Witty Timers",
+        "clearance_level": 3,
+        "allowed_departments": "legal",
+        "page_number": 1,
+        "contains_PII": true,
+        "sensitivity_types": [
+          "swift"
+        ],
+        "chunk_id": "aug_113"
+      }
+    },
+    {
+      "page_content": "TERCERA: Condiciones de Pago\n.",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\contract_federacion_atletismo.txt",
+        "source_file": "contract_federacion_atletismo.txt",
+        "doc_type": "contract",
+        "global_topic": "Supply contract with Spanish Athletics Federation for Witty Timers",
+        "clearance_level": 2,
+        "allowed_departments": "legal",
+        "page_number": 1,
+        "contains_PII": false,
+        "sensitivity_types": [],
+        "chunk_id": "aug_114"
+      }
+    },
+    {
+      "page_content": "CUARTA: Plazo de Entrega\nLa entrega se efectuará en un plazo máximo de 45 días naturales desde la firma.",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\contract_federacion_atletismo.txt",
+        "source_file": "contract_federacion_atletismo.txt",
+        "doc_type": "contract",
+        "global_topic": "Supply contract with Spanish Athletics Federation for Witty Timers",
+        "clearance_level": 2,
+        "allowed_departments": "legal",
+        "page_number": 1,
+        "contains_PII": false,
+        "sensitivity_types": [],
+        "chunk_id": "aug_115"
+      }
+    },
+    {
+      "page_content": "QUINTA: Garantía\nEL PROVEEDOR ofrece garantía de 24 meses sobre defectos de fabricación.",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\contract_federacion_atletismo.txt",
+        "source_file": "contract_federacion_atletismo.txt",
+        "doc_type": "contract",
+        "global_topic": "Supply contract with Spanish Athletics Federation for Witty Timers",
+        "clearance_level": 2,
+        "allowed_departments": "legal",
+        "page_number": 1,
+        "contains_PII": false,
+        "sensitivity_types": [],
+        "chunk_id": "aug_116"
+      }
+    }
+  ],
+  "contract_universidad_deporte.txt": [
+    {
+      "page_content": "ACUERDO DE COLABORACIÓN ACADÉMICA — MICROGATE S.R.L.\nReferencia: CTR-2026-UNI-003\nFecha: 1 de marzo de 2026",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\contract_universidad_deporte.txt",
+        "source_file": "contract_universidad_deporte.txt",
+        "doc_type": "contract",
+        "global_topic": "Academic collaboration agreement with Universidad del Deporte",
+        "clearance_level": 2,
+        "allowed_departments": "legal",
+        "page_number": 1,
+        "contains_PII": false,
+        "sensitivity_types": [],
+        "chunk_id": "aug_117"
+      }
+    },
+    {
+      "page_content": "De una parte, Microgate S.R.L., representada por D. Giovanni Alberti.",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\contract_universidad_deporte.txt",
+        "source_file": "contract_universidad_deporte.txt",
+        "doc_type": "contract",
+        "global_topic": "Academic collaboration agreement with Universidad del Deporte",
+        "clearance_level": 2,
+        "allowed_departments": "legal",
+        "page_number": 1,
+        "contains_PII": true,
+        "sensitivity_types": [
+          "person_name"
+        ],
+        "chunk_id": "aug_118"
+      }
+    },
+    {
+      "page_content": "De otra parte, Universidad del Deporte, representada por Dra. Elena Torres",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\contract_universidad_deporte.txt",
+        "source_file": "contract_universidad_deporte.txt",
+        "doc_type": "contract",
+        "global_topic": "Academic collaboration agreement with Universidad del Deporte",
+        "clearance_level": 2,
+        "allowed_departments": "legal",
+        "page_number": 1,
+        "contains_PII": true,
+        "sensitivity_types": [
+          "person_name"
+        ],
+        "chunk_id": "aug_119"
+      }
+    },
+    {
+      "page_content": "REUNIDOS\n, Directora del Departamento de Ciencias del Movimiento.",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\contract_universidad_deporte.txt",
+        "source_file": "contract_universidad_deporte.txt",
+        "doc_type": "contract",
+        "global_topic": "Academic collaboration agreement with Universidad del Deporte",
+        "clearance_level": 2,
+        "allowed_departments": "legal",
+        "page_number": 1,
+        "contains_PII": false,
+        "sensitivity_types": [],
+        "chunk_id": "aug_120"
+      }
+    },
+    {
+      "page_content": "CLÁUSULAS\nPRIMERA: Objeto\nColaboración académica para la investigación en biomecánica deportiva utilizando el sistema Witty Timer como herramienta de medición. La universidad recibirá 10 kits Witty Timer en régimen de cesión temporal (3 años).",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\contract_universidad_deporte.txt",
+        "source_file": "contract_universidad_deporte.txt",
+        "doc_type": "contract",
+        "global_topic": "Academic collaboration agreement with Universidad del Deporte",
+        "clearance_level": 2,
+        "allowed_departments": "legal",
+        "page_number": 1,
+        "contains_PII": false,
+        "sensitivity_types": [],
+        "chunk_id": "aug_121"
+      }
+    },
+    {
+      "page_content": "SEGUNDA: Contraprestaciones\nLa universidad publicará los resultados de investigación citando a Microgate como proveedor tecnológico. Microgate tendrá acceso preferente a los datos de rendimiento (anonimizados) generados durante los estudios.",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\contract_universidad_deporte.txt",
+        "source_file": "contract_universidad_deporte.txt",
+        "doc_type": "contract",
+        "global_topic": "Academic collaboration agreement with Universidad del Deporte",
+        "clearance_level": 2,
+        "allowed_departments": "legal",
+        "page_number": 1,
+        "contains_PII": false,
+        "sensitivity_types": [],
+        "chunk_id": "aug_122"
+      }
+    },
+    {
+      "page_content": "TERCERA: Confidencialidad\nAmbas partes se comprometen a no revelar los términos económicos del acuerdo. Coste de cesión: €0 (valoración de mercado: €8,500 por kit).",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\contract_universidad_deporte.txt",
+        "source_file": "contract_universidad_deporte.txt",
+        "doc_type": "contract",
+        "global_topic": "Academic collaboration agreement with Universidad del Deporte",
+        "clearance_level": 2,
+        "allowed_departments": "legal",
+        "page_number": 1,
+        "contains_PII": false,
+        "sensitivity_types": [],
+        "chunk_id": "aug_123"
+      }
+    },
+    {
+      "page_content": "Contacto Administrativo\nUniversidad: Dra. Elena Torres — etorres@unideporte.edu — Tel: +34 912 345 678",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\contract_universidad_deporte.txt",
+        "source_file": "contract_universidad_deporte.txt",
+        "doc_type": "contract",
+        "global_topic": "Academic collaboration agreement with Universidad del Deporte",
+        "clearance_level": 2,
+        "allowed_departments": "legal",
+        "page_number": 1,
+        "contains_PII": true,
+        "sensitivity_types": [
+          "person_name"
+        ],
+        "chunk_id": "aug_124"
+      }
+    },
+    {
+      "page_content": "Universidad: Dra. Elena Torres — etorres@unideporte.edu — Tel: +34 912 345 678",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\contract_universidad_deporte.txt",
+        "source_file": "contract_universidad_deporte.txt",
+        "doc_type": "contract",
+        "global_topic": "Academic collaboration agreement with Universidad del Deporte",
+        "clearance_level": 2,
+        "allowed_departments": "legal",
+        "page_number": 1,
+        "contains_PII": true,
+        "sensitivity_types": [
+          "email_personal"
+        ],
+        "chunk_id": "aug_125"
+      }
+    },
+    {
+      "page_content": "Universidad: Dra. Elena Torres — etorres@unideporte.edu — Tel: +34 912 345 678",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\contract_universidad_deporte.txt",
+        "source_file": "contract_universidad_deporte.txt",
+        "doc_type": "contract",
+        "global_topic": "Academic collaboration agreement with Universidad del Deporte",
+        "clearance_level": 2,
+        "allowed_departments": "legal",
+        "page_number": 1,
+        "contains_PII": true,
+        "sensitivity_types": [
+          "person_name"
+        ],
+        "chunk_id": "aug_126"
+      }
+    },
+    {
+      "page_content": "Microgate: D. Isabella Romano — isabella.romano@microgate.it",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\contract_universidad_deporte.txt",
+        "source_file": "contract_universidad_deporte.txt",
+        "doc_type": "contract",
+        "global_topic": "Academic collaboration agreement with Universidad del Deporte",
+        "clearance_level": 2,
+        "allowed_departments": "legal",
+        "page_number": 1,
+        "contains_PII": true,
+        "sensitivity_types": [
+          "email_personal"
+        ],
+        "chunk_id": "aug_127"
+      }
+    },
+    {
+      "page_content": "Microgate: D. Isabella Romano",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\contract_universidad_deporte.txt",
+        "source_file": "contract_universidad_deporte.txt",
+        "doc_type": "contract",
+        "global_topic": "Academic collaboration agreement with Universidad del Deporte",
+        "clearance_level": 2,
+        "allowed_departments": "legal",
+        "page_number": 1,
+        "contains_PII": true,
+        "sensitivity_types": [
+          "person_name"
+        ],
+        "chunk_id": "aug_128"
+      }
+    },
+    {
+      "page_content": "CUARTA:",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\contract_universidad_deporte.txt",
+        "source_file": "contract_universidad_deporte.txt",
+        "doc_type": "contract",
+        "global_topic": "Academic collaboration agreement with Universidad del Deporte",
+        "clearance_level": 2,
+        "allowed_departments": "legal",
+        "page_number": 1,
+        "contains_PII": false,
+        "sensitivity_types": [],
+        "chunk_id": "aug_129"
+      }
+    }
+  ],
+  "contract_fitplus_maintenance.txt": [
+    {
+      "page_content": "SERVICE LEVEL AGREEMENT (SLA) — MICROGATE S.R.L.\nReference: SLA-2026-FIT-004\nDate: March 20, 2026",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\contract_fitplus_maintenance.txt",
+        "source_file": "contract_fitplus_maintenance.txt",
+        "doc_type": "contract",
+        "global_topic": "Service level agreement with FitPlus gyms for Witty Timer maintenance",
+        "clearance_level": 2,
+        "allowed_departments": "sales",
+        "page_number": 1,
+        "contains_PII": false,
+        "sensitivity_types": [],
+        "chunk_id": "aug_130"
+      }
+    },
+    {
+      "page_content": "Client Contact: D. David Silva — dsilva@fitplus.com",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\contract_fitplus_maintenance.txt",
+        "source_file": "contract_fitplus_maintenance.txt",
+        "doc_type": "contract",
+        "global_topic": "Service level agreement with FitPlus gyms for Witty Timer maintenance",
+        "clearance_level": 2,
+        "allowed_departments": "sales",
+        "page_number": 1,
+        "contains_PII": true,
+        "sensitivity_types": [
+          "email_personal"
+        ],
+        "chunk_id": "aug_131"
+      }
+    },
+    {
+      "page_content": "Client Contact: D. David Silva — dsilva@fitplus.com — CLI-004",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\contract_fitplus_maintenance.txt",
+        "source_file": "contract_fitplus_maintenance.txt",
+        "doc_type": "contract",
+        "global_topic": "Service level agreement with FitPlus gyms for Witty Timer maintenance",
+        "clearance_level": 2,
+        "allowed_departments": "sales",
+        "page_number": 1,
+        "contains_PII": true,
+        "sensitivity_types": [
+          "client_id"
+        ],
+        "chunk_id": "aug_132"
+      }
+    },
+    {
+      "page_content": "Client Contact: D. David Silva",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\contract_fitplus_maintenance.txt",
+        "source_file": "contract_fitplus_maintenance.txt",
+        "doc_type": "contract",
+        "global_topic": "Service level agreement with FitPlus gyms for Witty Timer maintenance",
+        "clearance_level": 2,
+        "allowed_departments": "sales",
+        "page_number": 1,
+        "contains_PII": true,
+        "sensitivity_types": [
+          "person_name"
+        ],
+        "chunk_id": "aug_133"
+      }
+    },
+    {
+      "page_content": "PARTIES\nProvider: Microgate S.R.L., Bolzano, Italy\nClient: Gimnasios FitPlus S.L., Madrid, Spain",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\contract_fitplus_maintenance.txt",
+        "source_file": "contract_fitplus_maintenance.txt",
+        "doc_type": "contract",
+        "global_topic": "Service level agreement with FitPlus gyms for Witty Timer maintenance",
+        "clearance_level": 2,
+        "allowed_departments": "sales",
+        "page_number": 1,
+        "contains_PII": false,
+        "sensitivity_types": [],
+        "chunk_id": "aug_134"
+      }
+    },
+    {
+      "page_content": "1. Scope of Service\nAnnual maintenance and calibration service for 5 Witty Timer units deployed across FitPlus gym locations in Madrid, Barcelona, and Valencia.",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\contract_fitplus_maintenance.txt",
+        "source_file": "contract_fitplus_maintenance.txt",
+        "doc_type": "contract",
+        "global_topic": "Service level agreement with FitPlus gyms for Witty Timer maintenance",
+        "clearance_level": 2,
+        "allowed_departments": "sales",
+        "page_number": 1,
+        "contains_PII": false,
+        "sensitivity_types": [],
+        "chunk_id": "aug_135"
+      }
+    },
+    {
+      "page_content": "2. Service Terms\n- Quarterly on-site calibration visits\n- 48-hour response time for critical hardware failures\n- Remote software support via Witty Manager (Mon-Fri, 9:00-18:00 CET)\n- Firmware updates included",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\contract_fitplus_maintenance.txt",
+        "source_file": "contract_fitplus_maintenance.txt",
+        "doc_type": "contract",
+        "global_topic": "Service level agreement with FitPlus gyms for Witty Timer maintenance",
+        "clearance_level": 2,
+        "allowed_departments": "sales",
+        "page_number": 1,
+        "contains_PII": false,
+        "sensitivity_types": [],
+        "chunk_id": "aug_136"
+      }
+    },
+    {
+      "page_content": "Bank transfer to: IBAN: IT60 X054 2811 1010 0000 0123 456",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\contract_fitplus_maintenance.txt",
+        "source_file": "contract_fitplus_maintenance.txt",
+        "doc_type": "contract",
+        "global_topic": "Service level agreement with FitPlus gyms for Witty Timer maintenance",
+        "clearance_level": 3,
+        "allowed_departments": "sales",
+        "page_number": 1,
+        "contains_PII": true,
+        "sensitivity_types": [
+          "iban"
+        ],
+        "chunk_id": "aug_137"
+      }
+    },
+    {
+      "page_content": "3. Pricing\nAnnual service fee: €1,150 (Basic tier)\nPayment terms: Annual invoice, due within 30 days",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\contract_fitplus_maintenance.txt",
+        "source_file": "contract_fitplus_maintenance.txt",
+        "doc_type": "contract",
+        "global_topic": "Service level agreement with FitPlus gyms for Witty Timer maintenance",
+        "clearance_level": 2,
+        "allowed_departments": "sales",
+        "page_number": 1,
+        "contains_PII": false,
+        "sensitivity_types": [],
+        "chunk_id": "aug_138"
+      }
+    },
+    {
+      "page_content": "4. Penalties\nFailure to meet 48-hour response SLA: 5% discount on next annual fee per incident.",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\contract_fitplus_maintenance.txt",
+        "source_file": "contract_fitplus_maintenance.txt",
+        "doc_type": "contract",
+        "global_topic": "Service level agreement with FitPlus gyms for Witty Timer maintenance",
+        "clearance_level": 2,
+        "allowed_departments": "sales",
+        "page_number": 1,
+        "contains_PII": false,
+        "sensitivity_types": [],
+        "chunk_id": "aug_139"
+      }
+    },
+    {
+      "page_content": "5. Duration\nThis SLA is valid from April 1, 2026 to March 31, 2027, with automatic renewal.",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\contract_fitplus_maintenance.txt",
+        "source_file": "contract_fitplus_maintenance.txt",
+        "doc_type": "contract",
+        "global_topic": "Service level agreement with FitPlus gyms for Witty Timer maintenance",
+        "clearance_level": 2,
+        "allowed_departments": "sales",
+        "page_number": 1,
+        "contains_PII": false,
+        "sensitivity_types": [],
+        "chunk_id": "aug_140"
+      }
+    }
+  ],
+  "product_witty_timer_specs.md": [
+    {
+      "page_content": "# Witty Wireless Training Timer — Technical Specifications\n**Product Code:** WTT-2026 | **Version:** 4.0",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\product_witty_timer_specs.md",
+        "source_file": "product_witty_timer_specs.md",
+        "doc_type": "manual",
+        "global_topic": "Witty Timer technical specifications and hardware details",
+        "clearance_level": 0,
+        "allowed_departments": "all",
+        "page_number": 1,
+        "contains_PII": false,
+        "sensitivity_types": [],
+        "chunk_id": "aug_141"
+      }
+    },
+    {
+      "page_content": "## Physical Characteristics\n- Timer Unit: 145 x 95 x 35 mm, 280g\n- Photocell: 120 x 80 x 45 mm, 195g (each)\n- Operating temperature: -10°C to +50°C\n- Water resistance: IP65",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\product_witty_timer_specs.md",
+        "source_file": "product_witty_timer_specs.md",
+        "doc_type": "manual",
+        "global_topic": "Witty Timer technical specifications and hardware details",
+        "clearance_level": 0,
+        "allowed_departments": "all",
+        "page_number": 1,
+        "contains_PII": false,
+        "sensitivity_types": [],
+        "chunk_id": "aug_142"
+      }
+    },
+    {
+      "page_content": "## Wireless Communication\n- Protocol: Proprietary 2.4 GHz (Microgate MG-Link)\n- Range: up to 150 meters line-of-sight\n- Latency: < 1ms (timing accuracy: ±0.001s)\n- Channels: 16 selectable (multi-lane support)",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\product_witty_timer_specs.md",
+        "source_file": "product_witty_timer_specs.md",
+        "doc_type": "manual",
+        "global_topic": "Witty Timer technical specifications and hardware details",
+        "clearance_level": 0,
+        "allowed_departments": "all",
+        "page_number": 1,
+        "contains_PII": false,
+        "sensitivity_types": [],
+        "chunk_id": "aug_143"
+      }
+    },
+    {
+      "page_content": "## Battery\n- Timer: 3,200 mAh Li-Ion, up to 40 hours continuous use\n- Photocell: 2,400 mAh Li-Ion, up to 30 hours continuous use\n- Charging: USB-C, 2.5 hours full charge (both devices)",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\product_witty_timer_specs.md",
+        "source_file": "product_witty_timer_specs.md",
+        "doc_type": "manual",
+        "global_topic": "Witty Timer technical specifications and hardware details",
+        "clearance_level": 0,
+        "allowed_departments": "all",
+        "page_number": 1,
+        "contains_PII": false,
+        "sensitivity_types": [],
+        "chunk_id": "aug_144"
+      }
+    },
+    {
+      "page_content": "## Software Compatibility\n- Witty Manager Desktop: Windows 10/11, macOS 12+\n- Witty Manager Mobile: iOS 15+, Android 12+\n- API: REST API available for integration (documentation at docs.microgate.it)",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\product_witty_timer_specs.md",
+        "source_file": "product_witty_timer_specs.md",
+        "doc_type": "manual",
+        "global_topic": "Witty Timer technical specifications and hardware details",
+        "clearance_level": 0,
+        "allowed_departments": "all",
+        "page_number": 1,
+        "contains_PII": false,
+        "sensitivity_types": [],
+        "chunk_id": "aug_145"
+      }
+    }
+  ],
+  "product_photocell_alignment.md": [
+    {
+      "page_content": "# Photocell Alignment & Calibration Guide\n**Applicable to:** Witty Photocell v3.x and v4.x",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\product_photocell_alignment.md",
+        "source_file": "product_photocell_alignment.md",
+        "doc_type": "manual",
+        "global_topic": "Photocell alignment, calibration, and multi-gate configuration",
+        "clearance_level": 0,
+        "allowed_departments": "all",
+        "page_number": 1,
+        "contains_PII": false,
+        "sensitivity_types": [],
+        "chunk_id": "aug_146"
+      }
+    },
+    {
+      "page_content": "## 1. Initial Setup\nMount the photocell on the telescopic tripod at a height between 80cm and 120cm. Position the reflector directly opposite at the same height, with a clear line of sight.",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\product_photocell_alignment.md",
+        "source_file": "product_photocell_alignment.md",
+        "doc_type": "manual",
+        "global_topic": "Photocell alignment, calibration, and multi-gate configuration",
+        "clearance_level": 0,
+        "allowed_departments": "all",
+        "page_number": 1,
+        "contains_PII": false,
+        "sensitivity_types": [],
+        "chunk_id": "aug_147"
+      }
+    },
+    {
+      "page_content": "## 2. Alignment Procedure\n1. Power on the photocell by pressing the ON button for 1 second\n2. The status LED will blink green (battery OK) or orange (battery low)\n3. Rotate the photocell slowly until the continuous beep stops — this indicates correct alignment\n4. Lock the tripod head to fix the position",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\product_photocell_alignment.md",
+        "source_file": "product_photocell_alignment.md",
+        "doc_type": "manual",
+        "global_topic": "Photocell alignment, calibration, and multi-gate configuration",
+        "clearance_level": 0,
+        "allowed_departments": "all",
+        "page_number": 1,
+        "contains_PII": false,
+        "sensitivity_types": [],
+        "chunk_id": "aug_148"
+      }
+    },
+    {
+      "page_content": "## 3. Calibration Verification\nRun a test pass through the photocell beam. The timer should register a split time. If no time is recorded:\n- Check reflector angle (must be perpendicular to beam)\n- Clean the photocell lens with the included microfiber cloth\n- Verify that the timer and photocell are on the same channel (Settings > Wireless > Channel)",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\product_photocell_alignment.md",
+        "source_file": "product_photocell_alignment.md",
+        "doc_type": "manual",
+        "global_topic": "Photocell alignment, calibration, and multi-gate configuration",
+        "clearance_level": 0,
+        "allowed_departments": "all",
+        "page_number": 1,
+        "contains_PII": false,
+        "sensitivity_types": [],
+        "chunk_id": "aug_149"
+      }
+    },
+    {
+      "page_content": "## 4. Multi-Gate Configuration\nFor training courses with multiple gates (e.g., agility drills):\n- Maximum 8 photocell pairs per timer\n- Assign sequential gate numbers (Gate 1, Gate 2, etc.)\n- Minimum distance between gates: 2 meters\n- The timer automatically computes split times and total elapsed time",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\product_photocell_alignment.md",
+        "source_file": "product_photocell_alignment.md",
+        "doc_type": "manual",
+        "global_topic": "Photocell alignment, calibration, and multi-gate configuration",
+        "clearance_level": 0,
+        "allowed_departments": "all",
+        "page_number": 1,
+        "contains_PII": false,
+        "sensitivity_types": [],
+        "chunk_id": "aug_150"
+      }
+    },
+    {
+      "page_content": "## 5. Troubleshooting\n| Symptom | Cause | Solution |\n|---------|-------|----------|\n| No beep during alignment | Reflector misaligned | Adjust angle by ±5° |\n| Intermittent timing | Obstruction in beam path | Clear debris/moisture |\n| Short battery life | Firmware outdated | Update via Witty Manager |",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\product_photocell_alignment.md",
+        "source_file": "product_photocell_alignment.md",
+        "doc_type": "manual",
+        "global_topic": "Photocell alignment, calibration, and multi-gate configuration",
+        "clearance_level": 0,
+        "allowed_departments": "all",
+        "page_number": 1,
+        "contains_PII": false,
+        "sensitivity_types": [],
+        "chunk_id": "aug_151"
+      }
+    }
+  ],
+  "product_release_notes_v4.txt": [
+    {
+      "page_content": "WITTY MANAGER SOFTWARE — RELEASE NOTES v4.2.0\nRelease Date: March 2026\nNEW FEATURES:\n- Multi-athlete tracking: Support for up to 32 athletes in a single session\n- Cloud sync: Optional synchronization with Microgate Cloud (requires subscription)\n- Export to CSV/PDF: One-click export of training session data\n- Dark mode: Available in Settings > Appearance",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\product_release_notes_v4.txt",
+        "source_file": "product_release_notes_v4.txt",
+        "doc_type": "changelog",
+        "global_topic": "Witty Manager software v4.2.0 release notes and bug fixes",
+        "clearance_level": 0,
+        "allowed_departments": "all",
+        "page_number": 1,
+        "contains_PII": false,
+        "sensitivity_types": [],
+        "chunk_id": "aug_152"
+      }
+    },
+    {
+      "page_content": "BUG FIXES:\n- Fixed issue where split times > 99.999s would overflow the display\n- Resolved Bluetooth connectivity drops on Windows 11 23H2\n- Corrected unit conversion error in km/h display (was showing m/s * 3.5 instead of * 3.6)",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\product_release_notes_v4.txt",
+        "source_file": "product_release_notes_v4.txt",
+        "doc_type": "changelog",
+        "global_topic": "Witty Manager software v4.2.0 release notes and bug fixes",
+        "clearance_level": 0,
+        "allowed_departments": "all",
+        "page_number": 1,
+        "contains_PII": false,
+        "sensitivity_types": [],
+        "chunk_id": "aug_153"
+      }
+    },
+    {
+      "page_content": "KNOWN ISSUES:\n- macOS Sonoma: Occasional USB detection delay (workaround: reconnect cable)\n- Android 14: Notification permissions must be manually granted after install",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\product_release_notes_v4.txt",
+        "source_file": "product_release_notes_v4.txt",
+        "doc_type": "changelog",
+        "global_topic": "Witty Manager software v4.2.0 release notes and bug fixes",
+        "clearance_level": 0,
+        "allowed_departments": "all",
+        "page_number": 1,
+        "contains_PII": false,
+        "sensitivity_types": [],
+        "chunk_id": "aug_154"
+      }
+    },
+    {
+      "page_content": "SYSTEM REQUIREMENTS:\n- Windows 10/11 (64-bit), macOS 12+, iOS 15+, Android 12+\n- 200 MB disk space, 4 GB RAM minimum\n- Bluetooth 4.0+ for wireless connection\n- USB-C port for wired connection and charging",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\product_release_notes_v4.txt",
+        "source_file": "product_release_notes_v4.txt",
+        "doc_type": "changelog",
+        "global_topic": "Witty Manager software v4.2.0 release notes and bug fixes",
+        "clearance_level": 0,
+        "allowed_departments": "all",
+        "page_number": 1,
+        "contains_PII": false,
+        "sensitivity_types": [],
+        "chunk_id": "aug_155"
+      }
+    }
+  ],
+  "memo_q2_sales_targets.txt": [
+    {
+      "page_content": "From: D. Isabella Romano, Sales Director",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\memo_q2_sales_targets.txt",
+        "source_file": "memo_q2_sales_targets.txt",
+        "doc_type": "memo",
+        "global_topic": "Internal sales targets and key account strategy for Q2 2026",
+        "clearance_level": 2,
+        "allowed_departments": "sales",
+        "page_number": 1,
+        "contains_PII": true,
+        "sensitivity_types": [
+          "person_name"
+        ],
+        "chunk_id": "aug_156"
+      }
+    },
+    {
+      "page_content": "INTERNAL MEMO — SALES TARGETS Q2 2026\nTo: Sales Team\nDate: April 1, 2026\nClassification: INTERNAL",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\memo_q2_sales_targets.txt",
+        "source_file": "memo_q2_sales_targets.txt",
+        "doc_type": "memo",
+        "global_topic": "Internal sales targets and key account strategy for Q2 2026",
+        "clearance_level": 1,
+        "allowed_departments": "sales",
+        "page_number": 1,
+        "contains_PII": false,
+        "sensitivity_types": [],
+        "chunk_id": "aug_157"
+      }
+    },
+    {
+      "page_content": "Team,\nFollowing our strong Q1 performance (€5.1M total revenue), management has set the following targets for Q2:",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\memo_q2_sales_targets.txt",
+        "source_file": "memo_q2_sales_targets.txt",
+        "doc_type": "memo",
+        "global_topic": "Internal sales targets and key account strategy for Q2 2026",
+        "clearance_level": 1,
+        "allowed_departments": "sales",
+        "page_number": 1,
+        "contains_PII": false,
+        "sensitivity_types": [],
+        "chunk_id": "aug_158"
+      }
+    },
+    {
+      "page_content": "   - Target 3 new Premium-tier clients in addition to our existing base (CLI-001",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\memo_q2_sales_targets.txt",
+        "source_file": "memo_q2_sales_targets.txt",
+        "doc_type": "memo",
+        "global_topic": "Internal sales targets and key account strategy for Q2 2026",
+        "clearance_level": 2,
+        "allowed_departments": "sales",
+        "page_number": 1,
+        "contains_PII": true,
+        "sensitivity_types": [
+          "client_id"
+        ],
+        "chunk_id": "aug_159"
+      }
+    },
+    {
+      "page_content": "   - Target 3 new Premium-tier clients in addition to our existing base (CLI-001 through CLI-004",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\memo_q2_sales_targets.txt",
+        "source_file": "memo_q2_sales_targets.txt",
+        "doc_type": "memo",
+        "global_topic": "Internal sales targets and key account strategy for Q2 2026",
+        "clearance_level": 2,
+        "allowed_departments": "sales",
+        "page_number": 1,
+        "contains_PII": true,
+        "sensitivity_types": [
+          "client_id"
+        ],
+        "chunk_id": "aug_160"
+      }
+    },
+    {
+      "page_content": "1. Hardware Sales Target: €3.8M (+15% vs Q1)\n   - Focus on the Spanish market where our distribution agreement with Deportes de Alto Rendimiento S.A. gives us exclusive access\n)",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\memo_q2_sales_targets.txt",
+        "source_file": "memo_q2_sales_targets.txt",
+        "doc_type": "memo",
+        "global_topic": "Internal sales targets and key account strategy for Q2 2026",
+        "clearance_level": 1,
+        "allowed_departments": "sales",
+        "page_number": 1,
+        "contains_PII": false,
+        "sensitivity_types": [],
+        "chunk_id": "aug_161"
+      }
+    },
+    {
+      "page_content": "   - CLI-001 Centro de Alto Rendimiento (Laura Gómez, lgomez@car.es) — upsell to 10 additional units",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\memo_q2_sales_targets.txt",
+        "source_file": "memo_q2_sales_targets.txt",
+        "doc_type": "memo",
+        "global_topic": "Internal sales targets and key account strategy for Q2 2026",
+        "clearance_level": 2,
+        "allowed_departments": "sales",
+        "page_number": 1,
+        "contains_PII": true,
+        "sensitivity_types": [
+          "email_personal"
+        ],
+        "chunk_id": "aug_162"
+      }
+    },
+    {
+      "page_content": "   - CLI-001 Centro de Alto Rendimiento (Laura Gómez, lgomez@car.es) — upsell to 10 additional units",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\memo_q2_sales_targets.txt",
+        "source_file": "memo_q2_sales_targets.txt",
+        "doc_type": "memo",
+        "global_topic": "Internal sales targets and key account strategy for Q2 2026",
+        "clearance_level": 2,
+        "allowed_departments": "sales",
+        "page_number": 1,
+        "contains_PII": true,
+        "sensitivity_types": [
+          "client_id"
+        ],
+        "chunk_id": "aug_163"
+      }
+    },
+    {
+      "page_content": "   - CLI-002 Federación de Atletismo (Marcos Ruiz) — contract renewal due June 2026",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\memo_q2_sales_targets.txt",
+        "source_file": "memo_q2_sales_targets.txt",
+        "doc_type": "memo",
+        "global_topic": "Internal sales targets and key account strategy for Q2 2026",
+        "clearance_level": 2,
+        "allowed_departments": "sales",
+        "page_number": 1,
+        "contains_PII": true,
+        "sensitivity_types": [
+          "client_id"
+        ],
+        "chunk_id": "aug_164"
+      }
+    },
+    {
+      "page_content": "   - CLI-005",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\memo_q2_sales_targets.txt",
+        "source_file": "memo_q2_sales_targets.txt",
+        "doc_type": "memo",
+        "global_topic": "Internal sales targets and key account strategy for Q2 2026",
+        "clearance_level": 2,
+        "allowed_departments": "sales",
+        "page_number": 1,
+        "contains_PII": true,
+        "sensitivity_types": [
+          "client_id"
+        ],
+        "chunk_id": "aug_165"
+      }
+    },
+    {
+      "page_content": "2. Key Accounts to Prioritize:\n(NEW) Hospital Deportivo de Barcelona — initial demo scheduled April 15",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\memo_q2_sales_targets.txt",
+        "source_file": "memo_q2_sales_targets.txt",
+        "doc_type": "memo",
+        "global_topic": "Internal sales targets and key account strategy for Q2 2026",
+        "clearance_level": 1,
+        "allowed_departments": "sales",
+        "page_number": 1,
+        "contains_PII": false,
+        "sensitivity_types": [],
+        "chunk_id": "aug_166"
+      }
+    },
+    {
+      "page_content": "   For orders > €50,000, contact D. Chiara Colombo",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\memo_q2_sales_targets.txt",
+        "source_file": "memo_q2_sales_targets.txt",
+        "doc_type": "memo",
+        "global_topic": "Internal sales targets and key account strategy for Q2 2026",
+        "clearance_level": 2,
+        "allowed_departments": "sales",
+        "page_number": 1,
+        "contains_PII": true,
+        "sensitivity_types": [
+          "person_name"
+        ],
+        "chunk_id": "aug_167"
+      }
+    },
+    {
+      "page_content": "3. Pricing Authority\n   Maximum discount authority without CFO approval: 10% on orders > 20 units.\n(CFO) directly.",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\memo_q2_sales_targets.txt",
+        "source_file": "memo_q2_sales_targets.txt",
+        "doc_type": "memo",
+        "global_topic": "Internal sales targets and key account strategy for Q2 2026",
+        "clearance_level": 1,
+        "allowed_departments": "sales",
+        "page_number": 1,
+        "contains_PII": false,
+        "sensitivity_types": [],
+        "chunk_id": "aug_168"
+      }
+    },
+    {
+      "page_content": "isabella.romano@microgate.it",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\memo_q2_sales_targets.txt",
+        "source_file": "memo_q2_sales_targets.txt",
+        "doc_type": "memo",
+        "global_topic": "Internal sales targets and key account strategy for Q2 2026",
+        "clearance_level": 2,
+        "allowed_departments": "sales",
+        "page_number": 1,
+        "contains_PII": true,
+        "sensitivity_types": [
+          "email_personal"
+        ],
+        "chunk_id": "aug_169"
+      }
+    },
+    {
+      "page_content": "Best regards,\nIsabella Romano",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\memo_q2_sales_targets.txt",
+        "source_file": "memo_q2_sales_targets.txt",
+        "doc_type": "memo",
+        "global_topic": "Internal sales targets and key account strategy for Q2 2026",
+        "clearance_level": 1,
+        "allowed_departments": "sales",
+        "page_number": 1,
+        "contains_PII": false,
+        "sensitivity_types": [],
+        "chunk_id": "aug_170"
+      }
+    }
+  ],
+  "memo_it_security_reminder.txt": [
+    {
+      "page_content": "INTERNAL MEMO — SECURITY AWARENESS REMINDER\nFrom: IT Security Team\nTo: All Employees\nDate: March 20, 2026\nClassification: INTERNAL",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\memo_it_security_reminder.txt",
+        "source_file": "memo_it_security_reminder.txt",
+        "doc_type": "memo",
+        "global_topic": "Company-wide security awareness reminder after incident",
+        "clearance_level": 1,
+        "allowed_departments": "all",
+        "page_number": 1,
+        "contains_PII": false,
+        "sensitivity_types": [],
+        "chunk_id": "aug_171"
+      }
+    },
+    {
+      "page_content": "Dear colleagues,\nFollowing the recent security incident (ref: IR-2026-003), we remind all employees of the following mandatory security practices:",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\memo_it_security_reminder.txt",
+        "source_file": "memo_it_security_reminder.txt",
+        "doc_type": "memo",
+        "global_topic": "Company-wide security awareness reminder after incident",
+        "clearance_level": 1,
+        "allowed_departments": "all",
+        "page_number": 1,
+        "contains_PII": false,
+        "sensitivity_types": [],
+        "chunk_id": "aug_172"
+      }
+    },
+    {
+      "page_content": "1. PASSWORD POLICY\n   - Minimum 12 characters, including uppercase, lowercase, numbers, and symbols\n   - Change passwords every 90 days\n   - Never reuse passwords across systems\n   - The emergency admin password for the backup recovery console has been rotated. Contact IT Security for the new credentials.",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\memo_it_security_reminder.txt",
+        "source_file": "memo_it_security_reminder.txt",
+        "doc_type": "memo",
+        "global_topic": "Company-wide security awareness reminder after incident",
+        "clearance_level": 1,
+        "allowed_departments": "all",
+        "page_number": 1,
+        "contains_PII": false,
+        "sensitivity_types": [],
+        "chunk_id": "aug_173"
+      }
+    },
+    {
+      "page_content": "   - Report suspicious emails to security@microgate.it",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\memo_it_security_reminder.txt",
+        "source_file": "memo_it_security_reminder.txt",
+        "doc_type": "memo",
+        "global_topic": "Company-wide security awareness reminder after incident",
+        "clearance_level": 2,
+        "allowed_departments": "all",
+        "page_number": 1,
+        "contains_PII": true,
+        "sensitivity_types": [
+          "email_personal"
+        ],
+        "chunk_id": "aug_174"
+      }
+    },
+    {
+      "page_content": "2. PHISHING AWARENESS\n   - We detected 47 phishing attempts targeting @microgate.it addresses in March\n   - Never click links in unexpected emails, even if they appear to come from colleagues",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\memo_it_security_reminder.txt",
+        "source_file": "memo_it_security_reminder.txt",
+        "doc_type": "memo",
+        "global_topic": "Company-wide security awareness reminder after incident",
+        "clearance_level": 1,
+        "allowed_departments": "all",
+        "page_number": 1,
+        "contains_PII": false,
+        "sensitivity_types": [],
+        "chunk_id": "aug_175"
+      }
+    },
+    {
+      "page_content": "3. PHYSICAL SECURITY\n   - Always lock your workstation when leaving your desk\n   - Do not allow tailgating through badge-controlled doors\n   - Visitor badges must be worn visibly at all times",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\memo_it_security_reminder.txt",
+        "source_file": "memo_it_security_reminder.txt",
+        "doc_type": "memo",
+        "global_topic": "Company-wide security awareness reminder after incident",
+        "clearance_level": 1,
+        "allowed_departments": "all",
+        "page_number": 1,
+        "contains_PII": false,
+        "sensitivity_types": [],
+        "chunk_id": "aug_176"
+      }
+    },
+    {
+      "page_content": "4. DATA CLASSIFICATION REMINDER\n   Level 0 (Public): Product documentation, marketing materials\n   Level 1 (Internal): Company policies, internal memos\n   Level 2 (Confidential): Client contracts, server logs, financial data\n   Level 3 (Strict): Passwords, banking details (IBAN/SWIFT), personal ID numbers",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\memo_it_security_reminder.txt",
+        "source_file": "memo_it_security_reminder.txt",
+        "doc_type": "memo",
+        "global_topic": "Company-wide security awareness reminder after incident",
+        "clearance_level": 1,
+        "allowed_departments": "all",
+        "page_number": 1,
+        "contains_PII": false,
+        "sensitivity_types": [],
+        "chunk_id": "aug_177"
+      }
+    },
+    {
+      "page_content": "D. Luca Moretti, luca.moretti@microgate.it",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\memo_it_security_reminder.txt",
+        "source_file": "memo_it_security_reminder.txt",
+        "doc_type": "memo",
+        "global_topic": "Company-wide security awareness reminder after incident",
+        "clearance_level": 2,
+        "allowed_departments": "all",
+        "page_number": 1,
+        "contains_PII": true,
+        "sensitivity_types": [
+          "person_name"
+        ],
+        "chunk_id": "aug_178"
+      }
+    },
+    {
+      "page_content": "luca.moretti@microgate.it",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\memo_it_security_reminder.txt",
+        "source_file": "memo_it_security_reminder.txt",
+        "doc_type": "memo",
+        "global_topic": "Company-wide security awareness reminder after incident",
+        "clearance_level": 2,
+        "allowed_departments": "all",
+        "page_number": 1,
+        "contains_PII": true,
+        "sensitivity_types": [
+          "email_personal"
+        ],
+        "chunk_id": "aug_179"
+      }
+    },
+    {
+      "page_content": "For questions, contact:\nIT Security Team",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\memo_it_security_reminder.txt",
+        "source_file": "memo_it_security_reminder.txt",
+        "doc_type": "memo",
+        "global_topic": "Company-wide security awareness reminder after incident",
+        "clearance_level": 1,
+        "allowed_departments": "all",
+        "page_number": 1,
+        "contains_PII": false,
+        "sensitivity_types": [],
+        "chunk_id": "aug_180"
+      }
+    }
+  ],
+  "memo_board_meeting_minutes.txt": [
+    {
+      "page_content": "Attendees: D. Giovanni Alberti",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\memo_board_meeting_minutes.txt",
+        "source_file": "memo_board_meeting_minutes.txt",
+        "doc_type": "minutes",
+        "global_topic": "Board meeting minutes with strategic decisions and financial data",
+        "clearance_level": 3,
+        "allowed_departments": "finance",
+        "page_number": 1,
+        "contains_PII": true,
+        "sensitivity_types": [
+          "person_name"
+        ],
+        "chunk_id": "aug_181"
+      }
+    },
+    {
+      "page_content": "Attendees: D. Giovanni Alberti (CEO), D. Chiara Colombo",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\memo_board_meeting_minutes.txt",
+        "source_file": "memo_board_meeting_minutes.txt",
+        "doc_type": "minutes",
+        "global_topic": "Board meeting minutes with strategic decisions and financial data",
+        "clearance_level": 3,
+        "allowed_departments": "finance",
+        "page_number": 1,
+        "contains_PII": true,
+        "sensitivity_types": [
+          "person_name"
+        ],
+        "chunk_id": "aug_182"
+      }
+    },
+    {
+      "page_content": "Attendees: D. Giovanni Alberti (CEO), D. Chiara Colombo (CFO), D. Isabella Romano",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\memo_board_meeting_minutes.txt",
+        "source_file": "memo_board_meeting_minutes.txt",
+        "doc_type": "minutes",
+        "global_topic": "Board meeting minutes with strategic decisions and financial data",
+        "clearance_level": 3,
+        "allowed_departments": "finance",
+        "page_number": 1,
+        "contains_PII": true,
+        "sensitivity_types": [
+          "person_name"
+        ],
+        "chunk_id": "aug_183"
+      }
+    },
+    {
+      "page_content": "Attendees: D. Giovanni Alberti (CEO), D. Chiara Colombo (CFO), D. Isabella Romano (Sales), D. Marco Bianchi",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\memo_board_meeting_minutes.txt",
+        "source_file": "memo_board_meeting_minutes.txt",
+        "doc_type": "minutes",
+        "global_topic": "Board meeting minutes with strategic decisions and financial data",
+        "clearance_level": 3,
+        "allowed_departments": "finance",
+        "page_number": 1,
+        "contains_PII": true,
+        "sensitivity_types": [
+          "person_name"
+        ],
+        "chunk_id": "aug_184"
+      }
+    },
+    {
+      "page_content": "CONFIDENTIAL — BOARD MEETING MINUTES\nDate: March 28, 2026\n(CTO)",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\memo_board_meeting_minutes.txt",
+        "source_file": "memo_board_meeting_minutes.txt",
+        "doc_type": "minutes",
+        "global_topic": "Board meeting minutes with strategic decisions and financial data",
+        "clearance_level": 3,
+        "allowed_departments": "finance",
+        "page_number": 1,
+        "contains_PII": false,
+        "sensitivity_types": [],
+        "chunk_id": "aug_185"
+      }
+    },
+    {
+      "page_content": "D. Colombo presented Q1 results: €5.1M revenue, 62% gross margin. Board approved the 2027 budget of €2.8M for R&D. The CFO flagged that our Spanish distributor's payment (€39,000 from Federación de Atletismo contract) is overdue by 15 days. Action: D. Romano to follow up with D. Marcos Ruiz",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\memo_board_meeting_minutes.txt",
+        "source_file": "memo_board_meeting_minutes.txt",
+        "doc_type": "minutes",
+        "global_topic": "Board meeting minutes with strategic decisions and financial data",
+        "clearance_level": 3,
+        "allowed_departments": "finance",
+        "page_number": 1,
+        "contains_PII": true,
+        "sensitivity_types": [
+          "person_name"
+        ],
+        "chunk_id": "aug_186"
+      }
+    },
+    {
+      "page_content": "1. Financial Review\n.",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\memo_board_meeting_minutes.txt",
+        "source_file": "memo_board_meeting_minutes.txt",
+        "doc_type": "minutes",
+        "global_topic": "Board meeting minutes with strategic decisions and financial data",
+        "clearance_level": 3,
+        "allowed_departments": "finance",
+        "page_number": 1,
+        "contains_PII": false,
+        "sensitivity_types": [],
+        "chunk_id": "aug_187"
+      }
+    },
+    {
+      "page_content": "2. Product Strategy\nD. Bianchi proposed accelerating the IoT integration roadmap. The board approved hiring 3 additional embedded systems engineers. Target: IoT-enabled photocells ready for beta testing by Q4 2026.",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\memo_board_meeting_minutes.txt",
+        "source_file": "memo_board_meeting_minutes.txt",
+        "doc_type": "minutes",
+        "global_topic": "Board meeting minutes with strategic decisions and financial data",
+        "clearance_level": 3,
+        "allowed_departments": "finance",
+        "page_number": 1,
+        "contains_PII": false,
+        "sensitivity_types": [],
+        "chunk_id": "aug_188"
+      }
+    },
+    {
+      "page_content": "The distribution exclusivity agreement with Deportes de Alto Rendimiento S.A. (D. Carlos Mendoza",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\memo_board_meeting_minutes.txt",
+        "source_file": "memo_board_meeting_minutes.txt",
+        "doc_type": "minutes",
+        "global_topic": "Board meeting minutes with strategic decisions and financial data",
+        "clearance_level": 3,
+        "allowed_departments": "finance",
+        "page_number": 1,
+        "contains_PII": true,
+        "sensitivity_types": [
+          "person_name"
+        ],
+        "chunk_id": "aug_189"
+      }
+    },
+    {
+      "page_content": "3. Legal Update\n) expires in December 2026. Board authorized D. Alberti to begin renegotiation, with a target of extending exclusivity to 5 years in exchange for minimum purchase commitments of 200 units/year.",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\memo_board_meeting_minutes.txt",
+        "source_file": "memo_board_meeting_minutes.txt",
+        "doc_type": "minutes",
+        "global_topic": "Board meeting minutes with strategic decisions and financial data",
+        "clearance_level": 3,
+        "allowed_departments": "finance",
+        "page_number": 1,
+        "contains_PII": false,
+        "sensitivity_types": [],
+        "chunk_id": "aug_190"
+      }
+    },
+    {
+      "page_content": "4. HR Matters\nEmployee satisfaction survey results: 78% positive (up from 71%). Two departures in Engineering to be replaced. Salary band review scheduled for June 2026.",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\memo_board_meeting_minutes.txt",
+        "source_file": "memo_board_meeting_minutes.txt",
+        "doc_type": "minutes",
+        "global_topic": "Board meeting minutes with strategic decisions and financial data",
+        "clearance_level": 3,
+        "allowed_departments": "finance",
+        "page_number": 1,
+        "contains_PII": false,
+        "sensitivity_types": [],
+        "chunk_id": "aug_191"
+      }
+    },
+    {
+      "page_content": "Minutes recorded by: D. Valentina Ricci (valentina.ricci@microgate.it",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\memo_board_meeting_minutes.txt",
+        "source_file": "memo_board_meeting_minutes.txt",
+        "doc_type": "minutes",
+        "global_topic": "Board meeting minutes with strategic decisions and financial data",
+        "clearance_level": 3,
+        "allowed_departments": "finance",
+        "page_number": 1,
+        "contains_PII": true,
+        "sensitivity_types": [
+          "email_personal"
+        ],
+        "chunk_id": "aug_192"
+      }
+    },
+    {
+      "page_content": "Minutes recorded by: D. Valentina Ricci",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\memo_board_meeting_minutes.txt",
+        "source_file": "memo_board_meeting_minutes.txt",
+        "doc_type": "minutes",
+        "global_topic": "Board meeting minutes with strategic decisions and financial data",
+        "clearance_level": 3,
+        "allowed_departments": "finance",
+        "page_number": 1,
+        "contains_PII": true,
+        "sensitivity_types": [
+          "person_name"
+        ],
+        "chunk_id": "aug_193"
+      }
+    },
+    {
+      "page_content": "5. Next Meeting: April 25, 2026\n)",
+      "metadata": {
+        "source": "D:\\URV\\TFG\\ai-rag-context-auth-system\\strategy-analysis\\notebooks\\ph2-retrieval-strategy\\..\\..\\data\\raw_docs\\memo_board_meeting_minutes.txt",
+        "source_file": "memo_board_meeting_minutes.txt",
+        "doc_type": "minutes",
+        "global_topic": "Board meeting minutes with strategic decisions and financial data",
+        "clearance_level": 3,
+        "allowed_departments": "finance",
+        "page_number": 1,
+        "contains_PII": false,
+        "sensitivity_types": [],
+        "chunk_id": "aug_194"
+      }
+    }
+  ]
+}

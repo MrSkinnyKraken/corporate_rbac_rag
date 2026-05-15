@@ -1,0 +1,58 @@
+[
+  {
+    "user_id": "u-001",
+    "username": "Anna Garcia",
+    "clearance_level": 0,
+    "department": "hr",
+    "email": "anna.garcia@demo.local"
+  },
+  {
+    "user_id": "u-002",
+    "username": "Pere Soler",
+    "clearance_level": 2,
+    "department": "hr",
+    "email": "pere.soler@demo.local"
+  },
+  {
+    "user_id": "u-003",
+    "username": "Marta Vidal",
+    "clearance_level": 3,
+    "department": "finance",
+    "email": "marta.vidal@demo.local"
+  },
+  {
+    "user_id": "u-004",
+    "username": "Joan Pla",
+    "clearance_level": 2,
+    "department": "engineering",
+    "email": "joan.pla@demo.local"
+  },
+  {
+    "user_id": "u-005",
+    "username": "Laia Roca",
+    "clearance_level": 3,
+    "department": "legal",
+    "email": "laia.roca@demo.local"
+  },
+  {
+    "user_id": "u-006",
+    "username": "Pau Costa",
+    "clearance_level": 1,
+    "department": "sales",
+    "email": "pau.costa@demo.local"
+  },
+  {
+    "user_id": "u-007",
+    "username": "Nuria Tena",
+    "clearance_level": 2,
+    "department": "operations",
+    "email": "nuria.tena@demo.local"
+  },
+  {
+    "user_id": "u-008",
+    "username": "Roger Albert",
+    "clearance_level": 1,
+    "department": "marketing",
+    "email": "roger.albert@demo.local"
+  }
+]

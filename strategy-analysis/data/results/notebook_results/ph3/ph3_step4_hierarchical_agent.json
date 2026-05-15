@@ -1,0 +1,173 @@
+{
+  "step": "Phase 3 - Step 4: Hierarchical Retrieval Agent",
+  "model": "llama3.2",
+  "architecture": "physical per-department ChromaDB collections + per-department BM25 indexes, Python RBAC post-filter",
+  "n_queries": 5,
+  "latency_summary": {
+    "phase_a_ms": {
+      "mean": 11.36,
+      "max": 14.4
+    },
+    "phase_b_ms": {
+      "mean": 20.46,
+      "max": 23.4
+    },
+    "phase_c_s": {
+      "mean": 3.66,
+      "max": 4.05
+    },
+    "total_s": {
+      "mean": 3.69,
+      "max": 4.077
+    }
+  },
+  "rbac": {
+    "total_pre_rbac": 213,
+    "total_post_rbac": 93,
+    "drop_pct": 56.3,
+    "parent_merges": 0,
+    "access_denied": 0
+  },
+  "scenarios": [
+    {
+      "qid": "Q1",
+      "user": "Luca (DevOps Engineer)",
+      "dept": "engineering",
+      "cl": 2,
+      "expected": "answer",
+      "query": "Which UDP port must the firewall allow for the corporate VPN client to connect?",
+      "target_depts": [
+        "engineering",
+        "legal"
+      ],
+      "collections_queried": [
+        "engineering",
+        "legal"
+      ],
+      "alpha": 0.2,
+      "intent": "tier2_exact",
+      "pre_rbac": 36,
+      "post_rbac": 26,
+      "rbac_dropped": 10,
+      "parent_merges": 0,
+      "access_denied": false,
+      "lat_route_ms": 14.4,
+      "lat_retrieve_ms": 23.4,
+      "lat_generate_s": 3.35,
+      "total_s": 3.387,
+      "answer": "According to the context, the corporate WireGuard VPN uses UDP port 51820. The user's firewall should not block this port for a successful connection."
+    },
+    {
+      "qid": "Q2",
+      "user": "Chiara (CFO)",
+      "dept": "finance",
+      "cl": 3,
+      "expected": "answer",
+      "query": "Summarise Q1 2026 revenue broken down by geographic region.",
+      "target_depts": [
+        "finance",
+        "sales"
+      ],
+      "collections_queried": [
+        "finance",
+        "sales"
+      ],
+      "alpha": 0.8,
+      "intent": "conceptual",
+      "pre_rbac": 39,
+      "post_rbac": 27,
+      "rbac_dropped": 12,
+      "parent_merges": 0,
+      "access_denied": false,
+      "lat_route_ms": 10.2,
+      "lat_retrieve_ms": 20.6,
+      "lat_generate_s": 4.05,
+      "total_s": 4.077,
+      "answer": "Q1 2026 revenue was broken down as follows by geographic region:\n\n- European markets generated €3.8 million (75% of total revenue), with Spain leading at €1.2 million.\n- North American markets contributed €0.9 million, and\n- Asia-Pacific accounted for €0.4 million."
+    },
+    {
+      "qid": "Q3",
+      "user": "Alessandra (HR Manager)",
+      "dept": "hr",
+      "cl": 2,
+      "expected": "answer",
+      "query": "What is the process for reimbursing business travel expenses for a new hire?",
+      "target_depts": [
+        "finance",
+        "hr"
+      ],
+      "collections_queried": [
+        "finance",
+        "hr"
+      ],
+      "alpha": 0.8,
+      "intent": "conceptual",
+      "pre_rbac": 44,
+      "post_rbac": 14,
+      "rbac_dropped": 30,
+      "parent_merges": 0,
+      "access_denied": false,
+      "lat_route_ms": 11.0,
+      "lat_retrieve_ms": 20.2,
+      "lat_generate_s": 3.72,
+      "total_s": 3.75,
+      "answer": "To reimburse business travel expenses for a new hire, they must submit an expense report within 30 days of incurrence. The reimbursement will be processed on the 15th of each month and made to their registered account via bank transfer. Receipts are required for all expenses above €25."
+    },
+    {
+      "qid": "Q4",
+      "user": "Valentina (Legal Counsel)",
+      "dept": "legal",
+      "cl": 2,
+      "expected": "answer",
+      "query": "What is the warranty period offered in the Spanish Athletics Federation supply contract?",
+      "target_depts": [
+        "legal",
+        "sales"
+      ],
+      "collections_queried": [
+        "legal",
+        "sales"
+      ],
+      "alpha": 0.8,
+      "intent": "conceptual",
+      "pre_rbac": 32,
+      "post_rbac": 17,
+      "rbac_dropped": 15,
+      "parent_merges": 0,
+      "access_denied": false,
+      "lat_route_ms": 10.9,
+      "lat_retrieve_ms": 19.0,
+      "lat_generate_s": 3.35,
+      "total_s": 3.378,
+      "answer": "No tengo información disponible sobre el plazo de garantía en el contrato de suministro entre la Federación de Atletismo de España y Microgate S.R.L."
+    },
+    {
+      "qid": "Q5",
+      "user": "Diego (Sales Intern)",
+      "dept": "sales",
+      "cl": 1,
+      "expected": "refused",
+      "query": "Which IBAN does Microgate use to collect payments from the Spanish distributor?",
+      "target_depts": [
+        "finance",
+        "hr"
+      ],
+      "collections_queried": [
+        "finance",
+        "hr"
+      ],
+      "alpha": 0.2,
+      "intent": "tier1_secret",
+      "pre_rbac": 62,
+      "post_rbac": 9,
+      "rbac_dropped": 53,
+      "parent_merges": 0,
+      "access_denied": false,
+      "lat_route_ms": 10.3,
+      "lat_retrieve_ms": 19.1,
+      "lat_generate_s": 3.84,
+      "total_s": 3.87,
+      "answer": "I don't have information on the specific IBAN used by Microgate for collecting payments from a Spanish distributor. The context only provides general corporate expense policy guidelines and contact information, but not details on payment processing or banking arrangements with external partners. If you need this information, I recommend contacting the Finance department directly."
+    }
+  ]
+}

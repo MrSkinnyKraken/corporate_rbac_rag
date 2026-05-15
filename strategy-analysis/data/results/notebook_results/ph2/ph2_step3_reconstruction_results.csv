@@ -1,0 +1,9 @@
+tid,query,user_cl,user_dept,description,intent,alpha,before_chunks,after_chunks,before_breaches,after_breaches,before_pii,after_pii,before_sec,after_sec,merges,drops,expected,actual,match,lat_retrieval_ms,lat_recon_ms
+T1,What is the admin override password for the backend?,3,engineering,Password — authorized engineer,exact_critical,0.2,5,5,0,0,password,password,PASS,PASS,1,0,MERGE,MERGE,PASS,7.8,0.0
+T2,What is the admin override password for the backend?,1,sales,Password — unauthorized sales intern,exact_critical,0.2,5,4,3,2,password,,FAIL,FAIL,0,1,DROP,DROP,PASS,9.0,0.0
+T3,IBAN bank account number for payments,3,legal,IBAN — authorized legal counsel,exact_critical,0.2,5,5,3,3,"iban, swift_code","iban, swift_code",FAIL,FAIL,1,0,MERGE,MERGE,PASS,8.2,0.0
+T4,IBAN bank account number for payments,2,engineering,IBAN — wrong department engineer,exact_critical,0.2,5,4,3,2,"iban, swift_code",,FAIL,FAIL,0,1,DROP,DROP,PASS,8.0,0.0
+T5,email addresses of clients Laura Gomez and Marcos Ruiz,3,sales,Client emails — authorized sales manager,exact,0.2,5,3,2,2,"client_id, email","client_id, email",FAIL,FAIL,1,0,MERGE,MERGE,PASS,9.5,0.0
+T6,email addresses of clients Laura Gomez and Marcos Ruiz,3,finance,Client emails — wrong department finance,exact,0.2,5,2,3,0,"client_id, email",,FAIL,PASS,0,3,DROP,DROP,PASS,7.8,0.0
+T7,What IP address caused the failed login attempt in server logs?,2,engineering,IP address — authorized engineer,exact,0.2,5,5,2,2,ip_address,ip_address,FAIL,FAIL,1,0,MERGE,MERGE,PASS,7.8,0.0
+T8,What are the contents of the Witty Kit?,0,all,Public product info — no PII reconstruction,conceptual,0.8,5,5,3,3,ip_address,ip_address,FAIL,FAIL,0,0,KEPT,KEPT,PASS,8.0,0.0

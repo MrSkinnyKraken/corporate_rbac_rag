@@ -1,0 +1,51 @@
+{
+  "phase": "Phase 2 — Retrieval Strategy Optimization",
+  "corpus": {
+    "strategy": "custom_rbac",
+    "total_chunks": 33,
+    "pii_chunks": 15
+  },
+  "step1_baseline": {
+    "engines": [
+      "ChromaDB",
+      "BM25",
+      "Ensemble RRF"
+    ],
+    "mrr_ensemble": 0.8929,
+    "total_breaches_ensemble": 47,
+    "security_pass_rate": "0/14",
+    "avg_latency_ms": 8.1,
+    "finding": "BM25 leaks PII — no native metadata filtering"
+  },
+  "step2_dynamic_rrf": {
+    "mrr_baseline": 0.8929,
+    "mrr_dynamic": 0.8214,
+    "mrr_delta": -0.0715,
+    "r5_delta": "+1 net",
+    "breach_delta": "-1 net",
+    "finding": "Marginal impact due to structural ceiling (corpus homogeneity, size ratio, engine overlap)"
+  },
+  "step3_parent_child": {
+    "parent_index_size": 15,
+    "test_accuracy": "8/8 (100%)",
+    "breach_reduction": "19 → 14 (-26%)",
+    "security_pass_rate": "1/8 → 2/8",
+    "reconstruction_latency_ms": "<0.1",
+    "context_expansion": "4x to 22x (21-101ch → 152-462ch)",
+    "finding": "Context restored for authorized users; residual breaches from non-PII restricted chunks"
+  },
+  "step4_asymmetric_fusion": {
+    "total_breaches": "38 → 0 (100% elimination)",
+    "security_pass_rate": "1/12 → 12/12 (100%)",
+    "latency_penalty_ms": "+1.03 (+11%)",
+    "mrr_authorized": "1.000 (preserved)",
+    "mrr_unauthorized": "0.000 (correct by design)",
+    "finding": "Zero-Trust achieved — pre-filtering ChromaDB + post-filtering BM25"
+  },
+  "conclusions": {
+    "retrieval_quality": "MRR 0.893 baseline — ranking quality is not the bottleneck",
+    "context_restoration": "Parent-child reconstruction expands PII fragments 4-22x with RBAC gate",
+    "security": "Asymmetric fusion eliminates 100% of breaches with +1ms latency penalty",
+    "architecture": "Intent Router → Secure Asymmetric RRF → Parent-Child Reconstruction"
+  }
+}

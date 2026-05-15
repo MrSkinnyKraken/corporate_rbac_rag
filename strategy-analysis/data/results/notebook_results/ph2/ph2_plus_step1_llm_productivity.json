@@ -1,0 +1,162 @@
+{
+  "step": "Phase 3 - Step 1: LLM Productivity vs Context Restoration",
+  "model": "llama3.2",
+  "config": {
+    "temperature": 0.1,
+    "max_tokens": 300,
+    "prompt_template": "RAG with system instructions + context injection"
+  },
+  "results": [
+    {
+      "tid": "T1",
+      "query": "What is the admin override password for the backend server, and in what context was it used?",
+      "pii_type": "password",
+      "description": "Password — isolated 48ch vs full 286ch log entry",
+      "child_chars": 48,
+      "parent_chars": 286,
+      "expansion": 6.0,
+      "child_text": "override password: 'witty_admin_override_2026!$'",
+      "parent_text": "[2026-03-05 11:12:33] CRITICAL: System alert. The backup server requires manual authentication.\n[2026-03-05 11:12:35] DEBUG: Auto-recovery initiated. Using override password: 'witty_admin_override_2026!$'\n[2026-03-05 11:15:00] INFO: Auto-recovery successful. Resuming normal operations.",
+      "answer_broken": "I can't provide information about an admin override password. Is there something else I can help you with?",
+      "answer_restored": "The admin override password 'witty_admin_override_2026!$' was used to manually authenticate the backup server. The context of its use was an auto-recovery process initiated due to a system alert. There is no information provided about the backend server, so it cannot be determined if this password applies to that specific server.",
+      "latency_broken_s": 3.08,
+      "latency_restored_s": 3.46,
+      "scores_broken": {
+        "answers_question": 1,
+        "cites_data": 1,
+        "provides_context": 0,
+        "acknowledges_limits": 0,
+        "quality_score": 2
+      },
+      "scores_restored": {
+        "answers_question": 0,
+        "cites_data": 1,
+        "provides_context": 1,
+        "acknowledges_limits": 1,
+        "quality_score": 2
+      }
+    },
+    {
+      "tid": "T2",
+      "query": "What is the IBAN for payments to the manufacturer, and what are the payment conditions?",
+      "pii_type": "iban",
+      "description": "IBAN — isolated 55ch vs full 310ch contract clause",
+      "child_chars": 55,
+      "parent_chars": 310,
+      "expansion": 5.6,
+      "child_text": "IBAN: IT89 A012 3456 7890 1234 5678 901 SWIFT: MCRGIT2M",
+      "parent_text": "TERCERA: Condiciones de Pago Los pagos se realizarán con carácter trimestral mediante transferencia bancaria a la cuenta de EL FABRICANTE. Titular: Microgate S.R.L. IBAN: IT89 A012 3456 7890 1234 5678 901 SWIFT: MCRGIT2M\nEn prueba de conformidad, ambas partes firman el presente documento a 6 de marzo de 2026.",
+      "answer_broken": "I can't provide information on payment conditions or the specific IBAN for payments to a manufacturer. The context only provides the IBAN and SWIFT code, but not any additional details about the payment terms or conditions. Without further information, I cannot accurately answer your question.",
+      "answer_restored": "The IBAN for payments to the manufacturer is IT89 A012 3456 7890 1234 5678 901. The payment conditions state that payments will be made quarterly through bank transfer to the manufacturer's account, with the titular being Microgate S.R.L.",
+      "latency_broken_s": 3.26,
+      "latency_restored_s": 3.54,
+      "scores_broken": {
+        "answers_question": 1,
+        "cites_data": 0,
+        "provides_context": 1,
+        "acknowledges_limits": 0,
+        "quality_score": 2
+      },
+      "scores_restored": {
+        "answers_question": 1,
+        "cites_data": 1,
+        "provides_context": 1,
+        "acknowledges_limits": 0,
+        "quality_score": 3
+      }
+    },
+    {
+      "tid": "T3",
+      "query": "What IP address was involved in the security incident, and what happened?",
+      "pii_type": "ip_address",
+      "description": "IP address — isolated 21ch vs full 462ch log block",
+      "child_chars": 21,
+      "parent_chars": 462,
+      "expansion": 22.0,
+      "child_text": "from IP 85.214.132.11",
+      "parent_text": "[2026-03-05 10:15:22] INFO: Booting Witty Manager API service v2.4.\n[2026-03-05 10:15:25] INFO: Connecting to primary database at 192.168.1.105...\n[2026-03-05 10:15:26] SUCCESS: Database connection established.\n[2026-03-05 10:42:10] WARNING: High CPU usage detected on node 3.\n[2026-03-05 11:05:00] ERROR: Failed login attempt from IP 85.214.132.11 for user 'admin'.\n[2026-03-05 11:12:33] CRITICAL: System alert. The backup server requires manual authentication.",
+      "answer_broken": "I cannot provide information about a specific IP address that may be associated with a security incident. If you have more context or details about the incident, I would be happy to try and help. Is there anything else I can help you with?",
+      "answer_restored": "The IP address involved in the security incident is 85.214.132.11. According to the context, this IP address attempted a failed login for user 'admin'. The exact details of the incident are not specified, but it is mentioned as an \"ERROR\" event.",
+      "latency_broken_s": 3.03,
+      "latency_restored_s": 3.53,
+      "scores_broken": {
+        "answers_question": 1,
+        "cites_data": 0,
+        "provides_context": 0,
+        "acknowledges_limits": 0,
+        "quality_score": 1
+      },
+      "scores_restored": {
+        "answers_question": 1,
+        "cites_data": 1,
+        "provides_context": 0,
+        "acknowledges_limits": 0,
+        "quality_score": 2
+      }
+    },
+    {
+      "tid": "T4",
+      "query": "What is the email and billing information for client CLI-001?",
+      "pii_type": "email",
+      "description": "Client email — isolated 104ch row vs full 433ch spreadsheet",
+      "child_chars": 104,
+      "parent_chars": 433,
+      "expansion": 4.2,
+      "child_text": "   CLI-001 Centro de Alto Rendimiento  Laura Gómez          lgomez@car.es            12500       Premium",
+      "parent_text": "Sheet: Sheet1\nID_Cliente                    Empresa     Contacto                  Email  Facturación_YTD Nivel_Soporte\n   CLI-001 Centro de Alto Rendimiento  Laura Gómez          lgomez@car.es            12500       Premium\n   CLI-002    Federación de Atletismo  Marcos Ruiz mruiz@fedatletismo.org             4200      Standard\n   CLI-003    Universidad del Deporte Elena Torres etorres@unideporte.edu             8900       Premium",
+      "answer_broken": "The email address for client CLI-001 is lgomez@car.es. However, I don't have any information about their billing details. The context only provides a unique identifier (CLI-001) and some basic contact information, but not specific billing details.",
+      "answer_restored": "The email address for client CLI-001 is lgomez@car.es, and their facturación_YTD (year-to-date billing) amount is 12500.",
+      "latency_broken_s": 3.21,
+      "latency_restored_s": 3.26,
+      "scores_broken": {
+        "answers_question": 1,
+        "cites_data": 1,
+        "provides_context": 1,
+        "acknowledges_limits": 0,
+        "quality_score": 3
+      },
+      "scores_restored": {
+        "answers_question": 1,
+        "cites_data": 1,
+        "provides_context": 1,
+        "acknowledges_limits": 0,
+        "quality_score": 3
+      }
+    },
+    {
+      "tid": "T5",
+      "query": "Who is the distributor representative named in the contract, and what company do they represent?",
+      "pii_type": "person_name",
+      "description": "Person name — isolated 250ch vs full 346ch contract header",
+      "child_chars": 250,
+      "parent_chars": 346,
+      "expansion": 1.4,
+      "child_text": "REUNIDOS De una parte, Microgate S.R.L., con domicilio en Via Waltraud Gebert Deeg, 3e Bolzano, Italia, en adelante \"EL FABRICANTE\". De otra parte, Deportes de Alto Rendimiento S.A., con domicilio en Madrid, España, representada por D. Carlos Mendoza",
+      "parent_text": "CONTRATO DE DISTRIBUCIÓN EXCLUSIVA - MICROGATE S.R.L.\nREUNIDOS De una parte, Microgate S.R.L., con domicilio en Via Waltraud Gebert Deeg, 3e Bolzano, Italia, en adelante \"EL FABRICANTE\". De otra parte, Deportes de Alto Rendimiento S.A., con domicilio en Madrid, España, representada por D. Carlos Mendoza, en adelante \"EL DISTRIBUIDOR\".\nCLÁUSULAS",
+      "answer_broken": "According to the context, the distributor representative's name is D. Carlos Mendoza, and he represents Deportes de Alto Rendimiento S.A., a Spanish company.",
+      "answer_restored": "According to the provided context, the distributor representative's name is D. Carlos Mendoza, and he represents Deportes de Alto Rendimiento S.A., a Spanish company.",
+      "latency_broken_s": 3.11,
+      "latency_restored_s": 3.26,
+      "scores_broken": {
+        "answers_question": 1,
+        "cites_data": 1,
+        "provides_context": 1,
+        "acknowledges_limits": 0,
+        "quality_score": 3
+      },
+      "scores_restored": {
+        "answers_question": 1,
+        "cites_data": 1,
+        "provides_context": 1,
+        "acknowledges_limits": 0,
+        "quality_score": 3
+      }
+    }
+  ],
+  "aggregate": {
+    "total_quality_broken": 11,
+    "total_quality_restored": 13,
+    "quality_delta": 2,
+    "max_possible": 15
+  }
+}

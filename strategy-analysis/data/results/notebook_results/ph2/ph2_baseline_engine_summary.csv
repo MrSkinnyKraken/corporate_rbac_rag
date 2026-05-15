@@ -1,0 +1,4 @@
+Engine,Total Queries,Queries with Breach,Total Breaches,Breach Rate,Avg Latency (ms),PII Types Leaked,Security
+chroma,8,8,33,100%,10.6,"client_id, email, iban, ip_address, password, swift_code",FAIL
+bm25,8,7,26,88%,0.2,"client_id, email, iban, ip_address, password, swift_code",FAIL
+ensemble_rrf,8,8,30,100%,10.4,"client_id, email, iban, ip_address, password, swift_code",FAIL

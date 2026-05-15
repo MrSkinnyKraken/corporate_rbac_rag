@@ -1,0 +1,1370 @@
+[
+  {
+    "query_id": 1,
+    "query_text": "How do I switch on the Witty timer?",
+    "engine": "chroma",
+    "user_clearance": 0,
+    "user_department": "all",
+    "chunk_id": "custom_000",
+    "chunk_clearance": 2,
+    "chunk_department": "engineering",
+    "breach_reason": "CLEARANCE_BREACH: chunk needs cl=2, user has cl=0",
+    "pii_found": {
+      "ip_address": [
+        "192.168.1.105"
+      ]
+    },
+    "content_preview": "[2026-03-05 10:15:22] INFO: Booting Witty Manager API service v2.4. [2026-03-05 10:15:25] INFO: Connecting to primary da"
+  },
+  {
+    "query_id": 1,
+    "query_text": "How do I switch on the Witty timer?",
+    "engine": "chroma",
+    "user_clearance": 0,
+    "user_department": "all",
+    "chunk_id": "custom_005",
+    "chunk_clearance": 3,
+    "chunk_department": "engineering",
+    "breach_reason": "CLEARANCE_BREACH: chunk needs cl=3, user has cl=0",
+    "pii_found": {
+      "password": [
+        "witty_admin_override_2026!$"
+      ]
+    },
+    "content_preview": "override password: 'witty_admin_override_2026!$'"
+  },
+  {
+    "query_id": 1,
+    "query_text": "How do I switch on the Witty timer?",
+    "engine": "chroma",
+    "user_clearance": 0,
+    "user_department": "all",
+    "chunk_id": "custom_002",
+    "chunk_clearance": 2,
+    "chunk_department": "legal",
+    "breach_reason": "CLEARANCE_BREACH: chunk needs cl=2, user has cl=0",
+    "pii_found": {},
+    "content_preview": "CLÁUSULAS PRIMERA: Objeto del Contrato EL FABRICANTE otorga a EL DISTRIBUIDOR los derechos exclusivos para la comerciali"
+  },
+  {
+    "query_id": 1,
+    "query_text": "How do I switch on the Witty timer?",
+    "engine": "chroma",
+    "user_clearance": 0,
+    "user_department": "all",
+    "chunk_id": "custom_003",
+    "chunk_clearance": 2,
+    "chunk_department": "legal",
+    "breach_reason": "CLEARANCE_BREACH: chunk needs cl=2, user has cl=0",
+    "pii_found": {},
+    "content_preview": "SEGUNDA: Confidencialidad y Precios EL DISTRIBUIDOR se compromete a no revelar los márgenes de beneficio. El coste unita"
+  },
+  {
+    "query_id": 1,
+    "query_text": "How do I switch on the Witty timer?",
+    "engine": "bm25",
+    "user_clearance": 0,
+    "user_department": "all",
+    "chunk_id": "custom_002",
+    "chunk_clearance": 3,
+    "chunk_department": "finance",
+    "breach_reason": "CLEARANCE_BREACH: chunk needs cl=3, user has cl=0",
+    "pii_found": {},
+    "content_preview": "2. Revenue Breakdown by Product  Gross revenue for the sports division reached €4.2 million this quarter. Sales are  dis"
+  },
+  {
+    "query_id": 1,
+    "query_text": "How do I switch on the Witty timer?",
+    "engine": "bm25",
+    "user_clearance": 0,
+    "user_department": "all",
+    "chunk_id": "custom_001",
+    "chunk_clearance": 3,
+    "chunk_department": "finance",
+    "breach_reason": "CLEARANCE_BREACH: chunk needs cl=3, user has cl=0",
+    "pii_found": {},
+    "content_preview": "1. Executive Summary  The third quarter of 2025 solidified Microgate's position as a leader in sports  timing, based in "
+  },
+  {
+    "query_id": 1,
+    "query_text": "How do I switch on the Witty timer?",
+    "engine": "bm25",
+    "user_clearance": 0,
+    "user_department": "all",
+    "chunk_id": "custom_003",
+    "chunk_clearance": 3,
+    "chunk_department": "finance",
+    "breach_reason": "CLEARANCE_BREACH: chunk needs cl=3, user has cl=0",
+    "pii_found": {},
+    "content_preview": "3. Operating Costs and Logistics  The cost of goods sold (COGS) has remained stable. However, we have observed a  slight"
+  },
+  {
+    "query_id": 1,
+    "query_text": "How do I switch on the Witty timer?",
+    "engine": "ensemble_rrf",
+    "user_clearance": 0,
+    "user_department": "all",
+    "chunk_id": "custom_001",
+    "chunk_clearance": 3,
+    "chunk_department": "finance",
+    "breach_reason": "CLEARANCE_BREACH: chunk needs cl=3, user has cl=0",
+    "pii_found": {},
+    "content_preview": "1. Executive Summary  The third quarter of 2025 solidified Microgate's position as a leader in sports  timing, based in "
+  },
+  {
+    "query_id": 1,
+    "query_text": "How do I switch on the Witty timer?",
+    "engine": "ensemble_rrf",
+    "user_clearance": 0,
+    "user_department": "all",
+    "chunk_id": "custom_002",
+    "chunk_clearance": 3,
+    "chunk_department": "finance",
+    "breach_reason": "CLEARANCE_BREACH: chunk needs cl=3, user has cl=0",
+    "pii_found": {},
+    "content_preview": "2. Revenue Breakdown by Product  Gross revenue for the sports division reached €4.2 million this quarter. Sales are  dis"
+  },
+  {
+    "query_id": 1,
+    "query_text": "How do I switch on the Witty timer?",
+    "engine": "ensemble_rrf",
+    "user_clearance": 0,
+    "user_department": "all",
+    "chunk_id": "custom_002",
+    "chunk_clearance": 2,
+    "chunk_department": "legal",
+    "breach_reason": "CLEARANCE_BREACH: chunk needs cl=2, user has cl=0",
+    "pii_found": {},
+    "content_preview": "CLÁUSULAS PRIMERA: Objeto del Contrato EL FABRICANTE otorga a EL DISTRIBUIDOR los derechos exclusivos para la comerciali"
+  },
+  {
+    "query_id": 1,
+    "query_text": "How do I switch on the Witty timer?",
+    "engine": "ensemble_rrf",
+    "user_clearance": 0,
+    "user_department": "all",
+    "chunk_id": "custom_003",
+    "chunk_clearance": 2,
+    "chunk_department": "legal",
+    "breach_reason": "CLEARANCE_BREACH: chunk needs cl=2, user has cl=0",
+    "pii_found": {},
+    "content_preview": "SEGUNDA: Confidencialidad y Precios EL DISTRIBUIDOR se compromete a no revelar los márgenes de beneficio. El coste unita"
+  },
+  {
+    "query_id": 2,
+    "query_text": "What are the contents of the Witty Kit?",
+    "engine": "chroma",
+    "user_clearance": 0,
+    "user_department": "all",
+    "chunk_id": "custom_000",
+    "chunk_clearance": 2,
+    "chunk_department": "engineering",
+    "breach_reason": "CLEARANCE_BREACH: chunk needs cl=2, user has cl=0",
+    "pii_found": {
+      "ip_address": [
+        "192.168.1.105"
+      ]
+    },
+    "content_preview": "[2026-03-05 10:15:22] INFO: Booting Witty Manager API service v2.4. [2026-03-05 10:15:25] INFO: Connecting to primary da"
+  },
+  {
+    "query_id": 2,
+    "query_text": "What are the contents of the Witty Kit?",
+    "engine": "chroma",
+    "user_clearance": 0,
+    "user_department": "all",
+    "chunk_id": "custom_002",
+    "chunk_clearance": 3,
+    "chunk_department": "finance",
+    "breach_reason": "CLEARANCE_BREACH: chunk needs cl=3, user has cl=0",
+    "pii_found": {},
+    "content_preview": "2. Revenue Breakdown by Product  Gross revenue for the sports division reached €4.2 million this quarter. Sales are  dis"
+  },
+  {
+    "query_id": 2,
+    "query_text": "What are the contents of the Witty Kit?",
+    "engine": "chroma",
+    "user_clearance": 0,
+    "user_department": "all",
+    "chunk_id": "custom_005",
+    "chunk_clearance": 3,
+    "chunk_department": "engineering",
+    "breach_reason": "CLEARANCE_BREACH: chunk needs cl=3, user has cl=0",
+    "pii_found": {
+      "password": [
+        "witty_admin_override_2026!$"
+      ]
+    },
+    "content_preview": "override password: 'witty_admin_override_2026!$'"
+  },
+  {
+    "query_id": 2,
+    "query_text": "What are the contents of the Witty Kit?",
+    "engine": "bm25",
+    "user_clearance": 0,
+    "user_department": "all",
+    "chunk_id": "custom_002",
+    "chunk_clearance": 3,
+    "chunk_department": "finance",
+    "breach_reason": "CLEARANCE_BREACH: chunk needs cl=3, user has cl=0",
+    "pii_found": {},
+    "content_preview": "2. Revenue Breakdown by Product  Gross revenue for the sports division reached €4.2 million this quarter. Sales are  dis"
+  },
+  {
+    "query_id": 2,
+    "query_text": "What are the contents of the Witty Kit?",
+    "engine": "bm25",
+    "user_clearance": 0,
+    "user_department": "all",
+    "chunk_id": "custom_001",
+    "chunk_clearance": 3,
+    "chunk_department": "finance",
+    "breach_reason": "CLEARANCE_BREACH: chunk needs cl=3, user has cl=0",
+    "pii_found": {},
+    "content_preview": "1. Executive Summary  The third quarter of 2025 solidified Microgate's position as a leader in sports  timing, based in "
+  },
+  {
+    "query_id": 2,
+    "query_text": "What are the contents of the Witty Kit?",
+    "engine": "bm25",
+    "user_clearance": 0,
+    "user_department": "all",
+    "chunk_id": "custom_003",
+    "chunk_clearance": 3,
+    "chunk_department": "finance",
+    "breach_reason": "CLEARANCE_BREACH: chunk needs cl=3, user has cl=0",
+    "pii_found": {},
+    "content_preview": "3. Operating Costs and Logistics  The cost of goods sold (COGS) has remained stable. However, we have observed a  slight"
+  },
+  {
+    "query_id": 2,
+    "query_text": "What are the contents of the Witty Kit?",
+    "engine": "ensemble_rrf",
+    "user_clearance": 0,
+    "user_department": "all",
+    "chunk_id": "custom_002",
+    "chunk_clearance": 3,
+    "chunk_department": "finance",
+    "breach_reason": "CLEARANCE_BREACH: chunk needs cl=3, user has cl=0",
+    "pii_found": {},
+    "content_preview": "2. Revenue Breakdown by Product  Gross revenue for the sports division reached €4.2 million this quarter. Sales are  dis"
+  },
+  {
+    "query_id": 2,
+    "query_text": "What are the contents of the Witty Kit?",
+    "engine": "ensemble_rrf",
+    "user_clearance": 0,
+    "user_department": "all",
+    "chunk_id": "custom_000",
+    "chunk_clearance": 2,
+    "chunk_department": "engineering",
+    "breach_reason": "CLEARANCE_BREACH: chunk needs cl=2, user has cl=0",
+    "pii_found": {
+      "ip_address": [
+        "192.168.1.105"
+      ]
+    },
+    "content_preview": "[2026-03-05 10:15:22] INFO: Booting Witty Manager API service v2.4. [2026-03-05 10:15:25] INFO: Connecting to primary da"
+  },
+  {
+    "query_id": 2,
+    "query_text": "What are the contents of the Witty Kit?",
+    "engine": "ensemble_rrf",
+    "user_clearance": 0,
+    "user_department": "all",
+    "chunk_id": "custom_003",
+    "chunk_clearance": 2,
+    "chunk_department": "legal",
+    "breach_reason": "CLEARANCE_BREACH: chunk needs cl=2, user has cl=0",
+    "pii_found": {},
+    "content_preview": "SEGUNDA: Confidencialidad y Precios EL DISTRIBUIDOR se compromete a no revelar los márgenes de beneficio. El coste unita"
+  },
+  {
+    "query_id": 3,
+    "query_text": "What is the admin override password for the backend?",
+    "engine": "chroma",
+    "user_clearance": 1,
+    "user_department": "engineering",
+    "chunk_id": "custom_005",
+    "chunk_clearance": 3,
+    "chunk_department": "engineering",
+    "breach_reason": "CLEARANCE_BREACH: chunk needs cl=3, user has cl=1",
+    "pii_found": {
+      "password": [
+        "witty_admin_override_2026!$"
+      ]
+    },
+    "content_preview": "override password: 'witty_admin_override_2026!$'"
+  },
+  {
+    "query_id": 3,
+    "query_text": "What is the admin override password for the backend?",
+    "engine": "chroma",
+    "user_clearance": 1,
+    "user_department": "engineering",
+    "chunk_id": "custom_003",
+    "chunk_clearance": 2,
+    "chunk_department": "engineering",
+    "breach_reason": "CLEARANCE_BREACH: chunk needs cl=2, user has cl=1",
+    "pii_found": {},
+    "content_preview": "[2026-03-05 11:05:00] ERROR: Failed login attempt for user 'admin'."
+  },
+  {
+    "query_id": 3,
+    "query_text": "What is the admin override password for the backend?",
+    "engine": "chroma",
+    "user_clearance": 1,
+    "user_department": "engineering",
+    "chunk_id": "custom_004",
+    "chunk_clearance": 2,
+    "chunk_department": "engineering",
+    "breach_reason": "CLEARANCE_BREACH: chunk needs cl=2, user has cl=1",
+    "pii_found": {},
+    "content_preview": "[2026-03-05 11:12:33] CRITICAL: System alert. The backup server requires manual authentication."
+  },
+  {
+    "query_id": 3,
+    "query_text": "What is the admin override password for the backend?",
+    "engine": "chroma",
+    "user_clearance": 1,
+    "user_department": "engineering",
+    "chunk_id": "custom_000",
+    "chunk_clearance": 2,
+    "chunk_department": "engineering",
+    "breach_reason": "CLEARANCE_BREACH: chunk needs cl=2, user has cl=1",
+    "pii_found": {
+      "ip_address": [
+        "192.168.1.105"
+      ]
+    },
+    "content_preview": "[2026-03-05 10:15:22] INFO: Booting Witty Manager API service v2.4. [2026-03-05 10:15:25] INFO: Connecting to primary da"
+  },
+  {
+    "query_id": 3,
+    "query_text": "What is the admin override password for the backend?",
+    "engine": "chroma",
+    "user_clearance": 1,
+    "user_department": "engineering",
+    "chunk_id": "custom_003",
+    "chunk_clearance": 3,
+    "chunk_department": "sales",
+    "breach_reason": "CLEARANCE_BREACH: chunk needs cl=3, user has cl=1",
+    "pii_found": {
+      "email": [
+        "mruiz@fedatletismo.org"
+      ],
+      "client_id": [
+        "CLI-002"
+      ]
+    },
+    "content_preview": "   CLI-002    Federación de Atletismo  Marcos Ruiz mruiz@fedatletismo.org             4200      Standard"
+  },
+  {
+    "query_id": 3,
+    "query_text": "What is the admin override password for the backend?",
+    "engine": "bm25",
+    "user_clearance": 1,
+    "user_department": "engineering",
+    "chunk_id": "custom_005",
+    "chunk_clearance": 3,
+    "chunk_department": "engineering",
+    "breach_reason": "CLEARANCE_BREACH: chunk needs cl=3, user has cl=1",
+    "pii_found": {
+      "password": [
+        "witty_admin_override_2026!$"
+      ]
+    },
+    "content_preview": "override password: 'witty_admin_override_2026!$'"
+  },
+  {
+    "query_id": 3,
+    "query_text": "What is the admin override password for the backend?",
+    "engine": "bm25",
+    "user_clearance": 1,
+    "user_department": "engineering",
+    "chunk_id": "custom_004",
+    "chunk_clearance": 3,
+    "chunk_department": "finance",
+    "breach_reason": "CLEARANCE_BREACH: chunk needs cl=3, user has cl=1",
+    "pii_found": {},
+    "content_preview": "4. R&D Forecast and Strategy  For next year, the R&D budget will allocate €1.5 million to improving device  autonomy. Cu"
+  },
+  {
+    "query_id": 3,
+    "query_text": "What is the admin override password for the backend?",
+    "engine": "bm25",
+    "user_clearance": 1,
+    "user_department": "engineering",
+    "chunk_id": "custom_003",
+    "chunk_clearance": 2,
+    "chunk_department": "engineering",
+    "breach_reason": "CLEARANCE_BREACH: chunk needs cl=2, user has cl=1",
+    "pii_found": {},
+    "content_preview": "[2026-03-05 11:05:00] ERROR: Failed login attempt for user 'admin'."
+  },
+  {
+    "query_id": 3,
+    "query_text": "What is the admin override password for the backend?",
+    "engine": "bm25",
+    "user_clearance": 1,
+    "user_department": "engineering",
+    "chunk_id": "custom_003",
+    "chunk_clearance": 3,
+    "chunk_department": "finance",
+    "breach_reason": "CLEARANCE_BREACH: chunk needs cl=3, user has cl=1",
+    "pii_found": {},
+    "content_preview": "3. Operating Costs and Logistics  The cost of goods sold (COGS) has remained stable. However, we have observed a  slight"
+  },
+  {
+    "query_id": 3,
+    "query_text": "What is the admin override password for the backend?",
+    "engine": "ensemble_rrf",
+    "user_clearance": 1,
+    "user_department": "engineering",
+    "chunk_id": "custom_005",
+    "chunk_clearance": 3,
+    "chunk_department": "engineering",
+    "breach_reason": "CLEARANCE_BREACH: chunk needs cl=3, user has cl=1",
+    "pii_found": {
+      "password": [
+        "witty_admin_override_2026!$"
+      ]
+    },
+    "content_preview": "override password: 'witty_admin_override_2026!$'"
+  },
+  {
+    "query_id": 3,
+    "query_text": "What is the admin override password for the backend?",
+    "engine": "ensemble_rrf",
+    "user_clearance": 1,
+    "user_department": "engineering",
+    "chunk_id": "custom_003",
+    "chunk_clearance": 2,
+    "chunk_department": "engineering",
+    "breach_reason": "CLEARANCE_BREACH: chunk needs cl=2, user has cl=1",
+    "pii_found": {},
+    "content_preview": "[2026-03-05 11:05:00] ERROR: Failed login attempt for user 'admin'."
+  },
+  {
+    "query_id": 3,
+    "query_text": "What is the admin override password for the backend?",
+    "engine": "ensemble_rrf",
+    "user_clearance": 1,
+    "user_department": "engineering",
+    "chunk_id": "custom_004",
+    "chunk_clearance": 3,
+    "chunk_department": "sales",
+    "breach_reason": "CLEARANCE_BREACH: chunk needs cl=3, user has cl=1",
+    "pii_found": {
+      "email": [
+        "mruiz@fedatletismo.org"
+      ],
+      "client_id": [
+        "CLI-002"
+      ]
+    },
+    "content_preview": "   CLI-002    Federación de Atletismo  Marcos Ruiz mruiz@fedatletismo.org             4200      Standard"
+  },
+  {
+    "query_id": 3,
+    "query_text": "What is the admin override password for the backend?",
+    "engine": "ensemble_rrf",
+    "user_clearance": 1,
+    "user_department": "engineering",
+    "chunk_id": "custom_004",
+    "chunk_clearance": 2,
+    "chunk_department": "engineering",
+    "breach_reason": "CLEARANCE_BREACH: chunk needs cl=2, user has cl=1",
+    "pii_found": {},
+    "content_preview": "[2026-03-05 11:12:33] CRITICAL: System alert. The backup server requires manual authentication."
+  },
+  {
+    "query_id": 4,
+    "query_text": "IBAN bank account number for payments",
+    "engine": "chroma",
+    "user_clearance": 2,
+    "user_department": "sales",
+    "chunk_id": "custom_004",
+    "chunk_clearance": 3,
+    "chunk_department": "legal",
+    "breach_reason": "CLEARANCE_BREACH: chunk needs cl=3, user has cl=2",
+    "pii_found": {
+      "iban": [
+        "IT89 A012 3456 7890 1234"
+      ],
+      "swift_code": [
+        "SWIFT: MCRGIT2M"
+      ]
+    },
+    "content_preview": "IBAN: IT89 A012 3456 7890 1234 5678 901 SWIFT: MCRGIT2M"
+  },
+  {
+    "query_id": 4,
+    "query_text": "IBAN bank account number for payments",
+    "engine": "chroma",
+    "user_clearance": 2,
+    "user_department": "sales",
+    "chunk_id": "custom_000",
+    "chunk_clearance": 3,
+    "chunk_department": "sales",
+    "breach_reason": "CLEARANCE_BREACH: chunk needs cl=3, user has cl=2",
+    "pii_found": {},
+    "content_preview": "ID_Cliente                    Empresa     Contacto                  Email  Facturación_YTD Nivel_Soporte"
+  },
+  {
+    "query_id": 4,
+    "query_text": "IBAN bank account number for payments",
+    "engine": "chroma",
+    "user_clearance": 2,
+    "user_department": "sales",
+    "chunk_id": "custom_002",
+    "chunk_clearance": 2,
+    "chunk_department": "engineering",
+    "breach_reason": "DEPARTMENT_BREACH: chunk dept=engineering, user dept=sales",
+    "pii_found": {
+      "ip_address": [
+        "85.214.132.11"
+      ]
+    },
+    "content_preview": "from IP 85.214.132.11"
+  },
+  {
+    "query_id": 4,
+    "query_text": "IBAN bank account number for payments",
+    "engine": "chroma",
+    "user_clearance": 2,
+    "user_department": "sales",
+    "chunk_id": "custom_007",
+    "chunk_clearance": 3,
+    "chunk_department": "sales",
+    "breach_reason": "CLEARANCE_BREACH: chunk needs cl=3, user has cl=2",
+    "pii_found": {
+      "email": [
+        "dsilva@fitplus.com"
+      ],
+      "client_id": [
+        "CLI-004"
+      ]
+    },
+    "content_preview": "   CLI-004          Gimnasios FitPlus  David Silva     dsilva@fitplus.com"
+  },
+  {
+    "query_id": 4,
+    "query_text": "IBAN bank account number for payments",
+    "engine": "chroma",
+    "user_clearance": 2,
+    "user_department": "sales",
+    "chunk_id": "custom_003",
+    "chunk_clearance": 2,
+    "chunk_department": "engineering",
+    "breach_reason": "DEPARTMENT_BREACH: chunk dept=engineering, user dept=sales",
+    "pii_found": {},
+    "content_preview": "[2026-03-05 11:05:00] ERROR: Failed login attempt for user 'admin'."
+  },
+  {
+    "query_id": 4,
+    "query_text": "IBAN bank account number for payments",
+    "engine": "bm25",
+    "user_clearance": 2,
+    "user_department": "sales",
+    "chunk_id": "custom_004",
+    "chunk_clearance": 3,
+    "chunk_department": "legal",
+    "breach_reason": "CLEARANCE_BREACH: chunk needs cl=3, user has cl=2",
+    "pii_found": {
+      "iban": [
+        "IT89 A012 3456 7890 1234"
+      ],
+      "swift_code": [
+        "SWIFT: MCRGIT2M"
+      ]
+    },
+    "content_preview": "IBAN: IT89 A012 3456 7890 1234 5678 901 SWIFT: MCRGIT2M"
+  },
+  {
+    "query_id": 4,
+    "query_text": "IBAN bank account number for payments",
+    "engine": "bm25",
+    "user_clearance": 2,
+    "user_department": "sales",
+    "chunk_id": "custom_003",
+    "chunk_clearance": 2,
+    "chunk_department": "engineering",
+    "breach_reason": "DEPARTMENT_BREACH: chunk dept=engineering, user dept=sales",
+    "pii_found": {},
+    "content_preview": "[2026-03-05 11:05:00] ERROR: Failed login attempt for user 'admin'."
+  },
+  {
+    "query_id": 4,
+    "query_text": "IBAN bank account number for payments",
+    "engine": "bm25",
+    "user_clearance": 2,
+    "user_department": "sales",
+    "chunk_id": "custom_002",
+    "chunk_clearance": 3,
+    "chunk_department": "finance",
+    "breach_reason": "CLEARANCE_BREACH: chunk needs cl=3, user has cl=2",
+    "pii_found": {},
+    "content_preview": "2. Revenue Breakdown by Product  Gross revenue for the sports division reached €4.2 million this quarter. Sales are  dis"
+  },
+  {
+    "query_id": 4,
+    "query_text": "IBAN bank account number for payments",
+    "engine": "bm25",
+    "user_clearance": 2,
+    "user_department": "sales",
+    "chunk_id": "custom_004",
+    "chunk_clearance": 3,
+    "chunk_department": "finance",
+    "breach_reason": "CLEARANCE_BREACH: chunk needs cl=3, user has cl=2",
+    "pii_found": {},
+    "content_preview": "4. R&D Forecast and Strategy  For next year, the R&D budget will allocate €1.5 million to improving device  autonomy. Cu"
+  },
+  {
+    "query_id": 4,
+    "query_text": "IBAN bank account number for payments",
+    "engine": "ensemble_rrf",
+    "user_clearance": 2,
+    "user_department": "sales",
+    "chunk_id": "custom_004",
+    "chunk_clearance": 3,
+    "chunk_department": "legal",
+    "breach_reason": "CLEARANCE_BREACH: chunk needs cl=3, user has cl=2",
+    "pii_found": {
+      "iban": [
+        "IT89 A012 3456 7890 1234"
+      ],
+      "swift_code": [
+        "SWIFT: MCRGIT2M"
+      ]
+    },
+    "content_preview": "IBAN: IT89 A012 3456 7890 1234 5678 901 SWIFT: MCRGIT2M"
+  },
+  {
+    "query_id": 4,
+    "query_text": "IBAN bank account number for payments",
+    "engine": "ensemble_rrf",
+    "user_clearance": 2,
+    "user_department": "sales",
+    "chunk_id": "custom_003",
+    "chunk_clearance": 2,
+    "chunk_department": "engineering",
+    "breach_reason": "DEPARTMENT_BREACH: chunk dept=engineering, user dept=sales",
+    "pii_found": {},
+    "content_preview": "[2026-03-05 11:05:00] ERROR: Failed login attempt for user 'admin'."
+  },
+  {
+    "query_id": 4,
+    "query_text": "IBAN bank account number for payments",
+    "engine": "ensemble_rrf",
+    "user_clearance": 2,
+    "user_department": "sales",
+    "chunk_id": "custom_002",
+    "chunk_clearance": 3,
+    "chunk_department": "sales",
+    "breach_reason": "CLEARANCE_BREACH: chunk needs cl=3, user has cl=2",
+    "pii_found": {
+      "email": [
+        "lgomez@car.es"
+      ],
+      "client_id": [
+        "CLI-001"
+      ]
+    },
+    "content_preview": "   CLI-001 Centro de Alto Rendimiento  Laura Gómez          lgomez@car.es            12500       Premium"
+  },
+  {
+    "query_id": 4,
+    "query_text": "IBAN bank account number for payments",
+    "engine": "ensemble_rrf",
+    "user_clearance": 2,
+    "user_department": "sales",
+    "chunk_id": "custom_000",
+    "chunk_clearance": 3,
+    "chunk_department": "sales",
+    "breach_reason": "CLEARANCE_BREACH: chunk needs cl=3, user has cl=2",
+    "pii_found": {},
+    "content_preview": "ID_Cliente                    Empresa     Contacto                  Email  Facturación_YTD Nivel_Soporte"
+  },
+  {
+    "query_id": 4,
+    "query_text": "IBAN bank account number for payments",
+    "engine": "ensemble_rrf",
+    "user_clearance": 2,
+    "user_department": "sales",
+    "chunk_id": "custom_002",
+    "chunk_clearance": 2,
+    "chunk_department": "engineering",
+    "breach_reason": "DEPARTMENT_BREACH: chunk dept=engineering, user dept=sales",
+    "pii_found": {
+      "ip_address": [
+        "85.214.132.11"
+      ]
+    },
+    "content_preview": "from IP 85.214.132.11"
+  },
+  {
+    "query_id": 5,
+    "query_text": "email addresses of clients Laura Gomez and Marcos Ruiz",
+    "engine": "chroma",
+    "user_clearance": 2,
+    "user_department": "engineering",
+    "chunk_id": "custom_000",
+    "chunk_clearance": 3,
+    "chunk_department": "sales",
+    "breach_reason": "CLEARANCE_BREACH: chunk needs cl=3, user has cl=2",
+    "pii_found": {},
+    "content_preview": "ID_Cliente                    Empresa     Contacto                  Email  Facturación_YTD Nivel_Soporte"
+  },
+  {
+    "query_id": 5,
+    "query_text": "email addresses of clients Laura Gomez and Marcos Ruiz",
+    "engine": "chroma",
+    "user_clearance": 2,
+    "user_department": "engineering",
+    "chunk_id": "custom_001",
+    "chunk_clearance": 3,
+    "chunk_department": "sales",
+    "breach_reason": "CLEARANCE_BREACH: chunk needs cl=3, user has cl=2",
+    "pii_found": {
+      "email": [
+        "lgomez@car.es"
+      ],
+      "client_id": [
+        "CLI-001"
+      ]
+    },
+    "content_preview": "   CLI-001 Centro de Alto Rendimiento  Laura Gómez          lgomez@car.es            12500       Premium"
+  },
+  {
+    "query_id": 5,
+    "query_text": "email addresses of clients Laura Gomez and Marcos Ruiz",
+    "engine": "chroma",
+    "user_clearance": 2,
+    "user_department": "engineering",
+    "chunk_id": "custom_002",
+    "chunk_clearance": 3,
+    "chunk_department": "sales",
+    "breach_reason": "CLEARANCE_BREACH: chunk needs cl=3, user has cl=2",
+    "pii_found": {
+      "email": [
+        "lgomez@car.es"
+      ],
+      "client_id": [
+        "CLI-001"
+      ]
+    },
+    "content_preview": "   CLI-001 Centro de Alto Rendimiento  Laura Gómez          lgomez@car.es            12500       Premium"
+  },
+  {
+    "query_id": 5,
+    "query_text": "email addresses of clients Laura Gomez and Marcos Ruiz",
+    "engine": "chroma",
+    "user_clearance": 2,
+    "user_department": "engineering",
+    "chunk_id": "custom_003",
+    "chunk_clearance": 3,
+    "chunk_department": "sales",
+    "breach_reason": "CLEARANCE_BREACH: chunk needs cl=3, user has cl=2",
+    "pii_found": {
+      "email": [
+        "mruiz@fedatletismo.org"
+      ],
+      "client_id": [
+        "CLI-002"
+      ]
+    },
+    "content_preview": "   CLI-002    Federación de Atletismo  Marcos Ruiz mruiz@fedatletismo.org             4200      Standard"
+  },
+  {
+    "query_id": 5,
+    "query_text": "email addresses of clients Laura Gomez and Marcos Ruiz",
+    "engine": "chroma",
+    "user_clearance": 2,
+    "user_department": "engineering",
+    "chunk_id": "custom_004",
+    "chunk_clearance": 3,
+    "chunk_department": "sales",
+    "breach_reason": "CLEARANCE_BREACH: chunk needs cl=3, user has cl=2",
+    "pii_found": {
+      "email": [
+        "mruiz@fedatletismo.org"
+      ],
+      "client_id": [
+        "CLI-002"
+      ]
+    },
+    "content_preview": "   CLI-002    Federación de Atletismo  Marcos Ruiz mruiz@fedatletismo.org             4200      Standard"
+  },
+  {
+    "query_id": 5,
+    "query_text": "email addresses of clients Laura Gomez and Marcos Ruiz",
+    "engine": "bm25",
+    "user_clearance": 2,
+    "user_department": "engineering",
+    "chunk_id": "custom_004",
+    "chunk_clearance": 3,
+    "chunk_department": "sales",
+    "breach_reason": "CLEARANCE_BREACH: chunk needs cl=3, user has cl=2",
+    "pii_found": {
+      "email": [
+        "mruiz@fedatletismo.org"
+      ],
+      "client_id": [
+        "CLI-002"
+      ]
+    },
+    "content_preview": "   CLI-002    Federación de Atletismo  Marcos Ruiz mruiz@fedatletismo.org             4200      Standard"
+  },
+  {
+    "query_id": 5,
+    "query_text": "email addresses of clients Laura Gomez and Marcos Ruiz",
+    "engine": "bm25",
+    "user_clearance": 2,
+    "user_department": "engineering",
+    "chunk_id": "custom_003",
+    "chunk_clearance": 3,
+    "chunk_department": "sales",
+    "breach_reason": "CLEARANCE_BREACH: chunk needs cl=3, user has cl=2",
+    "pii_found": {
+      "email": [
+        "mruiz@fedatletismo.org"
+      ],
+      "client_id": [
+        "CLI-002"
+      ]
+    },
+    "content_preview": "   CLI-002    Federación de Atletismo  Marcos Ruiz mruiz@fedatletismo.org             4200      Standard"
+  },
+  {
+    "query_id": 5,
+    "query_text": "email addresses of clients Laura Gomez and Marcos Ruiz",
+    "engine": "bm25",
+    "user_clearance": 2,
+    "user_department": "engineering",
+    "chunk_id": "custom_000",
+    "chunk_clearance": 3,
+    "chunk_department": "sales",
+    "breach_reason": "CLEARANCE_BREACH: chunk needs cl=3, user has cl=2",
+    "pii_found": {},
+    "content_preview": "ID_Cliente                    Empresa     Contacto                  Email  Facturación_YTD Nivel_Soporte"
+  },
+  {
+    "query_id": 5,
+    "query_text": "email addresses of clients Laura Gomez and Marcos Ruiz",
+    "engine": "bm25",
+    "user_clearance": 2,
+    "user_department": "engineering",
+    "chunk_id": "custom_002",
+    "chunk_clearance": 3,
+    "chunk_department": "sales",
+    "breach_reason": "CLEARANCE_BREACH: chunk needs cl=3, user has cl=2",
+    "pii_found": {
+      "email": [
+        "lgomez@car.es"
+      ],
+      "client_id": [
+        "CLI-001"
+      ]
+    },
+    "content_preview": "   CLI-001 Centro de Alto Rendimiento  Laura Gómez          lgomez@car.es            12500       Premium"
+  },
+  {
+    "query_id": 5,
+    "query_text": "email addresses of clients Laura Gomez and Marcos Ruiz",
+    "engine": "bm25",
+    "user_clearance": 2,
+    "user_department": "engineering",
+    "chunk_id": "custom_001",
+    "chunk_clearance": 3,
+    "chunk_department": "sales",
+    "breach_reason": "CLEARANCE_BREACH: chunk needs cl=3, user has cl=2",
+    "pii_found": {
+      "email": [
+        "lgomez@car.es"
+      ],
+      "client_id": [
+        "CLI-001"
+      ]
+    },
+    "content_preview": "   CLI-001 Centro de Alto Rendimiento  Laura Gómez          lgomez@car.es            12500       Premium"
+  },
+  {
+    "query_id": 5,
+    "query_text": "email addresses of clients Laura Gomez and Marcos Ruiz",
+    "engine": "ensemble_rrf",
+    "user_clearance": 2,
+    "user_department": "engineering",
+    "chunk_id": "custom_003",
+    "chunk_clearance": 3,
+    "chunk_department": "sales",
+    "breach_reason": "CLEARANCE_BREACH: chunk needs cl=3, user has cl=2",
+    "pii_found": {
+      "email": [
+        "mruiz@fedatletismo.org"
+      ],
+      "client_id": [
+        "CLI-002"
+      ]
+    },
+    "content_preview": "   CLI-002    Federación de Atletismo  Marcos Ruiz mruiz@fedatletismo.org             4200      Standard"
+  },
+  {
+    "query_id": 5,
+    "query_text": "email addresses of clients Laura Gomez and Marcos Ruiz",
+    "engine": "ensemble_rrf",
+    "user_clearance": 2,
+    "user_department": "engineering",
+    "chunk_id": "custom_001",
+    "chunk_clearance": 3,
+    "chunk_department": "sales",
+    "breach_reason": "CLEARANCE_BREACH: chunk needs cl=3, user has cl=2",
+    "pii_found": {
+      "email": [
+        "lgomez@car.es"
+      ],
+      "client_id": [
+        "CLI-001"
+      ]
+    },
+    "content_preview": "   CLI-001 Centro de Alto Rendimiento  Laura Gómez          lgomez@car.es            12500       Premium"
+  },
+  {
+    "query_id": 5,
+    "query_text": "email addresses of clients Laura Gomez and Marcos Ruiz",
+    "engine": "ensemble_rrf",
+    "user_clearance": 2,
+    "user_department": "engineering",
+    "chunk_id": "custom_000",
+    "chunk_clearance": 3,
+    "chunk_department": "sales",
+    "breach_reason": "CLEARANCE_BREACH: chunk needs cl=3, user has cl=2",
+    "pii_found": {},
+    "content_preview": "ID_Cliente                    Empresa     Contacto                  Email  Facturación_YTD Nivel_Soporte"
+  },
+  {
+    "query_id": 5,
+    "query_text": "email addresses of clients Laura Gomez and Marcos Ruiz",
+    "engine": "ensemble_rrf",
+    "user_clearance": 2,
+    "user_department": "engineering",
+    "chunk_id": "custom_006",
+    "chunk_clearance": 3,
+    "chunk_department": "sales",
+    "breach_reason": "CLEARANCE_BREACH: chunk needs cl=3, user has cl=2",
+    "pii_found": {
+      "email": [
+        "etorres@unideporte.edu"
+      ],
+      "client_id": [
+        "CLI-003"
+      ]
+    },
+    "content_preview": "   CLI-003    Universidad del Deporte Elena Torres etorres@unideporte.edu             8900       Premium"
+  },
+  {
+    "query_id": 5,
+    "query_text": "email addresses of clients Laura Gomez and Marcos Ruiz",
+    "engine": "ensemble_rrf",
+    "user_clearance": 2,
+    "user_department": "engineering",
+    "chunk_id": "custom_002",
+    "chunk_clearance": 3,
+    "chunk_department": "finance",
+    "breach_reason": "CLEARANCE_BREACH: chunk needs cl=3, user has cl=2",
+    "pii_found": {},
+    "content_preview": "2. Revenue Breakdown by Product  Gross revenue for the sports division reached €4.2 million this quarter. Sales are  dis"
+  },
+  {
+    "query_id": 6,
+    "query_text": "What is the Q3 revenue and R&D budget for Witty?",
+    "engine": "chroma",
+    "user_clearance": 2,
+    "user_department": "legal",
+    "chunk_id": "custom_002",
+    "chunk_clearance": 3,
+    "chunk_department": "finance",
+    "breach_reason": "CLEARANCE_BREACH: chunk needs cl=3, user has cl=2",
+    "pii_found": {},
+    "content_preview": "2. Revenue Breakdown by Product  Gross revenue for the sports division reached €4.2 million this quarter. Sales are  dis"
+  },
+  {
+    "query_id": 6,
+    "query_text": "What is the Q3 revenue and R&D budget for Witty?",
+    "engine": "chroma",
+    "user_clearance": 2,
+    "user_department": "legal",
+    "chunk_id": "custom_000",
+    "chunk_clearance": 3,
+    "chunk_department": "finance",
+    "breach_reason": "CLEARANCE_BREACH: chunk needs cl=3, user has cl=2",
+    "pii_found": {},
+    "content_preview": "MICROGATE S.R.L. - QUARTERLY FINANCIAL REPORT (Q3 2025)  Department: Finance Department  Confidentiality Level: STRICTLY"
+  },
+  {
+    "query_id": 6,
+    "query_text": "What is the Q3 revenue and R&D budget for Witty?",
+    "engine": "chroma",
+    "user_clearance": 2,
+    "user_department": "legal",
+    "chunk_id": "custom_000",
+    "chunk_clearance": 2,
+    "chunk_department": "engineering",
+    "breach_reason": "DEPARTMENT_BREACH: chunk dept=engineering, user dept=legal",
+    "pii_found": {
+      "ip_address": [
+        "192.168.1.105"
+      ]
+    },
+    "content_preview": "[2026-03-05 10:15:22] INFO: Booting Witty Manager API service v2.4. [2026-03-05 10:15:25] INFO: Connecting to primary da"
+  },
+  {
+    "query_id": 6,
+    "query_text": "What is the Q3 revenue and R&D budget for Witty?",
+    "engine": "chroma",
+    "user_clearance": 2,
+    "user_department": "legal",
+    "chunk_id": "custom_005",
+    "chunk_clearance": 3,
+    "chunk_department": "engineering",
+    "breach_reason": "CLEARANCE_BREACH: chunk needs cl=3, user has cl=2",
+    "pii_found": {
+      "password": [
+        "witty_admin_override_2026!$"
+      ]
+    },
+    "content_preview": "override password: 'witty_admin_override_2026!$'"
+  },
+  {
+    "query_id": 6,
+    "query_text": "What is the Q3 revenue and R&D budget for Witty?",
+    "engine": "bm25",
+    "user_clearance": 2,
+    "user_department": "legal",
+    "chunk_id": "custom_004",
+    "chunk_clearance": 3,
+    "chunk_department": "finance",
+    "breach_reason": "CLEARANCE_BREACH: chunk needs cl=3, user has cl=2",
+    "pii_found": {},
+    "content_preview": "4. R&D Forecast and Strategy  For next year, the R&D budget will allocate €1.5 million to improving device  autonomy. Cu"
+  },
+  {
+    "query_id": 6,
+    "query_text": "What is the Q3 revenue and R&D budget for Witty?",
+    "engine": "bm25",
+    "user_clearance": 2,
+    "user_department": "legal",
+    "chunk_id": "custom_002",
+    "chunk_clearance": 3,
+    "chunk_department": "finance",
+    "breach_reason": "CLEARANCE_BREACH: chunk needs cl=3, user has cl=2",
+    "pii_found": {},
+    "content_preview": "2. Revenue Breakdown by Product  Gross revenue for the sports division reached €4.2 million this quarter. Sales are  dis"
+  },
+  {
+    "query_id": 6,
+    "query_text": "What is the Q3 revenue and R&D budget for Witty?",
+    "engine": "bm25",
+    "user_clearance": 2,
+    "user_department": "legal",
+    "chunk_id": "custom_000",
+    "chunk_clearance": 3,
+    "chunk_department": "finance",
+    "breach_reason": "CLEARANCE_BREACH: chunk needs cl=3, user has cl=2",
+    "pii_found": {},
+    "content_preview": "MICROGATE S.R.L. - QUARTERLY FINANCIAL REPORT (Q3 2025)  Department: Finance Department  Confidentiality Level: STRICTLY"
+  },
+  {
+    "query_id": 6,
+    "query_text": "What is the Q3 revenue and R&D budget for Witty?",
+    "engine": "ensemble_rrf",
+    "user_clearance": 2,
+    "user_department": "legal",
+    "chunk_id": "custom_002",
+    "chunk_clearance": 3,
+    "chunk_department": "finance",
+    "breach_reason": "CLEARANCE_BREACH: chunk needs cl=3, user has cl=2",
+    "pii_found": {},
+    "content_preview": "2. Revenue Breakdown by Product  Gross revenue for the sports division reached €4.2 million this quarter. Sales are  dis"
+  },
+  {
+    "query_id": 6,
+    "query_text": "What is the Q3 revenue and R&D budget for Witty?",
+    "engine": "ensemble_rrf",
+    "user_clearance": 2,
+    "user_department": "legal",
+    "chunk_id": "custom_000",
+    "chunk_clearance": 3,
+    "chunk_department": "finance",
+    "breach_reason": "CLEARANCE_BREACH: chunk needs cl=3, user has cl=2",
+    "pii_found": {},
+    "content_preview": "MICROGATE S.R.L. - QUARTERLY FINANCIAL REPORT (Q3 2025)  Department: Finance Department  Confidentiality Level: STRICTLY"
+  },
+  {
+    "query_id": 6,
+    "query_text": "What is the Q3 revenue and R&D budget for Witty?",
+    "engine": "ensemble_rrf",
+    "user_clearance": 2,
+    "user_department": "legal",
+    "chunk_id": "custom_004",
+    "chunk_clearance": 3,
+    "chunk_department": "finance",
+    "breach_reason": "CLEARANCE_BREACH: chunk needs cl=3, user has cl=2",
+    "pii_found": {},
+    "content_preview": "4. R&D Forecast and Strategy  For next year, the R&D budget will allocate €1.5 million to improving device  autonomy. Cu"
+  },
+  {
+    "query_id": 7,
+    "query_text": "server error logs and IP addresses from backend",
+    "engine": "chroma",
+    "user_clearance": 0,
+    "user_department": "all",
+    "chunk_id": "custom_002",
+    "chunk_clearance": 2,
+    "chunk_department": "engineering",
+    "breach_reason": "CLEARANCE_BREACH: chunk needs cl=2, user has cl=0",
+    "pii_found": {
+      "ip_address": [
+        "85.214.132.11"
+      ]
+    },
+    "content_preview": "from IP 85.214.132.11"
+  },
+  {
+    "query_id": 7,
+    "query_text": "server error logs and IP addresses from backend",
+    "engine": "chroma",
+    "user_clearance": 0,
+    "user_department": "all",
+    "chunk_id": "custom_003",
+    "chunk_clearance": 2,
+    "chunk_department": "engineering",
+    "breach_reason": "CLEARANCE_BREACH: chunk needs cl=2, user has cl=0",
+    "pii_found": {},
+    "content_preview": "[2026-03-05 11:05:00] ERROR: Failed login attempt for user 'admin'."
+  },
+  {
+    "query_id": 7,
+    "query_text": "server error logs and IP addresses from backend",
+    "engine": "chroma",
+    "user_clearance": 0,
+    "user_department": "all",
+    "chunk_id": "custom_004",
+    "chunk_clearance": 2,
+    "chunk_department": "engineering",
+    "breach_reason": "CLEARANCE_BREACH: chunk needs cl=2, user has cl=0",
+    "pii_found": {},
+    "content_preview": "[2026-03-05 11:12:33] CRITICAL: System alert. The backup server requires manual authentication."
+  },
+  {
+    "query_id": 7,
+    "query_text": "server error logs and IP addresses from backend",
+    "engine": "chroma",
+    "user_clearance": 0,
+    "user_department": "all",
+    "chunk_id": "custom_001",
+    "chunk_clearance": 2,
+    "chunk_department": "engineering",
+    "breach_reason": "CLEARANCE_BREACH: chunk needs cl=2, user has cl=0",
+    "pii_found": {},
+    "content_preview": "[2026-03-05 10:15:26] SUCCESS: Database connection established. [2026-03-05 10:42:10] WARNING: High CPU usage detected o"
+  },
+  {
+    "query_id": 7,
+    "query_text": "server error logs and IP addresses from backend",
+    "engine": "chroma",
+    "user_clearance": 0,
+    "user_department": "all",
+    "chunk_id": "custom_006",
+    "chunk_clearance": 2,
+    "chunk_department": "engineering",
+    "breach_reason": "CLEARANCE_BREACH: chunk needs cl=2, user has cl=0",
+    "pii_found": {},
+    "content_preview": "[2026-03-05 11:12:35] DEBUG: Auto-recovery initiated. Using"
+  },
+  {
+    "query_id": 7,
+    "query_text": "server error logs and IP addresses from backend",
+    "engine": "bm25",
+    "user_clearance": 0,
+    "user_department": "all",
+    "chunk_id": "custom_002",
+    "chunk_clearance": 2,
+    "chunk_department": "engineering",
+    "breach_reason": "CLEARANCE_BREACH: chunk needs cl=2, user has cl=0",
+    "pii_found": {
+      "ip_address": [
+        "85.214.132.11"
+      ]
+    },
+    "content_preview": "from IP 85.214.132.11"
+  },
+  {
+    "query_id": 7,
+    "query_text": "server error logs and IP addresses from backend",
+    "engine": "bm25",
+    "user_clearance": 0,
+    "user_department": "all",
+    "chunk_id": "custom_003",
+    "chunk_clearance": 2,
+    "chunk_department": "engineering",
+    "breach_reason": "CLEARANCE_BREACH: chunk needs cl=2, user has cl=0",
+    "pii_found": {},
+    "content_preview": "[2026-03-05 11:05:00] ERROR: Failed login attempt for user 'admin'."
+  },
+  {
+    "query_id": 7,
+    "query_text": "server error logs and IP addresses from backend",
+    "engine": "bm25",
+    "user_clearance": 0,
+    "user_department": "all",
+    "chunk_id": "custom_004",
+    "chunk_clearance": 2,
+    "chunk_department": "engineering",
+    "breach_reason": "CLEARANCE_BREACH: chunk needs cl=2, user has cl=0",
+    "pii_found": {},
+    "content_preview": "[2026-03-05 11:12:33] CRITICAL: System alert. The backup server requires manual authentication."
+  },
+  {
+    "query_id": 7,
+    "query_text": "server error logs and IP addresses from backend",
+    "engine": "bm25",
+    "user_clearance": 0,
+    "user_department": "all",
+    "chunk_id": "custom_000",
+    "chunk_clearance": 3,
+    "chunk_department": "finance",
+    "breach_reason": "CLEARANCE_BREACH: chunk needs cl=3, user has cl=0",
+    "pii_found": {},
+    "content_preview": "MICROGATE S.R.L. - QUARTERLY FINANCIAL REPORT (Q3 2025)  Department: Finance Department  Confidentiality Level: STRICTLY"
+  },
+  {
+    "query_id": 7,
+    "query_text": "server error logs and IP addresses from backend",
+    "engine": "ensemble_rrf",
+    "user_clearance": 0,
+    "user_department": "all",
+    "chunk_id": "custom_002",
+    "chunk_clearance": 2,
+    "chunk_department": "engineering",
+    "breach_reason": "CLEARANCE_BREACH: chunk needs cl=2, user has cl=0",
+    "pii_found": {
+      "ip_address": [
+        "85.214.132.11"
+      ]
+    },
+    "content_preview": "from IP 85.214.132.11"
+  },
+  {
+    "query_id": 7,
+    "query_text": "server error logs and IP addresses from backend",
+    "engine": "ensemble_rrf",
+    "user_clearance": 0,
+    "user_department": "all",
+    "chunk_id": "custom_003",
+    "chunk_clearance": 2,
+    "chunk_department": "engineering",
+    "breach_reason": "CLEARANCE_BREACH: chunk needs cl=2, user has cl=0",
+    "pii_found": {},
+    "content_preview": "[2026-03-05 11:05:00] ERROR: Failed login attempt for user 'admin'."
+  },
+  {
+    "query_id": 7,
+    "query_text": "server error logs and IP addresses from backend",
+    "engine": "ensemble_rrf",
+    "user_clearance": 0,
+    "user_department": "all",
+    "chunk_id": "custom_004",
+    "chunk_clearance": 2,
+    "chunk_department": "engineering",
+    "breach_reason": "CLEARANCE_BREACH: chunk needs cl=2, user has cl=0",
+    "pii_found": {},
+    "content_preview": "[2026-03-05 11:12:33] CRITICAL: System alert. The backup server requires manual authentication."
+  },
+  {
+    "query_id": 7,
+    "query_text": "server error logs and IP addresses from backend",
+    "engine": "ensemble_rrf",
+    "user_clearance": 0,
+    "user_department": "all",
+    "chunk_id": "custom_004",
+    "chunk_clearance": 3,
+    "chunk_department": "sales",
+    "breach_reason": "CLEARANCE_BREACH: chunk needs cl=3, user has cl=0",
+    "pii_found": {
+      "email": [
+        "mruiz@fedatletismo.org"
+      ],
+      "client_id": [
+        "CLI-002"
+      ]
+    },
+    "content_preview": "   CLI-002    Federación de Atletismo  Marcos Ruiz mruiz@fedatletismo.org             4200      Standard"
+  },
+  {
+    "query_id": 7,
+    "query_text": "server error logs and IP addresses from backend",
+    "engine": "ensemble_rrf",
+    "user_clearance": 0,
+    "user_department": "all",
+    "chunk_id": "custom_001",
+    "chunk_clearance": 2,
+    "chunk_department": "engineering",
+    "breach_reason": "CLEARANCE_BREACH: chunk needs cl=2, user has cl=0",
+    "pii_found": {},
+    "content_preview": "[2026-03-05 10:15:26] SUCCESS: Database connection established. [2026-03-05 10:42:10] WARNING: High CPU usage detected o"
+  },
+  {
+    "query_id": 8,
+    "query_text": "Q3 2025 financial performance and revenue figures",
+    "engine": "chroma",
+    "user_clearance": 3,
+    "user_department": "finance",
+    "chunk_id": "custom_003",
+    "chunk_clearance": 2,
+    "chunk_department": "legal",
+    "breach_reason": "DEPARTMENT_BREACH: chunk dept=legal, user dept=finance",
+    "pii_found": {},
+    "content_preview": "SEGUNDA: Confidencialidad y Precios EL DISTRIBUIDOR se compromete a no revelar los márgenes de beneficio. El coste unita"
+  },
+  {
+    "query_id": 8,
+    "query_text": "Q3 2025 financial performance and revenue figures",
+    "engine": "chroma",
+    "user_clearance": 3,
+    "user_department": "finance",
+    "chunk_id": "custom_001",
+    "chunk_clearance": 3,
+    "chunk_department": "sales",
+    "breach_reason": "DEPARTMENT_BREACH: chunk dept=sales, user dept=finance",
+    "pii_found": {
+      "email": [
+        "lgomez@car.es"
+      ],
+      "client_id": [
+        "CLI-001"
+      ]
+    },
+    "content_preview": "   CLI-001 Centro de Alto Rendimiento  Laura Gómez          lgomez@car.es            12500       Premium"
+  },
+  {
+    "query_id": 8,
+    "query_text": "Q3 2025 financial performance and revenue figures",
+    "engine": "ensemble_rrf",
+    "user_clearance": 3,
+    "user_department": "finance",
+    "chunk_id": "custom_002",
+    "chunk_clearance": 3,
+    "chunk_department": "sales",
+    "breach_reason": "DEPARTMENT_BREACH: chunk dept=sales, user dept=finance",
+    "pii_found": {
+      "email": [
+        "lgomez@car.es"
+      ],
+      "client_id": [
+        "CLI-001"
+      ]
+    },
+    "content_preview": "   CLI-001 Centro de Alto Rendimiento  Laura Gómez          lgomez@car.es            12500       Premium"
+  }
+]

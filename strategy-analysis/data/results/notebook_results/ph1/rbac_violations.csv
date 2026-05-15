@@ -1,0 +1,14 @@
+strategy,document,chunk_id,violation,detail,severity
+fixed,Witty-QuickGuide-EN.pdf,fixed_000,clearance_too_low,"Has ['phone'] but clearance=0, needs>=1",WARNING
+fixed,Witty-QuickGuide-EN.pdf,fixed_001,clearance_too_low,"Has ['email', 'phone'] but clearance=0, needs>=2",WARNING
+fixed,distribution-contract-2026.docx,fixed_002,clearance_too_low,"Has ['iban', 'phone', 'swift_code'] but clearance=2, needs>=3",CRITICAL
+fixed,server_logs_witty_backend.txt,fixed_001,clearance_too_low,"Has ['password'] but clearance=2, needs>=3",CRITICAL
+structural,Witty-QuickGuide-EN.pdf,struct_000,clearance_too_low,"Has ['email', 'phone'] but clearance=0, needs>=2",WARNING
+structural,distribution-contract-2026.docx,struct_003,clearance_too_low,"Has ['iban', 'phone', 'swift_code'] but clearance=2, needs>=3",CRITICAL
+structural,server_logs_witty_backend.txt,struct_004,clearance_too_low,"Has ['password'] but clearance=2, needs>=3",CRITICAL
+semantic,Witty-QuickGuide-EN.pdf,semantic_003,clearance_too_low,"Has ['phone'] but clearance=0, needs>=1",WARNING
+semantic,Witty-QuickGuide-EN.pdf,semantic_004,clearance_too_low,"Has ['email', 'phone'] but clearance=0, needs>=2",WARNING
+semantic,distribution-contract-2026.docx,semantic_006,clearance_too_low,"Has ['iban', 'phone'] but clearance=2, needs>=3",CRITICAL
+semantic,server_logs_witty_backend.txt,semantic_007,clearance_too_low,"Has ['password'] but clearance=2, needs>=3",CRITICAL
+custom_rbac,Witty-QuickGuide-EN.pdf,custom_000,missing_department,clearance=2 but allowed_departments='all',WARNING
+custom_rbac,Witty-QuickGuide-EN.pdf,custom_001,clearance_too_low,"Has ['phone'] but clearance=0, needs>=1",WARNING

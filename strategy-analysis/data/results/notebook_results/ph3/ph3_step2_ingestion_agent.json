@@ -1,0 +1,794 @@
+{
+  "step": "Phase 3 - Step 2: Ingestion Agent & Router-Index",
+  "model": "llama3.2",
+  "n_documents": 23,
+  "n_queries": 10,
+  "ksp_generation": {
+    "mean_latency_s": 7.18,
+    "total_latency_s": 165.1,
+    "mean_ksp_chars": 310,
+    "mean_doc_chars": 1194
+  },
+  "routing_metrics": {
+    "Router_A": {
+      "top1_pct": 70.0,
+      "top3_pct": 90.0,
+      "mrr": 0.801,
+      "mean_margin": 0.1743,
+      "median_margin": 0.1476
+    },
+    "Router_B": {
+      "top1_pct": 90.0,
+      "top3_pct": 100.0,
+      "mrr": 0.9333,
+      "mean_margin": 0.1393,
+      "median_margin": 0.1316
+    }
+  },
+  "map_clarity": {
+    "Router_A": {
+      "n_pairs": 253,
+      "mean": 0.6998,
+      "median": 0.7216,
+      "min": 0.2573,
+      "max": 1.0255,
+      "std": 0.1543
+    },
+    "Router_B": {
+      "n_pairs": 253,
+      "mean": 0.7573,
+      "median": 0.7885,
+      "min": 0.0737,
+      "max": 1.0051,
+      "std": 0.1472
+    },
+    "closest_pair_A": [
+      "distribution-contract-2026.docx",
+      "contract_federacion_atletismo.txt",
+      0.2573
+    ],
+    "closest_pair_B": [
+      "Witty-Financial-Report-2025.pdf",
+      "fin_q1_2026_revenue.txt",
+      0.0737
+    ]
+  },
+  "per_query": [
+    {
+      "qid": "Q01",
+      "question": "Which IBAN is used to collect payments from the exclusive Spanish distributor?",
+      "target": "distribution-contract-2026.docx",
+      "A_top1": "memo_q2_sales_targets.txt",
+      "A_rank": 99,
+      "A_margin": 0.0588,
+      "A_top5": [
+        [
+          "memo_q2_sales_targets.txt",
+          0.6153
+        ],
+        [
+          "fin_q1_2026_revenue.txt",
+          0.6742
+        ],
+        [
+          "contract_federacion_atletismo.txt",
+          0.6766
+        ],
+        [
+          "memo_board_meeting_minutes.txt",
+          0.699
+        ],
+        [
+          "fin_expense_policy.md",
+          0.7309
+        ]
+      ],
+      "B_top1": "distribution-contract-2026.docx",
+      "B_rank": 1,
+      "B_margin": 0.1665,
+      "B_top5": [
+        [
+          "distribution-contract-2026.docx",
+          0.6005
+        ],
+        [
+          "contract_fitplus_maintenance.txt",
+          0.767
+        ],
+        [
+          "clients-and-billings.xlsx",
+          0.7831
+        ],
+        [
+          "contract_federacion_atletismo.txt",
+          0.7903
+        ],
+        [
+          "memo_q2_sales_targets.txt",
+          0.8007
+        ]
+      ]
+    },
+    {
+      "qid": "Q02",
+      "question": "How do I align the photocells on the training timer and verify the beam?",
+      "target": "product_photocell_alignment.md",
+      "A_top1": "product_photocell_alignment.md",
+      "A_rank": 1,
+      "A_margin": 0.4325,
+      "A_top5": [
+        [
+          "product_photocell_alignment.md",
+          0.2816
+        ],
+        [
+          "product_witty_timer_specs.md",
+          0.7141
+        ],
+        [
+          "Witty-QuickGuide-EN.pdf",
+          0.7673
+        ],
+        [
+          "distribution-contract-2026.docx",
+          0.7771
+        ],
+        [
+          "contract_universidad_deporte.txt",
+          0.8032
+        ]
+      ],
+      "B_top1": "product_photocell_alignment.md",
+      "B_rank": 1,
+      "B_margin": 0.1433,
+      "B_top5": [
+        [
+          "product_photocell_alignment.md",
+          0.4018
+        ],
+        [
+          "Witty-QuickGuide-EN.pdf",
+          0.5451
+        ],
+        [
+          "distribution-contract-2026.docx",
+          0.6786
+        ],
+        [
+          "product_witty_timer_specs.md",
+          0.7238
+        ],
+        [
+          "contract_fitplus_maintenance.txt",
+          0.7902
+        ]
+      ]
+    },
+    {
+      "qid": "Q03",
+      "question": "What is the monthly spending limit on a corporate credit card?",
+      "target": "fin_expense_policy.md",
+      "A_top1": "fin_expense_policy.md",
+      "A_rank": 1,
+      "A_margin": 0.156,
+      "A_top5": [
+        [
+          "fin_expense_policy.md",
+          0.5241
+        ],
+        [
+          "fin_budget_forecast_2027.txt",
+          0.6801
+        ],
+        [
+          "fin_q1_2026_revenue.txt",
+          0.705
+        ],
+        [
+          "Witty-Financial-Report-2025.pdf",
+          0.7559
+        ],
+        [
+          "contract_fitplus_maintenance.txt",
+          0.7626
+        ]
+      ],
+      "B_top1": "fin_expense_policy.md",
+      "B_rank": 1,
+      "B_margin": 0.0719,
+      "B_top5": [
+        [
+          "fin_expense_policy.md",
+          0.6532
+        ],
+        [
+          "fin_budget_forecast_2027.txt",
+          0.7251
+        ],
+        [
+          "Witty-Financial-Report-2025.pdf",
+          0.8122
+        ],
+        [
+          "fin_q1_2026_revenue.txt",
+          0.8523
+        ],
+        [
+          "memo_q2_sales_targets.txt",
+          0.8556
+        ]
+      ]
+    },
+    {
+      "qid": "Q04",
+      "question": "Which employee holds the Lead Developer position in engineering?",
+      "target": "hr_employee_directory.txt",
+      "A_top1": "hr_salary_bands_2026.txt",
+      "A_rank": 2,
+      "A_margin": 0.0839,
+      "A_top5": [
+        [
+          "hr_salary_bands_2026.txt",
+          0.6425
+        ],
+        [
+          "hr_employee_directory.txt",
+          0.7264
+        ],
+        [
+          "clients-and-billings.xlsx",
+          0.7841
+        ],
+        [
+          "hr_onboarding_guide.md",
+          0.7886
+        ],
+        [
+          "memo_board_meeting_minutes.txt",
+          0.8507
+        ]
+      ],
+      "B_top1": "hr_employee_directory.txt",
+      "B_rank": 1,
+      "B_margin": 0.0762,
+      "B_top5": [
+        [
+          "hr_employee_directory.txt",
+          0.7321
+        ],
+        [
+          "it_vpn_config_guide.md",
+          0.8083
+        ],
+        [
+          "hr_onboarding_guide.md",
+          0.8228
+        ],
+        [
+          "hr_salary_bands_2026.txt",
+          0.8233
+        ],
+        [
+          "Witty-QuickGuide-EN.pdf",
+          0.8476
+        ]
+      ]
+    },
+    {
+      "qid": "Q05",
+      "question": "What root cause was identified for the brute-force attack on the API login endpoint?",
+      "target": "it_incident_report_IR2026_003.txt",
+      "A_top1": "it_incident_report_IR2026_003.txt",
+      "A_rank": 1,
+      "A_margin": 0.1391,
+      "A_top5": [
+        [
+          "it_incident_report_IR2026_003.txt",
+          0.4578
+        ],
+        [
+          "server_logs_witty_backend.txt",
+          0.5969
+        ],
+        [
+          "memo_it_security_reminder.txt",
+          0.7523
+        ],
+        [
+          "it_server_logs_march_2026.txt",
+          0.8146
+        ],
+        [
+          "hr_employee_directory.txt",
+          0.8602
+        ]
+      ],
+      "B_top1": "it_incident_report_IR2026_003.txt",
+      "B_rank": 1,
+      "B_margin": 0.1323,
+      "B_top5": [
+        [
+          "it_incident_report_IR2026_003.txt",
+          0.4998
+        ],
+        [
+          "server_logs_witty_backend.txt",
+          0.6321
+        ],
+        [
+          "it_server_logs_march_2026.txt",
+          0.728
+        ],
+        [
+          "memo_it_security_reminder.txt",
+          0.8682
+        ],
+        [
+          "product_release_notes_v4.txt",
+          0.9429
+        ]
+      ]
+    },
+    {
+      "qid": "Q06",
+      "question": "Which board members authorised the 2027 R&D budget increase?",
+      "target": "memo_board_meeting_minutes.txt",
+      "A_top1": "fin_budget_forecast_2027.txt",
+      "A_rank": 2,
+      "A_margin": 0.0526,
+      "A_top5": [
+        [
+          "fin_budget_forecast_2027.txt",
+          0.5972
+        ],
+        [
+          "memo_board_meeting_minutes.txt",
+          0.6498
+        ],
+        [
+          "hr_salary_bands_2026.txt",
+          0.7009
+        ],
+        [
+          "memo_q2_sales_targets.txt",
+          0.7249
+        ],
+        [
+          "fin_expense_policy.md",
+          0.7323
+        ]
+      ],
+      "B_top1": "fin_budget_forecast_2027.txt",
+      "B_rank": 3,
+      "B_margin": 0.131,
+      "B_top5": [
+        [
+          "fin_budget_forecast_2027.txt",
+          0.5657
+        ],
+        [
+          "fin_expense_policy.md",
+          0.6966
+        ],
+        [
+          "memo_board_meeting_minutes.txt",
+          0.7222
+        ],
+        [
+          "Witty-Financial-Report-2025.pdf",
+          0.7516
+        ],
+        [
+          "memo_q2_sales_targets.txt",
+          0.7652
+        ]
+      ]
+    },
+    {
+      "qid": "Q07",
+      "question": "What is the annual service fee for the FitPlus gyms maintenance SLA?",
+      "target": "contract_fitplus_maintenance.txt",
+      "A_top1": "contract_fitplus_maintenance.txt",
+      "A_rank": 1,
+      "A_margin": 0.2586,
+      "A_top5": [
+        [
+          "contract_fitplus_maintenance.txt",
+          0.4178
+        ],
+        [
+          "memo_q2_sales_targets.txt",
+          0.6764
+        ],
+        [
+          "fin_expense_policy.md",
+          0.6775
+        ],
+        [
+          "fin_budget_forecast_2027.txt",
+          0.7116
+        ],
+        [
+          "Witty-Financial-Report-2025.pdf",
+          0.7309
+        ]
+      ],
+      "B_top1": "contract_fitplus_maintenance.txt",
+      "B_rank": 1,
+      "B_margin": 0.2392,
+      "B_top5": [
+        [
+          "contract_fitplus_maintenance.txt",
+          0.5187
+        ],
+        [
+          "fin_expense_policy.md",
+          0.7579
+        ],
+        [
+          "distribution-contract-2026.docx",
+          0.8304
+        ],
+        [
+          "contract_federacion_atletismo.txt",
+          0.8431
+        ],
+        [
+          "fin_budget_forecast_2027.txt",
+          0.8453
+        ]
+      ]
+    },
+    {
+      "qid": "Q08",
+      "question": "Which UDP port must the firewall allow for the corporate VPN client to connect?",
+      "target": "it_vpn_config_guide.md",
+      "A_top1": "it_vpn_config_guide.md",
+      "A_rank": 1,
+      "A_margin": 0.2975,
+      "A_top5": [
+        [
+          "it_vpn_config_guide.md",
+          0.4603
+        ],
+        [
+          "hr_onboarding_guide.md",
+          0.7578
+        ],
+        [
+          "contract_federacion_atletismo.txt",
+          0.8135
+        ],
+        [
+          "clients-and-billings.xlsx",
+          0.8306
+        ],
+        [
+          "memo_board_meeting_minutes.txt",
+          0.8616
+        ]
+      ],
+      "B_top1": "it_vpn_config_guide.md",
+      "B_rank": 1,
+      "B_margin": 0.364,
+      "B_top5": [
+        [
+          "it_vpn_config_guide.md",
+          0.4685
+        ],
+        [
+          "distribution-contract-2026.docx",
+          0.8325
+        ],
+        [
+          "hr_onboarding_guide.md",
+          0.8533
+        ],
+        [
+          "clients-and-billings.xlsx",
+          0.8668
+        ],
+        [
+          "contract_federacion_atletismo.txt",
+          0.891
+        ]
+      ]
+    },
+    {
+      "qid": "Q09",
+      "question": "How many hours of continuous use does the Witty Timer unit battery support?",
+      "target": "product_witty_timer_specs.md",
+      "A_top1": "product_witty_timer_specs.md",
+      "A_rank": 1,
+      "A_margin": 0.1857,
+      "A_top5": [
+        [
+          "product_witty_timer_specs.md",
+          0.4767
+        ],
+        [
+          "contract_fitplus_maintenance.txt",
+          0.6624
+        ],
+        [
+          "contract_universidad_deporte.txt",
+          0.6711
+        ],
+        [
+          "distribution-contract-2026.docx",
+          0.7107
+        ],
+        [
+          "Witty-Financial-Report-2025.pdf",
+          0.7169
+        ]
+      ],
+      "B_top1": "product_witty_timer_specs.md",
+      "B_rank": 1,
+      "B_margin": 0.0504,
+      "B_top5": [
+        [
+          "product_witty_timer_specs.md",
+          0.5814
+        ],
+        [
+          "contract_universidad_deporte.txt",
+          0.6318
+        ],
+        [
+          "fin_q1_2026_revenue.txt",
+          0.6884
+        ],
+        [
+          "contract_fitplus_maintenance.txt",
+          0.6926
+        ],
+        [
+          "contract_federacion_atletismo.txt",
+          0.6937
+        ]
+      ]
+    },
+    {
+      "qid": "Q10",
+      "question": "Summarise Q1 2026 revenue broken down by geographic region.",
+      "target": "fin_q1_2026_revenue.txt",
+      "A_top1": "fin_q1_2026_revenue.txt",
+      "A_rank": 1,
+      "A_margin": 0.0781,
+      "A_top5": [
+        [
+          "fin_q1_2026_revenue.txt",
+          0.5646
+        ],
+        [
+          "memo_q2_sales_targets.txt",
+          0.6427
+        ],
+        [
+          "Witty-Financial-Report-2025.pdf",
+          0.6663
+        ],
+        [
+          "fin_budget_forecast_2027.txt",
+          0.7174
+        ],
+        [
+          "hr_salary_bands_2026.txt",
+          0.7391
+        ]
+      ],
+      "B_top1": "fin_q1_2026_revenue.txt",
+      "B_rank": 1,
+      "B_margin": 0.0177,
+      "B_top5": [
+        [
+          "fin_q1_2026_revenue.txt",
+          0.447
+        ],
+        [
+          "memo_q2_sales_targets.txt",
+          0.4647
+        ],
+        [
+          "Witty-Financial-Report-2025.pdf",
+          0.4972
+        ],
+        [
+          "fin_budget_forecast_2027.txt",
+          0.6578
+        ],
+        [
+          "hr_salary_bands_2026.txt",
+          0.7381
+        ]
+      ]
+    }
+  ],
+  "ksps": [
+    {
+      "source": "Witty-QuickGuide-EN.pdf",
+      "ksp": "Quick guide for setting up the Witty Manager software and photocell alignment. Specifies user manual contents, installation steps, and usage instructions. Includes hardware components and troubleshooting tips. Genre: technical guide. Scope: one remote-access system.",
+      "reasoning": "Technical setup guide, remote-access scope",
+      "latency_s": 10.81,
+      "doc_chars": 2249,
+      "ksp_chars": 266
+    },
+    {
+      "source": "Witty-Financial-Report-2025.pdf",
+      "ksp": "Quarterly financial report for the Witty Timer product line covering Q3 2025. Reports revenue figures, year-over-year growth, gross margin, and R&D budget allocation for the following year. Audience is the finance department at strict clearance. Contains specific monetary figures and strategic commentary. Genre: finance report. Scope: one fiscal quarter for one product line.",
+      "reasoning": "Quarterly finance report, product line scope.",
+      "latency_s": 8.33,
+      "doc_chars": 2458,
+      "ksp_chars": 377
+    },
+    {
+      "source": "distribution-contract-2026.docx",
+      "ksp": "Exclusive distribution contract for the Witty Wireless Training Timer product and its photocell components in Spain. Defines terms including confidentiality, pricing, payment conditions, and payment method. Genre: commercial agreement. Scope: Spanish territory, one product line.",
+      "reasoning": "Distribution contract, Spanish scope",
+      "latency_s": 6.56,
+      "doc_chars": 1059,
+      "ksp_chars": 279
+    },
+    {
+      "source": "server_logs_witty_backend.txt",
+      "ksp": "System log for the Witty Manager API service, covering boot-up, database connection, CPU usage alerts, failed login attempts, system alerts, and auto-recovery processes. Reports on system health and security incidents. Genre: system log. Scope: one day of operation.",
+      "reasoning": "System log, operational scope",
+      "latency_s": 6.64,
+      "doc_chars": 653,
+      "ksp_chars": 266
+    },
+    {
+      "source": "clients-and-billings.xlsx",
+      "ksp": "Client list for premium and standard support tiers. Specifies the companies, contact details, and facturación amounts for each client. Genre: directory. Scope: one table listing multiple clients across different departments.",
+      "reasoning": "Client directory, department scope",
+      "latency_s": 5.76,
+      "doc_chars": 538,
+      "ksp_chars": 224
+    },
+    {
+      "source": "fin_q1_2026_revenue.txt",
+      "ksp": "Quarterly revenue report for the Witty Timer product line covering Q1 2026. Reports total gross revenue figures, year-over-year growth, and regional breakdowns. Also describes operating margin improvements and accounts receivable details. Genre: finance report. Scope: one fiscal quarter for one product line.",
+      "reasoning": "Quarterly revenue report, product line scope",
+      "latency_s": 7.14,
+      "doc_chars": 1129,
+      "ksp_chars": 309
+    },
+    {
+      "source": "fin_budget_forecast_2027.txt",
+      "ksp": "Budget forecast document for MICROGATE S.R.L. covering financial planning and resource allocation for 2027. Defines R&D investment plan, personnel costs, capital expenditure, and treasury management. Genre: finance budget. Scope: one fiscal year for the company.",
+      "reasoning": "Budget forecast document, company scope",
+      "latency_s": 6.62,
+      "doc_chars": 1077,
+      "ksp_chars": 262
+    },
+    {
+      "source": "fin_expense_policy.md",
+      "ksp": "Corporate expense policy for Microgate S.R.L., covering travel expenses, equipment purchases, reimbursement process, corporate credit cards, and audit trail. Reports financial guidelines, approval processes, and compliance requirements for the finance department. Genre: corporate policy. Scope: one company-wide directive, effective January 2026.",
+      "reasoning": "Corporate expense policy, finance scope",
+      "latency_s": 7.08,
+      "doc_chars": 1159,
+      "ksp_chars": 347
+    },
+    {
+      "source": "hr_employee_directory.txt",
+      "ksp": "Employee directory for the company, listing personnel in various departments. Specifies employee names, job titles, and contact information. Genre: HR directory. Scope: all employees across different departments.",
+      "reasoning": "HR employee list, department scope",
+      "latency_s": 5.93,
+      "doc_chars": 999,
+      "ksp_chars": 212
+    },
+    {
+      "source": "hr_onboarding_guide.md",
+      "ksp": "Onboarding guide for new employees covering company policies, IT setup, and security awareness. Reports procedures for first day, IT configuration, VPN access, and data classification. Genre: employee handbook. Scope: one-time onboarding process for all new hires.",
+      "reasoning": "Employee onboarding guide, comprehensive scope",
+      "latency_s": 6.77,
+      "doc_chars": 1297,
+      "ksp_chars": 264
+    },
+    {
+      "source": "hr_salary_bands_2026.txt",
+      "ksp": "Compensation structure document for MICROGATE S.R.L. covering various departments and roles, including salary bands, commission structures, and benefits. Reports on current payroll summary, including total monthly payroll, annual projection, and benefit overhead. Genre: HR management. Scope: one company with multiple departments.",
+      "reasoning": "Compensation structure document, HR scope",
+      "latency_s": 7.02,
+      "doc_chars": 957,
+      "ksp_chars": 331
+    },
+    {
+      "source": "it_server_logs_march_2026.txt",
+      "ksp": "System logs detailing daily system health checks, database backups, disk usage warnings, scheduled maintenance, reindexing of vector store, SSL certificate expiry warnings, automated penetration testing, failed SSH login attempts, IP blocking, and post-maintenance health checks. Genre: system log. Scope: one day for multiple systems.",
+      "reasoning": "System log, daily scope",
+      "latency_s": 7.39,
+      "doc_chars": 1164,
+      "ksp_chars": 335
+    },
+    {
+      "source": "it_incident_report_IR2026_003.txt",
+      "ksp": "Incident report detailing a brute-force attack against the Witty Manager API authentication endpoint. Reports on the incident timeline, root cause, and remediation actions taken to prevent future breaches. Genre: IT security incident report. Scope: Engineering/IT Security department, time period from 14:22 UTC to 15:10 UTC.",
+      "reasoning": "Incident report with engineering scope",
+      "latency_s": 7.44,
+      "doc_chars": 1214,
+      "ksp_chars": 325
+    },
+    {
+      "source": "it_vpn_config_guide.md",
+      "ksp": "Engineering configuration guide describing how to set up the corporate WireGuard VPN. Specifies the gateway hostname, the UDP port, the production and development subnets, and troubleshooting steps for failed connections. Audience is the engineering department at internal clearance. Contains no secret values, only topology and client-side steps. Genre: technical guide. Scope: one remote-access system.",
+      "reasoning": "VPN setup guide, engineering scope.",
+      "latency_s": 7.55,
+      "doc_chars": 1043,
+      "ksp_chars": 404
+    },
+    {
+      "source": "contract_federacion_atletismo.txt",
+      "ksp": "Contract for the supply of Witty Wireless Training Timer products. Specifies the product quantity, unit price, and payment terms. The contract includes a guarantee period. Genre: procurement contract. Scope: one supplier-client agreement for a specific product line.",
+      "reasoning": "Procurement contract scope",
+      "latency_s": 6.65,
+      "doc_chars": 1193,
+      "ksp_chars": 266
+    },
+    {
+      "source": "contract_universidad_deporte.txt",
+      "ksp": "Academic collaboration agreement between Microgate S.R.L. and Universidad del Deporte for research in biomechanics using Witty Timer as a measurement tool. Defines the scope of collaboration, including the provision of Witty Timer kits and access to anonymized performance data. Confidentiality clause protects economic terms. Genre: academic agreement. Scope: one-year period between two organizations.",
+      "reasoning": "Academic partnership, Universidad del Deporte scope",
+      "latency_s": 8.04,
+      "doc_chars": 1147,
+      "ksp_chars": 403
+    },
+    {
+      "source": "contract_fitplus_maintenance.txt",
+      "ksp": "Service level agreement for annual maintenance and calibration of Witty Timer units across FitPlus gym locations in Madrid, Barcelona, and Valencia. Defines scope, service terms, pricing, penalties, and duration. Genre: contract. Scope: one product line, multiple client locations, one fiscal year.",
+      "reasoning": "SLA contract, product line scope",
+      "latency_s": 7.05,
+      "doc_chars": 980,
+      "ksp_chars": 298
+    },
+    {
+      "source": "product_witty_timer_specs.md",
+      "ksp": "Technical specifications document for the Witty Wireless Training Timer. Defines product dimensions, wireless communication parameters, battery life, and software compatibility. Reports on proprietary protocol, latency, and charging times. Genre: technical manual. Scope: one product line.",
+      "reasoning": "Product specs document, training equipment scope",
+      "latency_s": 6.49,
+      "doc_chars": 876,
+      "ksp_chars": 289
+    },
+    {
+      "source": "product_photocell_alignment.md",
+      "ksp": "Photocell alignment and calibration guide for Witty Photocell v3.x and v4.x. Defines the initial setup, alignment procedure, and verification steps. Specifies the tripod height, reflector position, and troubleshooting solutions for common issues. Genre: technical guide. Scope: photocell alignment and calibration for training courses with multiple gates.",
+      "reasoning": "Technical guide for photocell alignment",
+      "latency_s": 7.62,
+      "doc_chars": 1548,
+      "ksp_chars": 355
+    },
+    {
+      "source": "product_release_notes_v4.txt",
+      "ksp": "Release notes for Witty Manager Software v4.2.0 detailing new features such as multi-athlete tracking, cloud sync, and export to CSV/PDF. Reports bug fixes including Bluetooth connectivity issues on Windows 11 and macOS Sonoma. Specifies system requirements including operating systems, disk space, and hardware specifications. Genre: software release notes. Scope: one software update for general users.",
+      "reasoning": "Software release notes, product scope",
+      "latency_s": 7.77,
+      "doc_chars": 964,
+      "ksp_chars": 404
+    },
+    {
+      "source": "memo_q2_sales_targets.txt",
+      "ksp": "Internal sales target memo for Q2 2026 outlining revenue targets and key account priorities. Reports on strong Q1 performance, sets hardware sales targets, and identifies priority clients. Genre: internal memo. Scope: one fiscal quarter for the sales team.",
+      "reasoning": "Sales target report, internal scope",
+      "latency_s": 6.69,
+      "doc_chars": 1059,
+      "ksp_chars": 256
+    },
+    {
+      "source": "memo_it_security_reminder.txt",
+      "ksp": "Internal security awareness memo reminding employees of mandatory practices following a recent security incident. Reports phishing attempts, password policies, physical security measures, and data classification guidelines. Genre: internal memo. Scope: all employees, with specific emphasis on sensitive information handling.",
+      "reasoning": "Security awareness reminder, company-wide scope",
+      "latency_s": 6.63,
+      "doc_chars": 1423,
+      "ksp_chars": 325
+    },
+    {
+      "source": "memo_board_meeting_minutes.txt",
+      "ksp": "Board meeting minutes covering financial review, product strategy, legal update, HR matters, and next meeting details. Reports on revenue figures, budget allocations, contract renewals, employee satisfaction survey results, and personnel changes. Genre: board meeting minutes. Scope: one corporate meeting for the entire organization.",
+      "reasoning": "Board meeting summary, organizational scope",
+      "latency_s": 7.16,
+      "doc_chars": 1285,
+      "ksp_chars": 334
+    }
+  ]
+}

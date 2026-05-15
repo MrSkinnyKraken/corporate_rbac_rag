@@ -1,0 +1,11 @@
+qid,question,target,A_top1,A_rank,A_margin,B_top1,B_rank,B_margin
+Q01,Which IBAN is used to collect payments from the exclusive Spanish distributor?,distribution-contract-2026.docx,memo_q2_sales_targets.txt,99,0.0588,distribution-contract-2026.docx,1,0.1665
+Q02,How do I align the photocells on the training timer and verify the beam?,product_photocell_alignment.md,product_photocell_alignment.md,1,0.4325,product_photocell_alignment.md,1,0.1433
+Q03,What is the monthly spending limit on a corporate credit card?,fin_expense_policy.md,fin_expense_policy.md,1,0.156,fin_expense_policy.md,1,0.0719
+Q04,Which employee holds the Lead Developer position in engineering?,hr_employee_directory.txt,hr_salary_bands_2026.txt,2,0.0839,hr_employee_directory.txt,1,0.0762
+Q05,What root cause was identified for the brute-force attack on the API login endpoint?,it_incident_report_IR2026_003.txt,it_incident_report_IR2026_003.txt,1,0.1391,it_incident_report_IR2026_003.txt,1,0.1323
+Q06,Which board members authorised the 2027 R&D budget increase?,memo_board_meeting_minutes.txt,fin_budget_forecast_2027.txt,2,0.0526,fin_budget_forecast_2027.txt,3,0.131
+Q07,What is the annual service fee for the FitPlus gyms maintenance SLA?,contract_fitplus_maintenance.txt,contract_fitplus_maintenance.txt,1,0.2586,contract_fitplus_maintenance.txt,1,0.2392
+Q08,Which UDP port must the firewall allow for the corporate VPN client to connect?,it_vpn_config_guide.md,it_vpn_config_guide.md,1,0.2975,it_vpn_config_guide.md,1,0.364
+Q09,How many hours of continuous use does the Witty Timer unit battery support?,product_witty_timer_specs.md,product_witty_timer_specs.md,1,0.1857,product_witty_timer_specs.md,1,0.0504
+Q10,Summarise Q1 2026 revenue broken down by geographic region.,fin_q1_2026_revenue.txt,fin_q1_2026_revenue.txt,1,0.0781,fin_q1_2026_revenue.txt,1,0.0177

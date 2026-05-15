@@ -1,0 +1,5 @@
+Strategy,Total Chunks,PII Chunks,PII Isolated,Isolation %,CRITICAL Violations,WARNING Violations,Security Score
+fixed,20,10,3,30%,2,2,FAIL
+structural,18,9,3,33%,2,1,FAIL
+semantic,74,11,9,82%,2,2,FAIL
+custom_rbac,33,19,15,79%,0,2,PASS

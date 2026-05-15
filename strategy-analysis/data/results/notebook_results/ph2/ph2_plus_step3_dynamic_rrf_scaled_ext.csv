@@ -1,0 +1,17 @@
+qid,category,intent,alpha_dyn,sec_base_mrr,sec_dyn_mrr,sec_base_rank,sec_dyn_rank,sec_delta_mrr,uns_base_mrr,uns_dyn_mrr,uns_base_rank,uns_dyn_rank,uns_delta_mrr
+E1,exact,exact_critical,0.2,1.0,1.0,1,1,0.0,0.5,1.0,2,1,0.5
+E2,exact,exact_critical,0.2,0.5,0.5,2,2,0.0,0.5,0.5,2,2,0.0
+E3,exact,exact_critical,0.2,1.0,1.0,1,1,0.0,1.0,1.0,1,1,0.0
+E4,exact,exact,0.2,1.0,1.0,1,1,0.0,0.5,1.0,2,1,0.5
+E5,exact,exact,0.2,1.0,1.0,1,1,0.0,1.0,1.0,1,1,0.0
+E6,exact,exact,0.2,1.0,1.0,1,1,0.0,1.0,1.0,1,1,0.0
+C1,conceptual,conceptual,0.8,1.0,1.0,1,1,0.0,1.0,1.0,1,1,0.0
+C2,conceptual,conceptual,0.8,1.0,1.0,1,1,0.0,1.0,1.0,1,1,0.0
+C3,conceptual,conceptual,0.8,1.0,1.0,1,1,0.0,1.0,1.0,1,1,0.0
+C4,conceptual,conceptual,0.8,1.0,1.0,1,1,0.0,1.0,1.0,1,1,0.0
+C5,conceptual,mixed_exact_lean,0.35,1.0,1.0,1,1,0.0,1.0,1.0,1,1,0.0
+C6,conceptual,conceptual,0.8,1.0,1.0,1,1,0.0,1.0,1.0,1,1,0.0
+M1,mixed,mixed_concept_lean,0.65,1.0,1.0,1,1,0.0,1.0,1.0,1,1,0.0
+M2,mixed,mixed_concept_lean,0.65,1.0,1.0,1,1,0.0,1.0,1.0,1,1,0.0
+M3,mixed,conceptual,0.8,1.0,1.0,1,1,0.0,0.0,0.0,0,0,0.0
+M4,mixed,conceptual,0.8,1.0,1.0,1,1,0.0,1.0,1.0,1,1,0.0

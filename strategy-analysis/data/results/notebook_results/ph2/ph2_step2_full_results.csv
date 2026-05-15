@@ -1,0 +1,57 @@
+qid,engine,alpha,intent,lat,fr,mrr,r3,r5,breaches,pii,sec
+Q1,chroma_only,-,-,10.74,3,0.3333,1,1,4,"ip_address, password",FAIL
+Q1,bm25_only,-,-,0.31,1,1.0,1,2,3,-,FAIL
+Q1,baseline_0.5,0.5,-,8.35,1,1.0,1,1,4,-,FAIL
+Q1,dynamic,0.8,conceptual,9.28,1,1.0,1,2,3,-,FAIL
+Q2,chroma_only,-,-,7.73,1,1.0,1,1,3,"ip_address, password",FAIL
+Q2,bm25_only,-,-,0.16,2,0.5,1,1,3,-,FAIL
+Q2,baseline_0.5,0.5,-,7.78,1,1.0,1,1,3,ip_address,FAIL
+Q2,dynamic,0.8,conceptual,10.22,2,0.5,1,1,3,"client_id, email, ip_address",FAIL
+Q3,chroma_only,-,-,8.85,1,1.0,2,2,5,"client_id, email, ip_address, password",FAIL
+Q3,bm25_only,-,-,0.17,1,1.0,1,2,4,password,FAIL
+Q3,baseline_0.5,0.5,-,7.91,1,1.0,2,2,4,"client_id, email, password",FAIL
+Q3,dynamic,0.2,exact_critical,8.77,1,1.0,2,2,3,password,FAIL
+Q4,chroma_only,-,-,8.31,1,1.0,1,1,5,"client_id, email, iban, ip_address, swift_code",FAIL
+Q4,bm25_only,-,-,0.14,1,1.0,1,1,4,"iban, swift_code",FAIL
+Q4,baseline_0.5,0.5,-,7.77,1,1.0,1,1,5,"client_id, email, iban, ip_address, swift_code",FAIL
+Q4,dynamic,0.2,exact_critical,7.6,1,1.0,1,1,4,"iban, swift_code",FAIL
+Q5,chroma_only,-,-,7.88,1,1.0,3,5,5,"client_id, email",FAIL
+Q5,bm25_only,-,-,0.17,1,1.0,3,5,5,"client_id, email",FAIL
+Q5,baseline_0.5,0.5,-,7.9,1,1.0,3,4,5,"client_id, email",FAIL
+Q5,dynamic,0.2,exact,7.94,1,1.0,3,3,5,"client_id, email",FAIL
+Q6,chroma_only,-,-,7.88,1,1.0,2,2,4,"ip_address, password",FAIL
+Q6,bm25_only,-,-,0.21,1,1.0,3,3,3,-,FAIL
+Q6,baseline_0.5,0.5,-,8.33,1,1.0,3,3,3,-,FAIL
+Q6,dynamic,0.8,conceptual,8.23,1,1.0,3,4,4,-,FAIL
+Q7,chroma_only,-,-,9.42,1,1.0,3,3,5,ip_address,FAIL
+Q7,bm25_only,-,-,0.18,1,1.0,3,3,4,ip_address,FAIL
+Q7,baseline_0.5,0.5,-,8.59,1,1.0,3,3,5,"client_id, email, ip_address",FAIL
+Q7,dynamic,0.2,exact,8.46,1,1.0,3,3,4,ip_address,FAIL
+Q8,chroma_only,-,-,7.43,1,1.0,3,3,2,"client_id, email",FAIL
+Q8,bm25_only,-,-,0.15,1,1.0,3,3,0,-,PASS
+Q8,baseline_0.5,0.5,-,9.33,1,1.0,3,3,1,"client_id, email",FAIL
+Q8,dynamic,0.8,conceptual,8.09,2,0.5,2,3,1,"client_id, email",FAIL
+Q9,chroma_only,-,-,7.89,2,0.5,1,1,4,"client_id, email",FAIL
+Q9,bm25_only,-,-,0.15,2,0.5,1,1,3,-,FAIL
+Q9,baseline_0.5,0.5,-,7.59,2,0.5,1,1,3,-,FAIL
+Q9,dynamic,0.8,conceptual,7.83,2,0.5,1,1,4,"client_id, email",FAIL
+Q10,chroma_only,-,-,7.13,1,1.0,3,3,2,ip_address,FAIL
+Q10,bm25_only,-,-,0.17,1,1.0,3,4,0,-,PASS
+Q10,baseline_0.5,0.5,-,7.79,1,1.0,3,3,1,ip_address,FAIL
+Q10,dynamic,0.8,conceptual,7.78,1,1.0,3,3,2,ip_address,FAIL
+Q11,chroma_only,-,-,9.9,1,1.0,3,4,5,"client_id, email, iban, swift_code",FAIL
+Q11,bm25_only,-,-,0.13,1,1.0,3,5,5,"client_id, email",FAIL
+Q11,baseline_0.5,0.5,-,7.87,1,1.0,3,5,5,"client_id, email",FAIL
+Q11,dynamic,0.2,exact,7.61,1,1.0,3,5,5,"client_id, email",FAIL
+Q12,chroma_only,-,-,7.68,1,1.0,2,2,4,"client_id, iban, ip_address, swift_code",FAIL
+Q12,bm25_only,-,-,0.1,1,1.0,2,2,2,"iban, swift_code",FAIL
+Q12,baseline_0.5,0.5,-,7.4,1,1.0,2,2,4,"client_id, iban, ip_address, swift_code",FAIL
+Q12,dynamic,0.2,exact_critical,7.59,1,1.0,2,2,4,"client_id, iban, ip_address, swift_code",FAIL
+Q13,chroma_only,-,-,7.43,3,0.3333,1,1,5,"client_id, email",FAIL
+Q13,bm25_only,-,-,0.18,-,0.0,0,0,3,-,FAIL
+Q13,baseline_0.5,0.5,-,8.67,-,0.0,0,0,4,"client_id, email",FAIL
+Q13,dynamic,0.8,conceptual,8.59,-,0.0,0,0,4,"client_id, email",FAIL
+Q14,chroma_only,-,-,7.54,1,1.0,2,3,0,-,PASS
+Q14,bm25_only,-,-,0.14,1,1.0,2,3,0,-,PASS
+Q14,baseline_0.5,0.5,-,7.57,1,1.0,2,3,0,-,PASS
+Q14,dynamic,0.2,exact_critical,8.13,1,1.0,2,3,0,-,PASS
