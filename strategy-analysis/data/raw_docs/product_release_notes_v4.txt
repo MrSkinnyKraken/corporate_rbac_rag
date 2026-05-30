@@ -1,0 +1,23 @@
+WITTY MANAGER SOFTWARE — RELEASE NOTES v4.2.0
+Release Date: March 2026
+
+NEW FEATURES:
+- Multi-athlete tracking: Support for up to 32 athletes in a single session
+- Cloud sync: Optional synchronization with Microgate Cloud (requires subscription)
+- Export to CSV/PDF: One-click export of training session data
+- Dark mode: Available in Settings > Appearance
+
+BUG FIXES:
+- Fixed issue where split times > 99.999s would overflow the display
+- Resolved Bluetooth connectivity drops on Windows 11 23H2
+- Corrected unit conversion error in km/h display (was showing m/s * 3.5 instead of * 3.6)
+
+KNOWN ISSUES:
+- macOS Sonoma: Occasional USB detection delay (workaround: reconnect cable)
+- Android 14: Notification permissions must be manually granted after install
+
+SYSTEM REQUIREMENTS:
+- Windows 10/11 (64-bit), macOS 12+, iOS 15+, Android 12+
+- 200 MB disk space, 4 GB RAM minimum
+- Bluetooth 4.0+ for wireless connection
+- USB-C port for wired connection and charging

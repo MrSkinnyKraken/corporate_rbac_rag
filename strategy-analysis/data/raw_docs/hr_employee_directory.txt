@@ -1,0 +1,19 @@
+MICROGATE S.R.L. — EMPLOYEE DIRECTORY (Partial Extract)
+Department: Human Resources
+Classification: CONFIDENTIAL — HR ONLY
+
+Engineering Department:
+  EMP-001  Marco Bianchi      Lead Developer       marco.bianchi@microgate.it       DNI: 12345678X
+  EMP-002  Sofia Fernandez    Backend Engineer     sofia.fernandez@microgate.it     DNI: 87654321Y
+  EMP-003  Luca Moretti       DevOps Engineer      luca.moretti@microgate.it        DNI: 11223344Z
+
+Sales Department:
+  EMP-004  Isabella Romano    Sales Director       isabella.romano@microgate.it     DNI: 55667788W
+  EMP-005  Diego Martinez     Account Manager      diego.martinez@microgate.it      DNI: 99887766V
+
+Finance Department:
+  EMP-006  Chiara Colombo     CFO                  chiara.colombo@microgate.it      DNI: 44556677T
+  EMP-007  Roberto Esposito   Financial Analyst    roberto.esposito@microgate.it    DNI: 33445566R
+
+Legal Department:
+  EMP-008  Valentina Ricci    Legal Counsel        valentina.ricci@microgate.it     DNI: 22334455S

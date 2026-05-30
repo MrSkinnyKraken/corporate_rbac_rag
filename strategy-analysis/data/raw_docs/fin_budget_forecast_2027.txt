@@ -1,0 +1,15 @@
+MICROGATE S.R.L. — BUDGET FORECAST 2027
+Department: Finance — For Executive Review Only
+Classification: STRICTLY CONFIDENTIAL
+
+1. R&D Investment Plan
+Total R&D allocation: €2.8 million (up from €1.5M in 2026). Primary focus areas include next-generation lithium batteries for photocells (€1.2M), Witty Manager software cloud migration (€0.9M), and IoT sensor integration (€0.7M).
+
+2. Personnel Costs
+Projected headcount increase from 45 to 58 employees. New hires concentrated in Engineering (8 positions) and Sales (5 positions). Average salary budget per employee: €52,000 annually.
+
+3. Capital Expenditure
+Server infrastructure upgrade: €180,000 for on-premise GPU cluster to support internal AI/ML workloads. This replaces the aging Dell PowerEdge R740 servers currently running production workloads at IP 10.0.1.50.
+
+4. Treasury Management
+Primary operating account remains IBAN: IT60 X054 2811 1010 0000 0123 456 (Banca Intesa, Bolzano). Secondary EUR account for Spanish operations: IBAN: ES79 2100 0813 6101 2345 6789. SWIFT code for international transfers: BCITITMM.

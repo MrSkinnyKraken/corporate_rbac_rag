@@ -1,0 +1,35 @@
+INTERNAL MEMO — SECURITY AWARENESS REMINDER
+From: IT Security Team
+To: All Employees
+Date: March 20, 2026
+Classification: INTERNAL
+
+Dear colleagues,
+
+Following the recent security incident (ref: IR-2026-003), we remind all employees of the following mandatory security practices:
+
+1. PASSWORD POLICY
+   - Minimum 12 characters, including uppercase, lowercase, numbers, and symbols
+   - Change passwords every 90 days
+   - Never reuse passwords across systems
+   - The emergency admin password for the backup recovery console has been rotated. Contact IT Security for the new credentials.
+
+2. PHISHING AWARENESS
+   - We detected 47 phishing attempts targeting @microgate.it addresses in March
+   - Never click links in unexpected emails, even if they appear to come from colleagues
+   - Report suspicious emails to security@microgate.it
+
+3. PHYSICAL SECURITY
+   - Always lock your workstation when leaving your desk
+   - Do not allow tailgating through badge-controlled doors
+   - Visitor badges must be worn visibly at all times
+
+4. DATA CLASSIFICATION REMINDER
+   Level 0 (Public): Product documentation, marketing materials
+   Level 1 (Internal): Company policies, internal memos
+   Level 2 (Confidential): Client contracts, server logs, financial data
+   Level 3 (Strict): Passwords, banking details (IBAN/SWIFT), personal ID numbers
+
+For questions, contact: D. Luca Moretti, luca.moretti@microgate.it
+
+IT Security Team

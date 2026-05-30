@@ -1,0 +1,19 @@
+CONFIDENTIAL — BOARD MEETING MINUTES
+Date: March 28, 2026
+Attendees: D. Giovanni Alberti (CEO), D. Chiara Colombo (CFO), D. Isabella Romano (Sales), D. Marco Bianchi (CTO)
+
+1. Financial Review
+D. Colombo presented Q1 results: €5.1M revenue, 62% gross margin. Board approved the 2027 budget of €2.8M for R&D. The CFO flagged that our Spanish distributor's payment (€39,000 from Federación de Atletismo contract) is overdue by 15 days. Action: D. Romano to follow up with D. Marcos Ruiz.
+
+2. Product Strategy
+D. Bianchi proposed accelerating the IoT integration roadmap. The board approved hiring 3 additional embedded systems engineers. Target: IoT-enabled photocells ready for beta testing by Q4 2026.
+
+3. Legal Update
+The distribution exclusivity agreement with Deportes de Alto Rendimiento S.A. (D. Carlos Mendoza) expires in December 2026. Board authorized D. Alberti to begin renegotiation, with a target of extending exclusivity to 5 years in exchange for minimum purchase commitments of 200 units/year.
+
+4. HR Matters
+Employee satisfaction survey results: 78% positive (up from 71%). Two departures in Engineering to be replaced. Salary band review scheduled for June 2026.
+
+5. Next Meeting: April 25, 2026
+
+Minutes recorded by: D. Valentina Ricci (valentina.ricci@microgate.it)

@@ -1,0 +1,26 @@
+MICROGATE S.R.L. — INCIDENT REPORT IR-2026-003
+Department: Engineering / IT Security
+Classification: CONFIDENTIAL
+Date: 2026-03-15
+
+1. Incident Summary
+A brute-force attack was detected against the Witty Manager API authentication endpoint. The attacker used a botnet originating from multiple IPs, primarily from IP 185.220.101.34 and IP 45.134.26.90.
+
+2. Timeline
+- 14:22 UTC: Anomalous login rate detected (>200 attempts/minute)
+- 14:25 UTC: WAF rate limiting activated, blocking source IPs
+- 14:30 UTC: Security team notified via PagerDuty
+- 14:45 UTC: Manual review confirmed no successful breaches
+- 15:00 UTC: Emergency password rotation initiated for all service accounts
+- 15:10 UTC: New API master password set: 'mg_api_s3cur3_2026!@#'
+
+3. Root Cause
+The API endpoint /v2/auth/login lacked progressive rate limiting. The WAF caught it but only after 12,000 attempts. No credentials were compromised.
+
+4. Remediation
+- Implemented progressive rate limiting (5/10/30 second delays)
+- Added CAPTCHA challenge after 3 failed attempts
+- Rotated all service account passwords
+- Filed report with Italian CERT (reference: CERT-IT-2026-0342)
+
+5. Responsible Engineer: D. Luca Moretti (luca.moretti@microgate.it)

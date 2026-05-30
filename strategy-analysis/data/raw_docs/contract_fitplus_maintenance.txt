@@ -1,0 +1,28 @@
+SERVICE LEVEL AGREEMENT (SLA) — MICROGATE S.R.L.
+Reference: SLA-2026-FIT-004
+Date: March 20, 2026
+
+PARTIES
+Provider: Microgate S.R.L., Bolzano, Italy
+Client: Gimnasios FitPlus S.L., Madrid, Spain
+Client Contact: D. David Silva — dsilva@fitplus.com — CLI-004
+
+1. Scope of Service
+Annual maintenance and calibration service for 5 Witty Timer units deployed across FitPlus gym locations in Madrid, Barcelona, and Valencia.
+
+2. Service Terms
+- Quarterly on-site calibration visits
+- 48-hour response time for critical hardware failures
+- Remote software support via Witty Manager (Mon-Fri, 9:00-18:00 CET)
+- Firmware updates included
+
+3. Pricing
+Annual service fee: €1,150 (Basic tier)
+Payment terms: Annual invoice, due within 30 days
+Bank transfer to: IBAN: IT60 X054 2811 1010 0000 0123 456
+
+4. Penalties
+Failure to meet 48-hour response SLA: 5% discount on next annual fee per incident.
+
+5. Duration
+This SLA is valid from April 1, 2026 to March 31, 2027, with automatic renewal.
