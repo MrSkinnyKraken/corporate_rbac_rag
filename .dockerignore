@@ -1,0 +1,43 @@
+# Python bytecode / caches
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local venv — would be huge and is recreated inside the image
+.venv/
+venv/
+
+# Local-only data: container uses bind-mounts from docker-compose instead
+data/chroma_db/
+data/ollama/
+data/bm25_indexes/
+data/raw_docs/
+data/artifacts/
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+
+# Notebooks (Phase 1-3 design work, not needed in the runtime image)
+notebooks/
+*.ipynb
+
+# Git
+.git/
+.gitignore
+
+# CI / CD
+.github/
+
+# Local env overrides — never bake into the image
+.env
+.env.local
+
+# Documentation / examples
+docs/
+*.md
+!README.md

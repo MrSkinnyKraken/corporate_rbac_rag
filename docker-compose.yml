@@ -1,17 +1,25 @@
 # =============================================================================
 # Zero-Trust RAG — local infrastructure stack.
 #
-# Brings up the two on-premise services the application depends on:
+# Brings up every on-premise service the demo depends on:
 #
-#   * chromadb  — vector store, host port 8001 -> container 8000
-#   * ollama    — local LLM,    host port 11434 -> container 11434
+#   * chromadb  — vector store,     host port 8001  -> container 8000
+#   * ollama    — local LLM,        host port 11434 -> container 11434
+#   * api       — FastAPI service,  host port 8000  -> container 8000
+#   * streamlit — frontend (demo),  host port 8501  -> container 8501
 #
-# Both services persist their state under ./data/ so a `docker compose down`
-# does not destroy ingested documents or downloaded models.
+# All persistent state lives under ./data/ (chroma index, ollama models,
+# bm25 indexes, raw uploads). The HuggingFace embedder cache is held in
+# the named volume `hf_cache` so model downloads survive image rebuilds.
 #
 # IMPORTANT: if you have a host-side `ollama serve` running, stop it first
 # (port 11434 conflict). On Windows that is the Ollama tray app or:
 #   taskkill /IM ollama.exe /F
+#
+# Two operating modes:
+#   * Full compose: `docker compose up -d`  (everything in containers)
+#   * Hybrid dev:   `docker compose up -d chromadb ollama` + run the api
+#                   natively via `python -m scripts.run_api --reload`
 # =============================================================================
 
 services:
@@ -78,3 +86,81 @@ services:
       timeout: 5s
       retries: 5
       start_period: 60s          # longer: first run downloads ~2 GB
+
+  # ─────────────────────────────── FastAPI ─────────────────────────────────
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: zero_trust_api
+    ports:
+      - "8000:8000"
+    depends_on:
+      chromadb:
+        condition: service_healthy
+      ollama:
+        condition: service_healthy
+    environment:
+      # Settings overrides for container networking — services reach each
+      # other by container hostname inside the compose network instead of
+      # via the host-mapped ports.
+      - CHROMA_HOST=chromadb
+      - CHROMA_PORT=8000              # internal port (NOT the host's 8001)
+      - OLLAMA_HOST=ollama
+      - OLLAMA_PORT=11434
+      - OLLAMA_MODEL=${OLLAMA_MODEL:-llama3.2}
+      - API_HOST=0.0.0.0              # accept connections from outside the container
+      - API_PORT=8000
+      - EMBEDDING_MODEL_NAME=${EMBEDDING_MODEL_NAME:-sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2}
+      - EMBEDDING_DEVICE=cpu          # GPU passthrough is out of scope for the demo
+      - APP_LOG_LEVEL=${APP_LOG_LEVEL:-INFO}
+    volumes:
+      # Bind-mount user-visible data so uploads, indexes and the demo
+      # users fixture stay inspectable from the host.
+      - ./data/raw_docs:/app/data/raw_docs
+      - ./data/bm25_indexes:/app/data/bm25_indexes
+      - ./data/artifacts:/app/data/artifacts
+      - ./data/demo_users.json:/app/data/demo_users.json:ro
+      # Named volume for the HuggingFace transformers cache (~120 MB) so
+      # rebuilds do not re-download the embedder.
+      - hf_cache:/root/.cache/huggingface
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-fs", "http://localhost:8000/health"]
+      interval: 15s
+      timeout: 5s
+      retries: 5
+      start_period: 20s
+
+  # ─────────────────────────────── Streamlit ───────────────────────────────
+  streamlit:
+    build:
+      context: .
+      dockerfile: Dockerfile.frontend
+    container_name: zero_trust_streamlit
+    ports:
+      - "8501:8501"
+    depends_on:
+      api:
+        condition: service_healthy
+    environment:
+      # Inside the compose network the frontend reaches the api by its
+      # service name (NOT the host-mapped localhost:8000).
+      - API_URL=http://api:8000
+    volumes:
+      # Bind-mount the frontend source so host edits are visible inside
+      # the container without rebuilding the image. Streamlit's built-in
+      # file-watcher picks up `.py` changes and prompts a "Rerun" in the
+      # browser. For production-style builds (no host code reachable),
+      # comment this out and the COPY in the Dockerfile takes over.
+      - ./frontend:/app/frontend
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-fs", "http://localhost:8501/_stcore/health"]
+      interval: 15s
+      timeout: 5s
+      retries: 5
+      start_period: 15s
+
+volumes:
+  hf_cache:

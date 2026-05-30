@@ -1,4 +1,4 @@
-.env*
+.env
 .venv
 .idea/
 strategy-analysis/data/raw_docs/
@@ -7,3 +7,4 @@ data/chroma_db/
 data/raw_docs/
 data/artifacts/
 data/bm25_indexes/
+__pycache__

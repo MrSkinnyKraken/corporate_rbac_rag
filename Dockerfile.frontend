@@ -1,0 +1,58 @@
+# Zero-Trust RAG demo — Streamlit frontend.
+#
+# Separate Dockerfile from the api service because the frontend has a
+# *much smaller* runtime footprint: it only needs streamlit + httpx to
+# talk to the api, NOT torch / transformers / chromadb / pypdf / etc.
+# Result: ~250 MB image vs ~10 GB for the api.
+#
+# Build:
+#   docker compose build streamlit
+# Run (whole stack):
+#   docker compose up -d
+# Run (frontend only, assuming api is already up):
+#   docker compose up -d streamlit
+
+FROM python:3.11-slim AS frontend
+
+ENV PYTHONDONTWRITEBYTECODE=1 \
+    PYTHONUNBUFFERED=1 \
+    PIP_NO_CACHE_DIR=1 \
+    PIP_DISABLE_PIP_VERSION_CHECK=1 \
+    # `streamlit run frontend/streamlit_app.py` only adds the *script's*
+    # directory (/app/frontend/) to sys.path, not /app — so the absolute
+    # import `from frontend.api_client import ApiClient` would fail at
+    # script load time. Exporting PYTHONPATH=/app puts the project root
+    # on sys.path so `frontend` is importable as a top-level package.
+    PYTHONPATH=/app
+
+# curl is only here so the compose healthcheck can probe the streamlit
+# /_stcore/health endpoint without installing wget separately.
+RUN apt-get update \
+ && apt-get install -y --no-install-recommends curl \
+ && rm -rf /var/lib/apt/lists/*
+
+WORKDIR /app
+
+# Install only the deps the frontend touches. Pinning versions explicitly
+# means a future api-only requirement change does not force a frontend
+# rebuild, and the resulting image is small enough to push to a registry
+# in seconds.
+RUN pip install --retries 5 --timeout 120 \
+        streamlit \
+        httpx==0.28.1
+
+# Copy only the frontend code (and an empty marker for the namespace).
+COPY frontend ./frontend
+
+EXPOSE 8501
+
+# Streamlit defaults are fine; explicit flags here so the container is
+# self-documenting:
+#   --server.address 0.0.0.0  : accept from outside the container
+#   --server.headless true    : skip "open browser" attempts
+#   --browser.gatherUsageStats false : no telemetry to streamlit.io
+CMD ["streamlit", "run", "frontend/streamlit_app.py", \
+     "--server.address", "0.0.0.0", \
+     "--server.port", "8501", \
+     "--server.headless", "true", \
+     "--browser.gatherUsageStats", "false"]
