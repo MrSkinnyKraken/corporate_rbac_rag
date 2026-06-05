@@ -16,7 +16,7 @@ the perimeter.
 ## Clean Architecture, 6 layers
 
 ```
-Frontend (Streamlit)           ── tab Ingesta + tab Consulta + disclaimer IA
+Frontend (Streamlit)           ── Ingestion tab + Query tab + AI disclaimer
         ↓ HTTP + X-User-Id
 API (FastAPI)                  ── 7 endpoints, schemas Pydantic, error mapper
         ↓
@@ -34,7 +34,7 @@ Core (cross-cutting)           ── Settings + Exceptions + ClearanceLevel/Dep
 ```
 Upload doc ─▶ Parser (9 formats) ─▶ LLM classifier (proposa metadata)
                                               │
-                                  User revisa i confirma (HITL)
+                                  User revision & confirmation (HITL)
                                               ▼
         Chunker custom (PII isolation + clearance escalation)
                                               ▼
@@ -48,12 +48,12 @@ Upload doc ─▶ Parser (9 formats) ─▶ LLM classifier (proposa metadata)
 ```
 Query + User ─▶ HierarchicalRouter (intent → α; KSP RBAC → target_depts)
                        │
-                       └─ buit? ─▶ refusal no_routing_match (sense invocar LLM)
+                       └─ empty? ─▶ refusal no_routing_match (without LLM call)
                        │
                        ▼
-              AsymmetricEnsembleRetriever (RBAC abans de RRF)
+              AsymmetricEnsembleRetriever (RBAC before RRF)
                        │
-                       └─ buit? ─▶ refusal no_accessible_context (sense LLM)
+                       └─ buit? ─▶ refusal no_accessible_context (NO LLM)
                        │
                        ▼
               Prompt amb context + cites ─▶ Ollama llama3.2
@@ -70,9 +70,9 @@ Query + User ─▶ HierarchicalRouter (intent → α; KSP RBAC → target_depts
 
 ```bash
 git clone <repo-url>
-cd ai-rag-context-auth-system
+cd corporate_rbac_rag
 cp .env.example .env                 # PowerShell: Copy-Item .env.example .env
-docker compose up -d                 # primera vegada ~10 min (build + pull llama3.2)
+docker compose up -d                 # first execution: ~10 min (build + pull llama3.2)
 ```
 
 When the 4 containers (`chromadb`, `ollama`, `api`, `streamlit`) are `healthy`, open **http://localhost:8501** in your browser.
@@ -80,11 +80,11 @@ When the 4 containers (`chromadb`, `ollama`, `api`, `streamlit`) are `healthy`, 
 ### Hybrid Dev Mode  (fast iteration with hot-reload)
 
 ```bash
-docker compose up -d chromadb ollama           # només les deps al docker
+docker compose up -d chromadb ollama           # only docker deps
 python -m venv .venv && source .venv/Scripts/activate
 pip install -r requirements.txt
 python -m scripts.run_api --reload             # backend natiu, hot-reload
-python -m scripts.run_frontend                 # frontend natiu, hot-reload
+python -m scripts.run_frontend                 # native frontend, hot-reload
 ```
 
 ### Verification
@@ -173,18 +173,18 @@ shows the `embedding_model` stamped on each collection (guard against embedder m
 ├── api/                        # FastAPI: schemas, dependencies, errors, main
 ├── frontend/                   # Streamlit: streamlit_app, components, api_client
 ├── scripts/                    # healthcheck, inspect_stores, run_api, run_frontend, ...
-├── strategy-analysis/          # Notebooks Jupyter de Fase 1-3 + corpus experimental
+├── strategy-analysis/          # Jupyter Notebooks phases 1-3 + experimental corpus 
 │   ├── notebooks/ph1-*         # Chunking + metadata RBAC
-│   ├── notebooks/ph2-*         # Retrieval pipeline (5 passos + augment del corpus)
+│   ├── notebooks/ph2-*         # Retrieval pipeline (5 steps + corpus augmentation)
 │   ├── notebooks/ph3-*         # Routing multiagent
-│   └── data/raw_docs/          # 23 documents del corpus experimental
-├── data/                       # Estat runtime (gitignored; creat al primer up)
-│   ├── chroma_db/              #   índex HNSW
-│   ├── bm25_indexes/           #   pickle per col·lecció
-│   ├── ollama/                 #   model llama3.2 descarregat
-│   ├── raw_docs/               #   buit; els uploads vivien temporals
-│   └── demo_users.json         #   8 identitats demo
-├── docs/                       # Memòria del TFG.pdf & avaluacio.xlsx
+│   └── data/raw_docs/          # 23 documents of experimental corpus
+├── data/                       # runtime status (gitignored; created at first up)
+│   ├── chroma_db/              #   HNSW index
+│   ├── bm25_indexes/           #   pickle per collection
+│   ├── ollama/                 #   model llama3.2 downloaded
+│   ├── raw_docs/               #   empty; uploads live temorarly
+│   └── demo_users.json         #   8 identities demo
+├── docs/                       #  FDP memory TFG.pdf & avaluacio.xlsx
 ├── Dockerfile, Dockerfile.frontend, docker-compose.yml, .dockerignore
 ├── requirements.txt, .env.example, .gitignore
 └── README.md
